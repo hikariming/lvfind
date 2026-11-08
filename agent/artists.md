@@ -33,7 +33,7 @@ Agent 按此表逐个查官方公告：`sources` 为首要核对入口（官方�
 | aimer | Aimer | — | https://www.aimer-web.jp/ | watching | |
 | fujii-kaze | 藤井 風 Fujii Kaze | HEHN | https://fujiikaze.com/ · https://hehn.fujiikaze.com/pwt/ | watching | Prema World Tour：福冈/大阪/东京/曼谷/首尔已录；欧美 2027 夏场次 TBA——关注日程公布 |
 | zutomayo | ずっと真夜中でいいのに。（ZUTOMAYO） | — | https://zutomayo.net/live/ · https://zutomayo.net/apicula/ | watching | 2027/1–5 全国厅巡演「アピクラ電機」LÚ.NIM.LÀL 36 场——**场馆待批量录入** |
-| alexandros | [Alexandros]（括号团） | UKPM / UNIVERSAL J | https://alexandros.jp/ | watching | 日本摇滚乐队，官网名带方括号 |
+| alexandros | [Alexandros]（括号团） | UKPM / UNIVERSAL J | https://alexandros.jp/ | watching | 日本摇滚乐队，官网名带方括号；2027 三档巡演已录，关注 THIS FES '27（秋）详情 |
 
 ## 扫描规则
 
