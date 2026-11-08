@@ -1,0 +1,74 @@
+-- lvfind 数据库 schema（与 PLAN.md §2.5 一致）
+-- 执行：wrangler d1 execute lvfind --remote --file=db/schema.sql
+
+-- 艺人
+CREATE TABLE IF NOT EXISTS artists (
+  id            INTEGER PRIMARY KEY,
+  slug          TEXT UNIQUE NOT NULL,      -- 'ive', 'yoasobi'（URL）
+  name_original TEXT NOT NULL,             -- '아이브' / 'YOASOBI'
+  name_local    TEXT,                      -- 当地写法
+  name_zh       TEXT,                      -- 常用中文名（可选）
+  genre         TEXT NOT NULL CHECK (genre IN ('kpop','jpop')),
+  agency        TEXT,
+  official_url  TEXT
+);
+
+-- 场馆（基础数据，一次录入长期复用）
+CREATE TABLE IF NOT EXISTS venues (
+  id            INTEGER PRIMARY KEY,
+  slug          TEXT UNIQUE NOT NULL,      -- 'tokyo-dome'（场馆页 URL）
+  name          TEXT NOT NULL,             -- 'Tokyo Dome'
+  name_local    TEXT,                      -- '東京ドーム'
+  type          TEXT NOT NULL CHECK (type IN ('dome','stadium','arena','hall')),
+  city          TEXT NOT NULL,             -- 'Tokyo'
+  city_slug     TEXT NOT NULL,             -- 'tokyo'
+  city_zh       TEXT,                      -- '东京'
+  country_code  TEXT NOT NULL,             -- ISO 3166-1：'JP' 'KR' 'CN' 'HK' 'TW' 'US'
+  timezone      TEXT NOT NULL,             -- IANA：'Asia/Tokyo'
+  tz_abbr       TEXT NOT NULL,             -- 显示用缩写：'JST'
+  capacity      INTEGER,
+  lat           REAL NOT NULL,             -- 地图点位必填
+  lng           REAL NOT NULL,
+  address       TEXT,                      -- 当地语言地址
+  transit       TEXT,                      -- 交通方式（中文，面向旅行者）
+  website       TEXT,
+  notes         TEXT,                      -- 座位图、入场注意事项等
+  verified_at   TEXT                       -- 场馆资料最近核对时间
+);
+
+CREATE INDEX IF NOT EXISTS idx_venues_city ON venues(city_slug);
+
+-- 演出（每一场 = 一条记录）
+CREATE TABLE IF NOT EXISTS events (
+  id              INTEGER PRIMARY KEY,
+  artist_id       INTEGER NOT NULL REFERENCES artists(id),
+  venue_id        INTEGER NOT NULL REFERENCES venues(id),
+  tour_name       TEXT,
+  title           TEXT,                    -- 单场命名时的演出名（可空，取巡演名展示）
+  start_local     TEXT NOT NULL,           -- 当地时间 '2027-03-14T18:00'
+  ticket_status   TEXT NOT NULL CHECK (ticket_status IN
+                    ('announced','presale','on_sale','sold_out','postponed','cancelled')),
+  on_sale_local   TEXT,                    -- 开售时间（当地）
+  ticket_url      TEXT,
+  source_url      TEXT NOT NULL,           -- 信息来源
+  verified_at     TEXT NOT NULL,           -- 最近核对时间
+  created_at      TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at      TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+-- 跨洲行程的排序统一按当地日期字面顺序做（同一个月内的列表够用）；
+-- 如需精确排序再按 start_local + timezone 换算 UTC。
+CREATE INDEX IF NOT EXISTS idx_events_start  ON events(start_local);
+CREATE INDEX IF NOT EXISTS idx_events_artist ON events(artist_id, start_local);
+CREATE INDEX IF NOT EXISTS idx_events_venue  ON events(venue_id, start_local);
+
+-- 变更日志（方便追溯 Agent / 人工改了什么）
+CREATE TABLE IF NOT EXISTS event_changes (
+  id         INTEGER PRIMARY KEY,
+  event_id   INTEGER NOT NULL REFERENCES events(id),
+  field      TEXT NOT NULL,
+  old_value  TEXT,
+  new_value  TEXT,
+  changed_by TEXT NOT NULL,                -- 'manual' / 'agent:local' / 'agent:deepseek'
+  changed_at TEXT NOT NULL DEFAULT (datetime('now'))
+);

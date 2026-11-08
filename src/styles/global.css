@@ -1,0 +1,145 @@
+@import './tokens.css';
+
+@view-transition {
+  navigation: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-ref-typeface-plain);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s var(--lv-motion-emphasized), color 0.3s var(--lv-motion-emphasized);
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  overflow-x: clip;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+a {
+  color: inherit;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
+
+.container {
+  width: min(1120px, 100% - 32px);
+  margin-inline: auto;
+}
+
+/* M3 type scale */
+.display-small { font-size: 36px; line-height: 44px; font-weight: 700; letter-spacing: -0.5px; }
+.headline-small { font-size: 24px; line-height: 32px; font-weight: 600; }
+.title-large { font-size: 22px; line-height: 28px; font-weight: 700; }
+.title-medium { font-size: 16px; line-height: 24px; font-weight: 700; letter-spacing: 0.15px; }
+.body-large { font-size: 16px; line-height: 24px; }
+.body-medium { font-size: 14px; line-height: 20px; letter-spacing: 0.25px; }
+.label-large { font-size: 14px; line-height: 20px; font-weight: 600; letter-spacing: 0.1px; }
+.label-medium { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.5px; }
+
+/* 票务状态 badge */
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 28px;
+  padding: 0 12px 0 8px;
+  border-radius: var(--lv-shape-full);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+.status .material-symbols-rounded { font-size: 16px; }
+.status--announced { border: 1px solid var(--md-sys-color-outline); color: var(--md-sys-color-on-surface-variant); }
+.status--presale { background: var(--md-sys-color-tertiary-container); color: var(--md-sys-color-on-tertiary-container); }
+.status--on_sale { background: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary); }
+.status--sold_out { background: var(--md-sys-color-surface-container-highest); color: var(--md-sys-color-on-surface-variant); }
+.status--postponed,
+.status--cancelled { background: var(--md-sys-color-error-container); color: var(--md-sys-color-on-error-container); }
+
+.status--on_sale::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: 2px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: lv-breathe 1.8s ease-in-out infinite;
+}
+
+@keyframes lv-breathe {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.6); }
+}
+
+/* 地图 */
+.lv-map {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--lv-shape-xl);
+  background: var(--lv-map-land);
+  isolation: isolate;
+}
+.lv-map .maplibregl-ctrl-group {
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--md-sys-color-surface-container-lowest);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.12);
+}
+.lv-map .maplibregl-ctrl-group button + button {
+  border-top-color: var(--md-sys-color-outline-variant);
+}
+[data-theme='dark'] .lv-map .maplibregl-ctrl-icon {
+  filter: invert(1);
+}
+.lv-map .maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+.lv-popup .maplibregl-popup-content {
+  padding: 14px 16px 10px;
+  border-radius: 20px;
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-ref-typeface-plain);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.18);
+}
+.lv-popup .maplibregl-popup-tip {
+  border-top-color: var(--md-sys-color-surface-container-lowest) !important;
+  border-bottom-color: var(--md-sys-color-surface-container-lowest) !important;
+}
+.lv-popup .maplibregl-popup-close-button {
+  top: 6px;
+  right: 8px;
+  font-size: 18px;
+  color: var(--md-sys-color-on-surface-variant);
+}
+.pop h4 { margin: 0; font-size: 15px; font-weight: 700; padding-right: 16px; }
+.pop .pop__sub { margin: 2px 0 8px; font-size: 12px; color: var(--md-sys-color-on-surface-variant); }
+.pop ul { list-style: none; margin: 0 0 6px; padding: 0; display: grid; gap: 4px; }
+.pop li a { display: flex; gap: 8px; font-size: 13px; text-decoration: none; padding: 4px 6px; margin: 0 -6px; border-radius: 8px; }
+.pop li a:hover { background: var(--md-sys-color-surface-container); }
+.pop li b { color: var(--md-sys-color-primary); min-width: 40px; }
+.pop .pop__more { font-size: 12px; color: var(--md-sys-color-on-surface-variant); margin: 0 0 6px; }
+.pop .pop__actions { display: flex; gap: 4px; margin: 0 -8px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

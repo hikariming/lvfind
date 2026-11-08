@@ -1,0 +1,351 @@
+---
+import { regions, type Artist, type Event, type Venue } from '../data/events';
+import { dateBlock, parseLocal, shortDate, statusMeta } from '../lib/format';
+
+interface Props {
+  event: Event;
+  artist: Artist;
+  venue: Venue;
+  hideVenue?: boolean;
+  hideCity?: boolean;
+}
+
+const { event, artist, venue, hideVenue = false, hideCity = false } = Astro.props;
+const d = dateBlock(event.startLocal);
+const { m, d: day, time } = parseLocal(event.startLocal);
+const status = statusMeta[event.ticketStatus];
+const [, vm, vd] = event.verifiedAt.split('-').map(Number);
+const inactive = ['sold_out', 'cancelled', 'postponed'].includes(event.ticketStatus);
+const available = ['on_sale', 'presale'].includes(event.ticketStatus);
+---
+
+<article
+  class:list={['ev', { 'ev--inactive': inactive }]}
+  data-event
+  data-artist={artist.slug}
+  data-artist-name={artist.nameOriginal}
+  data-region={venue.countryCode}
+  data-genre={artist.genre}
+  data-venue={venue.id}
+  data-city={venue.citySlug}
+  data-date={`${m}/${day}`}
+  data-available={available ? '1' : undefined}
+>
+  <div class="ev__date" style={`view-transition-name: date-${event.id}`}>
+    <span class="ev__md">{m}/{day}</span>
+    <span class="ev__day">{d.day}</span>
+    <span class="ev__mon">{d.month}</span>
+    <span class="ev__wd">{d.weekday}</span>
+  </div>
+
+  <div class="ev__time">{time}<small>{venue.tzAbbr}</small></div>
+
+  <div class="ev__main">
+    <a class="ev__artist" href={`/events/${event.id}`} style={`view-transition-name: artist-${event.id}`}>
+      {artist.nameOriginal}
+      {artist.nameLocal && <span class="ev__local">{artist.nameLocal}</span>}
+    </a>
+    <span class="ev__tour">{event.tourName}</span>
+  </div>
+
+  {
+    !(hideVenue && hideCity) && (
+      <div class="ev__place">
+        {!hideCity && (
+          <a class="ev__city" href={`/city/${venue.citySlug}`}>
+            <span class="material-symbols-rounded">location_on</span>
+            {venue.cityZh} · {regions[venue.countryCode]}
+          </a>
+        )}
+        {!hideVenue && <a class="ev__venue" href={`/venues/${venue.id}`}>{venue.name}</a>}
+      </div>
+    )
+  }
+
+  <div class="ev__status">
+    <span class={`status status--${event.ticketStatus}`}>
+      <span class="material-symbols-rounded">{status.icon}</span>{status.label}
+    </span>
+    {event.onSaleLocal && !available && event.ticketStatus === 'announced' && <span class="ev__onsale">开售 {shortDate(event.onSaleLocal)}</span>}
+    {event.onSaleLocal && event.ticketStatus === 'presale' && <span class="ev__onsale">一般 {shortDate(event.onSaleLocal)}</span>}
+  </div>
+
+  <span class="ev__verified" title={`信息最近核对于 ${vm} 月 ${vd} 日`}>
+    <span class="material-symbols-rounded">verified</span>{vm}/{vd}
+  </span>
+</article>
+
+<style>
+  /* ---------- 紧凑列表（默认） ---------- */
+  .ev {
+    position: relative;
+    display: grid;
+    grid-template-columns: 76px 64px minmax(0, 1.3fr) minmax(0, 1fr) 112px 40px;
+    align-items: center;
+    gap: 12px;
+    min-height: 56px;
+    padding: 6px 12px;
+    border-radius: var(--lv-shape-lg);
+    transition: background-color 0.2s var(--lv-motion-emphasized), transform 0.35s var(--lv-motion-spring);
+    animation: lv-row-in 0.35s var(--lv-motion-emphasized) both;
+    animation-delay: calc(min(var(--i, 0), 20) * 18ms);
+  }
+  .ev:hover,
+  .ev:focus-within {
+    background: var(--md-sys-color-surface-container);
+  }
+  .ev[hidden] {
+    display: none;
+  }
+  .ev--inactive .ev__main,
+  .ev--inactive .ev__place,
+  .ev--inactive .ev__date,
+  .ev--inactive .ev__time {
+    opacity: 0.55;
+  }
+
+  .ev__date {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .ev__md {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    color: var(--md-sys-color-primary);
+    font-variant-numeric: tabular-nums;
+  }
+  .ev__day,
+  .ev__mon {
+    display: none;
+  }
+  .ev__wd {
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+
+  .ev__time {
+    font-size: 14px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .ev__time small {
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+
+  .ev__main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .ev__artist {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: none;
+  }
+  /* 整行可点：主链接拉伸覆盖整行 */
+  .ev__artist::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+  }
+  .ev__artist:focus-visible::after {
+    outline: 3px solid var(--md-sys-color-primary);
+    outline-offset: -3px;
+    border-radius: var(--lv-shape-lg);
+  }
+  .ev__local {
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .ev__tour {
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface-variant);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ev__place {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .ev__city {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    width: fit-content;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .ev__city:hover {
+    color: var(--md-sys-color-primary);
+  }
+  .ev__city .material-symbols-rounded {
+    font-size: 15px;
+    color: var(--md-sys-color-primary);
+  }
+  .ev__venue {
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+    max-width: 100%;
+    font-size: 12px;
+    color: var(--md-sys-color-on-surface-variant);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ev__venue:hover {
+    color: var(--md-sys-color-primary);
+    text-decoration: underline;
+  }
+
+  .ev__status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .ev__status .status {
+    height: 24px;
+    font-size: 11px;
+  }
+  .ev__onsale {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--md-sys-color-tertiary);
+    white-space: nowrap;
+  }
+  .ev__verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 11px;
+    color: var(--md-sys-color-on-surface-variant);
+    font-variant-numeric: tabular-nums;
+  }
+  .ev__verified .material-symbols-rounded {
+    font-size: 13px;
+    color: var(--md-sys-color-primary);
+  }
+
+  /* 没有场馆列时（场馆页） */
+  .ev:not(:has(.ev__place)) {
+    grid-template-columns: 76px 64px minmax(0, 1fr) 112px 40px;
+  }
+
+  /* ---------- 卡片视图 ---------- */
+  :global([data-view='card']) .ev {
+    grid-template-columns: 76px minmax(0, 1fr) auto;
+    grid-template-areas:
+      'date main status'
+      'date place place'
+      'date time verified';
+    align-items: start;
+    row-gap: 6px;
+    padding: 16px;
+    border-radius: var(--lv-shape-xl);
+    background: var(--md-sys-color-surface-container-low);
+  }
+  :global([data-view='card']) .ev:hover {
+    transform: translateY(-3px);
+    background: var(--md-sys-color-surface-container);
+    box-shadow: 0 6px 20px color-mix(in srgb, var(--md-sys-color-primary) 14%, transparent);
+  }
+  :global([data-view='card']) .ev__date {
+    grid-area: date;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    height: 96px;
+    border-radius: 20px;
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    transition: transform 0.45s var(--lv-motion-spring);
+  }
+  :global([data-view='card']) .ev:hover .ev__date {
+    transform: rotate(-4deg) scale(1.04);
+  }
+  :global([data-view='card']) .ev__md {
+    display: none;
+  }
+  :global([data-view='card']) .ev__day {
+    display: block;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 800;
+  }
+  :global([data-view='card']) .ev__mon {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+  }
+  :global([data-view='card']) .ev__wd {
+    color: inherit;
+    opacity: 0.8;
+  }
+  :global([data-view='card']) .ev__main { grid-area: main; }
+  :global([data-view='card']) .ev__artist { font-size: 18px; white-space: normal; }
+  :global([data-view='card']) .ev__place { grid-area: place; }
+  :global([data-view='card']) .ev__time { grid-area: time; align-self: end; }
+  :global([data-view='card']) .ev__status { grid-area: status; align-items: flex-end; }
+  :global([data-view='card']) .ev__verified { grid-area: verified; align-self: end; justify-self: end; }
+
+  /* ---------- 移动端紧凑列表 ---------- */
+  @media (max-width: 760px) {
+    .ev,
+    .ev:not(:has(.ev__place)) {
+      grid-template-columns: 52px minmax(0, 1fr) auto;
+      grid-template-areas:
+        'date main status'
+        'date place time';
+      row-gap: 2px;
+      column-gap: 10px;
+      padding: 8px 10px;
+    }
+    .ev__date {
+      grid-area: date;
+      flex-direction: column;
+      gap: 0;
+      align-items: flex-start;
+    }
+    .ev__main { grid-area: main; }
+    .ev__place { grid-area: place; flex-direction: row; gap: 6px; align-items: center; }
+    .ev__time { grid-area: time; justify-self: end; font-size: 12px; }
+    .ev__status { grid-area: status; align-items: flex-end; }
+    .ev__onsale,
+    .ev__verified { display: none; }
+    :global([data-view='card']) .ev {
+      grid-template-columns: 64px minmax(0, 1fr) auto;
+    }
+    :global([data-view='card']) .ev__date { height: 84px; align-items: center; }
+  }
+
+  @keyframes lv-row-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+</style>

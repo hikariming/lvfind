@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lvfind",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "run_worker_first": true,
+  },
+  "routes": [
+    { "pattern": "lvfind.com", "custom_domain": true },
+    { "pattern": "www.lvfind.com", "custom_domain": true },
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lvfind",
+      "database_id": "c28e3c8b-b588-484e-9944-7266006d741b",
+    },
+  ],
+}

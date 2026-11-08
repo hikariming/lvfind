@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { env } from 'cloudflare:workers';
+import { getData, toMapVenue } from '../../lib/db';
+import { venueTypes, regions } from '../../data/events';
+
+const { venues, events } = await getData(env.DB);
+const eventsByVenue = (id: string) => events.filter((e) => e.venue === id);
+const counts = Object.fromEntries(venues.map((v) => [v.id, eventsByVenue(v.id).length]));
+const byRegion = Object.keys(regions)
+  .map((code) => ({ code, list: venues.filter((v) => v.countryCode === code) }))
+  .filter((g) => g.list.length);
+---
+
+<BaseLayout title="场馆 | lvfind">
+  <div class="container page">
+    <header class="head">
+      <h1 class="display-small">场馆</h1>
+      <p class="body-large muted">已收录 {venues.length} 座场馆，覆盖 {byRegion.length} 个国家/地区。点开场馆可以看到交通、容量和即将举行的演出。</p>
+    </header>
+
+    <div class="lv-map map" id="venues-map"></div>
+
+    {
+      byRegion.map(({ code, list }) => (
+        <section class="region">
+          <h2 class="title-medium region__title">
+            {regions[code]} <span class="label-medium muted">{list.length} 座</span>
+          </h2>
+          <ul class="table">
+            {list.map((v) => (
+              <li>
+                <a href={`/venues/${v.id}`}>
+                  <md-ripple />
+                  <span class="name">
+                    <b>{v.name}</b>
+                    {v.nameLocal && <small>{v.nameLocal}</small>}
+                  </span>
+                  <span class="city">{v.cityZh}</span>
+                  <span class="type">{venueTypes[v.type]}</span>
+                  <span class="cap">{(v.capacity / 10000).toFixed(1)} 万</span>
+                  <span class:list={['n', { 'n--zero': !counts[v.id] }]}>{counts[v.id]} 场</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+
+  <script type="application/json" id="venues-map-data" set:html={JSON.stringify({ venues: venues.map(toMapVenue), counts })} />
+</BaseLayout>
+
+<script>
+  const data = JSON.parse(document.getElementById('venues-map-data')!.textContent!);
+  import('../../scripts/map').then(({ createVenueMap }) => {
+    createVenueMap({
+      container: document.getElementById('venues-map')!,
+      venues: data.venues,
+      counts: data.counts,
+      cooperative: true,
+      showEmpty: true,
+      popupHtml: (v) =>
+        `<div class="pop"><h4>${v.name}</h4><p class="pop__sub">${v.cityZh} · ${v.region}</p>` +
+        `<div class="pop__actions"><md-text-button href="/venues/${v.id}">场馆详情</md-text-button></div></div>`,
+    });
+  });
+</script>
+
+<style>
+  .page {
+    padding-top: 32px;
+  }
+  .head h1 {
+    margin: 0 0 6px;
+  }
+  .muted {
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .map {
+    height: 380px;
+    margin: 20px 0 8px;
+  }
+  .region {
+    margin-top: 24px;
+  }
+  .region__title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 0 0 6px 12px;
+  }
+  .table {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: var(--lv-shape-lg);
+    background: var(--md-sys-color-surface-container-low);
+    overflow: hidden;
+  }
+  .table li + li {
+    border-top: 1px solid var(--md-sys-color-outline-variant);
+  }
+  .table a {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) 80px 72px 64px 56px;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .name b {
+    font-size: 14px;
+  }
+  .name small {
+    color: var(--md-sys-color-on-surface-variant);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .type,
+  .cap {
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .n {
+    justify-self: end;
+    font-weight: 700;
+    color: var(--md-sys-color-primary);
+  }
+  .n--zero {
+    color: var(--md-sys-color-outline);
+  }
+  @media (max-width: 600px) {
+    .table a {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+    .type,
+    .cap {
+      display: none;
+    }
+    .city {
+      grid-row: 2;
+      color: var(--md-sys-color-on-surface-variant);
+    }
+    .map {
+      height: 260px;
+    }
+  }
+</style>

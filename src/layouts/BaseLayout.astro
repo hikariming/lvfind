@@ -1,0 +1,124 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'lvfind · 全球 K-pop / J-pop 演出', description = '打开就能看到整理好的全球 K-pop / J-pop 近期演出，方便规划追星旅行。' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#d7e3ff" />
+    <title>{title}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem('lv-theme');
+        const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400..800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"
+    />
+  </head>
+  <body>
+    <header class="app-bar">
+      <div class="container app-bar__inner">
+        <a href="/" class="brand" aria-label="lvfind 首页">
+          <span class="brand__logo"><span class="material-symbols-rounded">music_note</span></span>
+          <span class="brand__name">lvfind</span>
+        </a>
+        <nav class="app-bar__actions">
+          <md-text-button href="/venues">场馆</md-text-button>
+          <md-text-button href="/about">关于</md-text-button>
+          <md-icon-button toggle data-theme-toggle aria-label="切换深色模式">
+            <md-icon class="material-symbols-rounded">dark_mode</md-icon>
+            <md-icon slot="selected" class="material-symbols-rounded">light_mode</md-icon>
+          </md-icon-button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container body-medium">
+        演出信息由 lvfind 整理核对，一切以艺人 / 主办方官方公告为准。原型阶段数据为示例。
+      </div>
+    </footer>
+
+    <script>
+      import '../scripts/material.ts';
+    </script>
+  </body>
+</html>
+
+<style>
+  .app-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: color-mix(in srgb, var(--md-sys-color-surface) 82%, transparent);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  }
+  .app-bar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .brand__logo {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    transition: transform 0.5s var(--lv-motion-spring), border-radius 0.5s var(--lv-motion-spring);
+  }
+  .brand:hover .brand__logo {
+    transform: rotate(-12deg) scale(1.08);
+    border-radius: 50%;
+  }
+  .brand__name {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--md-sys-color-primary);
+  }
+  .app-bar__actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .footer {
+    padding: 40px 0 56px;
+    color: var(--md-sys-color-on-surface-variant);
+    text-align: center;
+  }
+</style>

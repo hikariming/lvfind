@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EventRow from '../../components/EventRow.astro';
+import { env } from 'cloudflare:workers';
+import { getData, toMapVenue } from '../../lib/db';
+import { monthKey, monthLabel } from '../../lib/format';
+import { regions, venueTypes, type Event } from '../../data/events';
+
+const { artistBySlug, venueById, venues, events } = await getData(env.DB);
+const cityVenues = venues.filter((v) => v.citySlug === Astro.params.slug);
+if (!cityVenues.length) return Astro.redirect('/404');
+
+const venue = cityVenues[0];
+const list = events.filter((e) => cityVenues.some((v) => v.id === e.venue));
+const counts = Object.fromEntries(cityVenues.map((v) => [v.id, list.filter((e) => e.venue === v.id).length]));
+const center: [number, number] = [
+  cityVenues.reduce((s, v) => s + v.lng, 0) / cityVenues.length,
+  cityVenues.reduce((s, v) => s + v.lat, 0) / cityVenues.length,
+];
+
+const groups = new Map<string, Event[]>();
+for (const e of list) groups.set(monthKey(e.startLocal), [...(groups.get(monthKey(e.startLocal)) ?? []), e]);
+---
+
+<BaseLayout title={`${venue.cityZh} 演出 | lvfind`}>
+  <div class="container page">
+    <md-text-button href="/" class="back">
+      <md-icon slot="icon" class="material-symbols-rounded">arrow_back</md-icon>全部演出
+    </md-text-button>
+
+    <header class="head">
+      <h1 class="display-small">
+        <span class="material-symbols-rounded">location_on</span>{venue.cityZh}
+      </h1>
+      <p class="body-large muted">{regions[venue.countryCode]} · {cityVenues.length} 座场馆 · {list.length} 场演出</p>
+    </header>
+
+    <div class="lv-map map" id="city-map"></div>
+
+    <section class="section">
+      <h2 class="headline-small">本地场馆</h2>
+      <md-chip-set>
+        {
+          cityVenues.map((v) => (
+            <md-assist-chip label={`${v.name} · ${venueTypes[v.type]} · ${counts[v.id] ?? 0} 场`} href={`/venues/${v.id}`}>
+              <md-icon slot="icon" class="material-symbols-rounded">stadium</md-icon>
+            </md-assist-chip>
+          ))
+        }
+      </md-chip-set>
+    </section>
+
+    <section class="list">
+      {
+        [...groups.entries()].map(([key, group]) => (
+          <div class="month">
+            <h2 class="title-medium month__title">
+              {monthLabel(key)} <span class="month__count label-medium">{group.length} 场</span>
+            </h2>
+            <div class="events" data-view="list">
+              {group.map((e) => (
+                <EventRow event={e} artist={artistBySlug[e.artist]} venue={venueById[e.venue]} hideCity />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+      {list.length === 0 && <p class="body-medium muted">暂时没有已公布的演出。</p>}
+    </section>
+  </div>
+
+  <script type="application/json" id="city-map-data" set:html={JSON.stringify({ venues: cityVenues.map(toMapVenue), counts, center })} />
+</BaseLayout>
+
+<script>
+  const data = JSON.parse(document.getElementById('city-map-data')!.textContent!);
+  import('../../scripts/map').then(({ createVenueMap }) => {
+    createVenueMap({
+      container: document.getElementById('city-map')!,
+      venues: data.venues,
+      counts: data.counts,
+      center: data.center,
+      zoom: 10.5,
+      cooperative: true,
+      showEmpty: true,
+      popupHtml: (v) =>
+        `<div class="pop"><h4>${v.name}</h4><p class="pop__sub">${data.counts[v.id] ?? 0} 场演出</p>` +
+        `<div class="pop__actions"><md-text-button href="/venues/${v.id}">场馆详情</md-text-button></div></div>`,
+    });
+  });
+</script>
+
+<style>
+  .page {
+    max-width: 960px;
+    padding-top: 16px;
+  }
+  .head {
+    margin: 8px 0 16px;
+  }
+  .head h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 4px;
+  }
+  .head h1 .material-symbols-rounded {
+    font-size: 40px;
+    color: var(--md-sys-color-primary);
+  }
+  .muted {
+    color: var(--md-sys-color-on-surface-variant);
+    margin: 0;
+  }
+  .map {
+    height: 320px;
+    margin-bottom: 24px;
+  }
+  .section h2 {
+    margin: 0 0 10px;
+  }
+  .section {
+    margin-bottom: 28px;
+  }
+  .month {
+    margin-bottom: 12px;
+  }
+  .month__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 6px;
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  }
+  .month__count {
+    padding: 1px 8px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+  }
+  .events {
+    display: grid;
+    gap: 2px;
+  }
+  @media (max-width: 600px) {
+    .map {
+      height: 240px;
+    }
+  }
+</style>

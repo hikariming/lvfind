@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EventRow from '../../components/EventRow.astro';
+import { env } from 'cloudflare:workers';
+import { getData, toMapVenue } from '../../lib/db';
+import { monthKey, monthLabel } from '../../lib/format';
+import type { Event } from '../../data/events';
+
+const { artistBySlug, venueById, events } = await getData(env.DB);
+const artist = artistBySlug[Astro.params.slug!];
+if (!artist) return Astro.redirect('/404');
+
+const list = events.filter((e) => e.artist === artist.slug);
+const venueSet = new Map(list.map((e) => [e.venue, venueById[e.venue]]));
+const citySet = new Set([...venueSet.values()].map((v) => v.citySlug));
+const regionSet = new Set([...venueSet.values()].map((v) => v.countryCode));
+
+const groups = new Map<string, Event[]>();
+for (const e of list) groups.set(monthKey(e.startLocal), [...(groups.get(monthKey(e.startLocal)) ?? []), e]);
+
+const mapVenues = [...venueSet.values()].map(toMapVenue);
+const counts = Object.fromEntries([...venueSet.keys()].map((id) => [id, list.filter((e) => e.venue === id).length]));
+const route = list.map((e) => [venueById[e.venue].lng, venueById[e.venue].lat] as [number, number]);
+---
+
+<BaseLayout title={`${artist.nameOriginal} 演出 | lvfind`}>
+  <div class="container page">
+    <md-text-button href="/" class="back">
+      <md-icon slot="icon" class="material-symbols-rounded">arrow_back</md-icon>全部演出
+    </md-text-button>
+
+    <header class="head">
+      <span class:list={['genre label-large', `genre--${artist.genre}`]}>{artist.genre === 'kpop' ? 'K-POP' : 'J-POP'}</span>
+      <h1 class="display-small">
+        {artist.nameOriginal}
+        {artist.nameLocal && <span class="local">{artist.nameLocal}</span>}
+      </h1>
+      <dl class="stats">
+        <div><dt>演出</dt><dd>{list.length}</dd></div>
+        <div><dt>城市</dt><dd>{citySet.size}</dd></div>
+        <div><dt>国家/地区</dt><dd>{regionSet.size}</dd></div>
+      </dl>
+    </header>
+
+    <div class="lv-map map" id="artist-map"></div>
+    <p class="map-hint label-medium">
+      <span class="material-symbols-rounded">route</span>虚线为巡演动线（按日期连接各城市场馆）
+    </p>
+
+    <section class="list">
+      {
+        [...groups.entries()].map(([key, group]) => (
+          <div class="month">
+            <h2 class="title-medium month__title">
+              {monthLabel(key)} <span class="month__count label-medium">{group.length} 场</span>
+            </h2>
+            <div class="events" data-view="list">
+              {group.map((e) => (
+                <EventRow event={e} artist={artist} venue={venueById[e.venue]} />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+      {
+        list.length === 0 && (
+          <p class="body-medium muted">暂时没有已公布的演出。</p>
+        )
+      }
+    </section>
+  </div>
+
+  <script type="application/json" id="artist-map-data" set:html={JSON.stringify({ venues: mapVenues, counts, route })} />
+</BaseLayout>
+
+<script>
+  const data = JSON.parse(document.getElementById('artist-map-data')!.textContent!);
+  import('../../scripts/map').then(({ createVenueMap }) => {
+    const api = createVenueMap({
+      container: document.getElementById('artist-map')!,
+      venues: data.venues,
+      counts: data.counts,
+      route: data.route,
+      cooperative: true,
+      popupHtml: (v) =>
+        `<div class="pop"><h4>${v.name}</h4><p class="pop__sub">${v.cityZh} · ${v.region} · ${data.counts[v.id]} 场</p>` +
+        `<div class="pop__actions"><md-text-button href="/venues/${v.id}">场馆详情</md-text-button></div></div>`,
+    });
+    api.map.once('load', () => api.setCounts(data.counts, true));
+  });
+</script>
+
+<style>
+  .page {
+    max-width: 960px;
+    padding-top: 16px;
+  }
+  .genre {
+    display: inline-flex;
+    padding: 4px 12px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+  }
+  .genre--jpop {
+    background: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-on-tertiary-container);
+  }
+  .head h1 {
+    margin: 10px 0 8px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .local {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .stats {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+  }
+  .stats div {
+    padding: 6px 14px;
+    border-radius: 16px;
+    background: var(--md-sys-color-surface-container-low);
+  }
+  .stats dt {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .stats dd {
+    margin: 0;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 800;
+    color: var(--md-sys-color-primary);
+    font-variant-numeric: tabular-nums;
+  }
+  .map {
+    height: 340px;
+    margin-top: 16px;
+  }
+  .map-hint {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 8px 4px 0;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .map-hint .material-symbols-rounded {
+    font-size: 16px;
+    color: var(--md-sys-color-primary);
+  }
+  .list {
+    margin-top: 24px;
+  }
+  .month {
+    margin-bottom: 12px;
+  }
+  .month__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 6px;
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  }
+  .month__count {
+    padding: 1px 8px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+  }
+  .events {
+    display: grid;
+    gap: 2px;
+  }
+  .muted {
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  @media (max-width: 600px) {
+    .map {
+      height: 260px;
+    }
+  }
+</style>

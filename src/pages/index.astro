@@ -1,0 +1,709 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EventRow from '../components/EventRow.astro';
+import { env } from 'cloudflare:workers';
+import { getData, toMapVenue } from '../lib/db';
+import { regions, type Event } from '../data/events';
+import { monthKey, monthLabel } from '../lib/format';
+
+const { artists, artistBySlug, venueById, events: sortedEvents } = await getData(env.DB);
+
+const groups = new Map<string, Event[]>();
+for (const e of sortedEvents) {
+  const key = monthKey(e.startLocal);
+  groups.set(key, [...(groups.get(key) ?? []), e]);
+}
+
+const usedRegions = [...new Set(sortedEvents.map((e) => venueById[e.venue].countryCode))];
+const usedVenues = new Set(sortedEvents.map((e) => e.venue));
+const cityCount = new Set(sortedEvents.map((e) => venueById[e.venue].citySlug)).size;
+const lastVerified = sortedEvents.map((e) => e.verifiedAt).sort().at(-1)!;
+const [, lm, ld] = lastVerified.split('-').map(Number);
+const venuesForMap = [...usedVenues].map((id) => toMapVenue(venueById[id]));
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__shape hero__shape--a"></div>
+      <div class="hero__shape hero__shape--b"></div>
+      <div>
+        <p class="label-large hero__eyebrow">
+          <span class="material-symbols-rounded">favorite</span> K-POP · J-POP · 全球巡演
+        </p>
+        <h1 class="display-small hero__title">最近有什么演出？</h1>
+      </div>
+      <dl class="stats">
+        <div><dt>演出</dt><dd>{sortedEvents.length}</dd></div>
+        <div><dt>城市</dt><dd>{cityCount}</dd></div>
+        <div><dt>场馆</dt><dd>{usedVenues.size}</dd></div>
+        <div><dt>最近核对</dt><dd>{lm}/{ld}</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="filters" aria-label="筛选">
+      <md-tabs id="genre-tabs" aria-label="类型">
+        <md-primary-tab data-genre="" inline-icon>
+          <md-icon slot="icon" class="material-symbols-rounded">auto_awesome</md-icon>全部
+        </md-primary-tab>
+        <md-primary-tab data-genre="kpop" inline-icon>
+          <md-icon slot="icon" class="material-symbols-rounded">stars</md-icon>K-pop
+        </md-primary-tab>
+        <md-primary-tab data-genre="jpop" inline-icon>
+          <md-icon slot="icon" class="material-symbols-rounded">local_florist</md-icon>J-pop
+        </md-primary-tab>
+      </md-tabs>
+
+      <div class="filter-row">
+        <span class="label-large filter-row__label"><span class="material-symbols-rounded">public</span>地区</span>
+        <md-chip-set id="region-chips">
+          {usedRegions.map((code) => <md-filter-chip label={regions[code]} data-value={code} />)}
+        </md-chip-set>
+      </div>
+
+      <div class="filter-row">
+        <span class="label-large filter-row__label"><span class="material-symbols-rounded">mic</span>艺人</span>
+        <md-chip-set id="artist-chips">
+          {artists.map((a) => <md-filter-chip label={a.nameOriginal} data-value={a.slug} data-genre={a.genre} />)}
+        </md-chip-set>
+      </div>
+    </section>
+
+    <div class="browse">
+      <section class="results" aria-label="演出列表">
+        <div class="toolbar">
+          <span class="title-medium" id="result-count">{sortedEvents.length} 场演出</span>
+          <md-chip-set class="toolbar__chips">
+            <md-input-chip id="city-chip" remove-only hidden>
+              <md-icon slot="icon" class="material-symbols-rounded">location_on</md-icon>
+            </md-input-chip>
+            <md-filter-chip id="avail-chip" label="只看可购票">
+              <md-icon slot="icon" class="material-symbols-rounded">confirmation_number</md-icon>
+            </md-filter-chip>
+          </md-chip-set>
+          <md-text-button id="reset" hidden>
+            <md-icon slot="icon" class="material-symbols-rounded">restart_alt</md-icon>清除
+          </md-text-button>
+          <div class="view-toggle" role="group" aria-label="视图">
+            <md-icon-button data-view-btn="list" aria-label="紧凑列表" toggle selected>
+              <md-icon class="material-symbols-rounded">view_list</md-icon>
+            </md-icon-button>
+            <md-icon-button data-view-btn="card" aria-label="卡片" toggle>
+              <md-icon class="material-symbols-rounded">grid_view</md-icon>
+            </md-icon-button>
+          </div>
+        </div>
+
+        <div class="events" id="events" data-view="list">
+          {
+            [...groups.entries()].map(([key, list]) => (
+              <div class="month" data-month>
+                <h2 class="month__title">
+                  <span class="title-medium">{monthLabel(key)}</span>
+                  <span class="month__count label-medium" data-month-count>
+                    {list.length} 场
+                  </span>
+                </h2>
+                <div class="month__list">
+                  {list.map((e) => (
+                    <EventRow event={e} artist={artistBySlug[e.artist]} venue={venueById[e.venue]} />
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+
+        <div class="empty" id="empty" hidden>
+          <div class="empty__shape"><span class="material-symbols-rounded">sentiment_dissatisfied</span></div>
+          <p class="title-medium">没有符合条件的演出</p>
+          <p class="body-medium">换个地区或艺人试试看？</p>
+          <md-filled-tonal-button id="empty-reset">清除筛选</md-filled-tonal-button>
+        </div>
+      </section>
+
+      <aside class="map-pane" aria-label="演出地图">
+        <div class="lv-map map" id="map">
+          <div class="map__loading body-medium"><span class="material-symbols-rounded">public</span>地图加载中…</div>
+        </div>
+        <p class="map-hint label-medium">
+          <span class="material-symbols-rounded">touch_app</span>点击场馆查看演出，数字为当前筛选下的场次
+        </p>
+      </aside>
+    </div>
+  </div>
+
+  <md-fab id="to-top" size="medium" aria-label="回到顶部">
+    <md-icon slot="icon" class="material-symbols-rounded">arrow_upward</md-icon>
+  </md-fab>
+
+  <script type="application/json" id="map-venues" set:html={JSON.stringify(venuesForMap)} />
+</BaseLayout>
+
+<script>
+  import type { MapVenue } from '../data/events';
+
+  type Chip = HTMLElement & { selected: boolean; label: string };
+  type Tabs = HTMLElement & { activeTabIndex: number };
+  type Toggle = HTMLElement & { selected: boolean };
+
+  const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
+  const venues: MapVenue[] = JSON.parse($('map-venues').textContent!);
+  const cityName = Object.fromEntries(venues.map((v) => [v.citySlug, v.cityZh]));
+
+  const tabs = $<Tabs>('genre-tabs');
+  const tabEls = [...tabs.querySelectorAll<HTMLElement>('md-primary-tab')];
+  const regionChips = [...document.querySelectorAll<Chip>('#region-chips md-filter-chip')];
+  const artistChips = [...document.querySelectorAll<Chip>('#artist-chips md-filter-chip')];
+  const availChip = $<Chip>('avail-chip');
+  const cityChip = $<Chip>('city-chip');
+  const rows = [...document.querySelectorAll<HTMLElement>('[data-event]')];
+  const months = [...document.querySelectorAll<HTMLElement>('[data-month]')];
+  const eventsEl = $('events');
+  const viewBtns = [...document.querySelectorAll<Toggle>('[data-view-btn]')];
+
+  let city = '';
+  let mapApi: Awaited<ReturnType<typeof import('../scripts/map').createVenueMap>> | null = null;
+
+  const selected = (chips: Chip[]) => chips.filter((c) => c.selected).map((c) => c.dataset.value!);
+  const currentGenre = () => tabEls[tabs.activeTabIndex]?.dataset.genre ?? '';
+  const visibleRows = () => rows.filter((r) => !r.hidden);
+
+  function setView(view: string) {
+    eventsEl.dataset.view = view;
+    viewBtns.forEach((b) => (b.selected = b.dataset.viewBtn === view));
+    localStorage.setItem('lv-view', view);
+  }
+
+  function setCity(slug: string) {
+    city = slug;
+    cityChip.hidden = !slug;
+    cityChip.label = slug ? cityName[slug] ?? slug : '';
+  }
+
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    const list = (k: string) => new Set((p.get(k) ?? '').split(',').filter(Boolean));
+    const regionSet = list('region');
+    const artistSet = list('artist');
+    tabs.activeTabIndex = Math.max(0, tabEls.findIndex((t) => t.dataset.genre === (p.get('genre') ?? '')));
+    regionChips.forEach((c) => (c.selected = regionSet.has(c.dataset.value!)));
+    artistChips.forEach((c) => (c.selected = artistSet.has(c.dataset.value!)));
+    availChip.selected = p.get('avail') === '1';
+    setCity(p.get('city') ?? '');
+  }
+
+  function writeUrl(state: Record<string, string>) {
+    const p = new URLSearchParams(Object.entries(state).filter(([, v]) => v));
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  function apply({ animate = true, fit = true } = {}) {
+    const genre = currentGenre();
+    artistChips.forEach((c) => {
+      const hide = !!genre && c.dataset.genre !== genre;
+      c.hidden = hide;
+      if (hide) c.selected = false;
+    });
+
+    const region = selected(regionChips);
+    const artist = selected(artistChips);
+    const avail = availChip.selected;
+    writeUrl({ genre, region: region.join(','), artist: artist.join(','), city, avail: avail ? '1' : '' });
+
+    let n = 0;
+    const counts: Record<string, number> = {};
+    for (const r of rows) {
+      const d = r.dataset;
+      const ok =
+        (!genre || d.genre === genre) &&
+        (!region.length || region.includes(d.region!)) &&
+        (!artist.length || artist.includes(d.artist!)) &&
+        (!city || d.city === city) &&
+        (!avail || d.available === '1');
+      r.hidden = !ok;
+      if (!ok) continue;
+      counts[d.venue!] = (counts[d.venue!] ?? 0) + 1;
+      if (animate) {
+        r.style.setProperty('--i', String(n));
+        r.style.animation = 'none';
+        void r.offsetWidth;
+        r.style.animation = '';
+      }
+      n++;
+    }
+
+    months.forEach((m) => {
+      const c = m.querySelectorAll('[data-event]:not([hidden])').length;
+      m.hidden = c === 0;
+      m.querySelector('[data-month-count]')!.textContent = `${c} 场`;
+    });
+
+    $('result-count').textContent = `${n} 场演出`;
+    $('empty').hidden = n > 0;
+    $('reset').hidden = !(genre || region.length || artist.length || city || avail);
+    mapApi?.setCounts(counts, fit);
+  }
+
+  function reset() {
+    tabs.activeTabIndex = 0;
+    [...regionChips, ...artistChips, availChip].forEach((c) => (c.selected = false));
+    setCity('');
+    apply();
+  }
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+
+  function popupHtml(v: MapVenue) {
+    const list = visibleRows().filter((r) => r.dataset.venue === v.id);
+    const items = list
+      .slice(0, 4)
+      .map((r) => {
+        const href = r.querySelector<HTMLAnchorElement>('.ev__artist')!.getAttribute('href');
+        return `<li><a href="${href}"><b>${r.dataset.date}</b>${esc(r.dataset.artistName!)}</a></li>`;
+      })
+      .join('');
+    const more = list.length > 4 ? `<p class="pop__more">还有 ${list.length - 4} 场…</p>` : '';
+    const cityBtn =
+      city === v.citySlug ? '' : `<md-text-button data-pop-city="${v.citySlug}">只看${esc(v.cityZh)}</md-text-button>`;
+    return `<div class="pop">
+      <h4>${esc(v.name)}</h4>
+      <p class="pop__sub">${esc(v.nameLocal ? v.nameLocal + ' · ' : '')}${esc(v.cityZh)} · ${esc(v.region)} · ${list.length} 场</p>
+      <ul>${items}</ul>${more}
+      <div class="pop__actions">
+        <md-text-button href="/venues/${v.id}">场馆详情</md-text-button>${cityBtn}
+      </div>
+    </div>`;
+  }
+
+  // filter-chip 在 click 处理中切换 selected，延后一帧读取最新状态
+  const onChip = () => setTimeout(apply);
+  [...regionChips, ...artistChips, availChip].forEach((c) => c.addEventListener('click', onChip));
+  tabs.addEventListener('change', () => apply());
+  cityChip.addEventListener('remove', (e) => {
+    e.preventDefault();
+    setCity('');
+    apply();
+  });
+  $('reset').addEventListener('click', reset);
+  $('empty-reset').addEventListener('click', reset);
+  viewBtns.forEach((b) => b.addEventListener('click', () => setView(b.dataset.viewBtn!)));
+
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-pop-city]');
+    if (!btn) return;
+    setCity(btn.dataset.popCity!);
+    document.querySelector('.maplibregl-popup')?.remove();
+    apply();
+    if (matchMedia('(max-width: 1099px)').matches) $('events').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // 列表行悬停 → 地图高亮场馆
+  eventsEl.addEventListener('mouseover', (e) => {
+    const row = (e.target as HTMLElement).closest<HTMLElement>('[data-event]');
+    mapApi?.highlight(row?.dataset.venue ?? null);
+  });
+  eventsEl.addEventListener('mouseleave', () => mapApi?.highlight(null));
+
+  const toTop = $('to-top');
+  toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+  const onScroll = () => toTop.classList.toggle('show', scrollY > 600);
+  addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  setView(localStorage.getItem('lv-view') ?? 'list');
+
+  customElements.whenDefined('md-tabs').then(async () => {
+    readUrl();
+    apply({ animate: false, fit: false });
+
+    const { createVenueMap } = await import('../scripts/map');
+    const container = $('map');
+    mapApi = createVenueMap({
+      container,
+      venues,
+      counts: {},
+      cooperative: matchMedia('(max-width: 1099px)').matches,
+      popupHtml,
+    });
+    mapApi.map.once('load', () => {
+      container.querySelector('.map__loading')?.remove();
+      apply({ animate: false, fit: !!location.search });
+    });
+  });
+</script>
+
+<style>
+  .hero {
+    background: var(--lv-hero-gradient);
+    overflow: hidden;
+  }
+  .hero__inner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px 32px;
+    padding: 32px 0 44px;
+  }
+  .hero__shape {
+    position: absolute;
+    pointer-events: none;
+    background: var(--md-sys-color-primary);
+    opacity: 0.1;
+  }
+  .hero__shape--a {
+    width: 200px;
+    height: 200px;
+    right: 30%;
+    top: -70px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: lv-spin 24s linear infinite;
+  }
+  .hero__shape--b {
+    width: 110px;
+    height: 110px;
+    left: 42%;
+    bottom: -50px;
+    border-radius: 40% 60% 55% 45% / 50% 40% 60% 50%;
+    background: var(--md-sys-color-tertiary);
+    animation: lv-float 6s ease-in-out infinite;
+  }
+  .hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 10px;
+    padding: 4px 12px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-surface-container-lowest);
+    color: var(--md-sys-color-primary);
+  }
+  .hero__eyebrow .material-symbols-rounded {
+    font-size: 16px;
+  }
+  .hero__title {
+    margin: 0;
+    color: var(--md-sys-color-on-primary-container);
+  }
+  [data-theme='dark'] .hero__title {
+    color: var(--md-sys-color-primary);
+  }
+  .stats {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+  }
+  .stats div {
+    min-width: 76px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-lowest) 75%, transparent);
+    backdrop-filter: blur(8px);
+  }
+  .stats dt {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .stats dd {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+    color: var(--md-sys-color-primary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .filters {
+    position: relative;
+    margin-top: -24px;
+    padding: 4px 16px 8px;
+    border-radius: var(--lv-shape-xl);
+    background: var(--md-sys-color-surface-container-lowest);
+    box-shadow: 0 4px 24px color-mix(in srgb, var(--md-sys-color-primary) 12%, transparent);
+  }
+  md-tabs {
+    --md-primary-tab-container-color: transparent;
+    --md-primary-tab-container-height: 48px;
+    max-width: 420px;
+    margin-bottom: 4px;
+  }
+  .filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 6px 0;
+  }
+  .filter-row__label {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+    width: 60px;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .filter-row__label .material-symbols-rounded {
+    font-size: 18px;
+    color: var(--md-sys-color-primary);
+  }
+  md-filter-chip,
+  md-input-chip {
+    --md-filter-chip-container-shape: 999px;
+    --md-input-chip-container-shape: 999px;
+    --md-filter-chip-selected-container-color: var(--md-sys-color-primary-container);
+    --md-input-chip-selected-container-color: var(--md-sys-color-primary-container);
+    transition: transform 0.4s var(--lv-motion-spring);
+  }
+  md-filter-chip:active {
+    transform: scale(0.92);
+  }
+  md-filter-chip[hidden],
+  md-input-chip[hidden] {
+    display: none;
+  }
+
+  .browse {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+  }
+
+  .toolbar {
+    position: sticky;
+    top: 64px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    padding: 8px 4px;
+    background: var(--md-sys-color-surface);
+  }
+  .toolbar__chips {
+    flex: 1;
+  }
+  .view-toggle {
+    display: flex;
+    padding: 2px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-surface-container);
+  }
+  .view-toggle md-icon-button {
+    --md-icon-button-selected-icon-color: var(--md-sys-color-on-primary);
+    --md-icon-button-selected-hover-icon-color: var(--md-sys-color-on-primary);
+    --md-icon-button-selected-focus-icon-color: var(--md-sys-color-on-primary);
+    --md-icon-button-selected-pressed-icon-color: var(--md-sys-color-on-primary);
+    border-radius: 50%;
+    transition: background-color 0.3s var(--lv-motion-emphasized);
+  }
+  .view-toggle md-icon-button[selected] {
+    background: var(--md-sys-color-primary);
+  }
+
+  .month {
+    margin-bottom: 12px;
+  }
+  .month[hidden] {
+    display: none;
+  }
+  .month__title {
+    position: sticky;
+    top: 120px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 8px 12px;
+    background: var(--md-sys-color-surface);
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  }
+  .month__count {
+    padding: 1px 8px;
+    border-radius: var(--lv-shape-full);
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+  }
+  .month__list {
+    display: grid;
+    gap: 2px;
+    padding-top: 4px;
+  }
+  [data-view='card'] .month__title {
+    border-bottom: none;
+  }
+  [data-view='card'] .month__list {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 12px;
+  }
+
+  .map-pane {
+    position: sticky;
+    top: 80px;
+  }
+  .map {
+    height: calc(100dvh - 120px);
+    min-height: 420px;
+  }
+  .map__loading {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: 8px;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .map__loading .material-symbols-rounded {
+    font-size: 40px;
+    color: var(--md-sys-color-primary);
+    animation: lv-spin 3s linear infinite;
+  }
+  .map-hint {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 8px 4px 0;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .map-hint .material-symbols-rounded {
+    font-size: 16px;
+    color: var(--md-sys-color-primary);
+  }
+
+  .empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+    text-align: center;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .empty[hidden] {
+    display: none;
+  }
+  .empty p {
+    margin: 4px 0;
+  }
+  .empty__shape {
+    display: grid;
+    place-items: center;
+    width: 96px;
+    height: 96px;
+    margin-bottom: 12px;
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-radius: 40% 60% 55% 45% / 50% 40% 60% 50%;
+    animation: lv-float 5s ease-in-out infinite;
+  }
+  .empty__shape .material-symbols-rounded {
+    font-size: 44px;
+  }
+  .empty md-filled-tonal-button {
+    margin-top: 12px;
+  }
+
+  #to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 5;
+    opacity: 0;
+    transform: scale(0.4);
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.45s var(--lv-motion-spring);
+  }
+  #to-top.show {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  @keyframes lv-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes lv-float {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+    50% {
+      transform: translateY(-10px) rotate(8deg);
+    }
+  }
+
+  @media (max-width: 1099px) {
+    .browse {
+      grid-template-columns: 1fr;
+    }
+    .map-pane {
+      position: static;
+      order: -1;
+    }
+    .map {
+      height: 320px;
+      min-height: 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero__inner {
+      padding: 24px 0 40px;
+    }
+    .display-small {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .stats div {
+      min-width: 0;
+      flex: 1;
+      padding: 6px 10px;
+    }
+    .stats {
+      width: 100%;
+    }
+    .filters {
+      padding: 4px 12px 8px;
+    }
+    .filter-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 2px;
+      min-width: 0;
+    }
+    .filter-row md-chip-set {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin-inline: -12px;
+      padding-inline: 12px;
+    }
+    .filter-row md-chip-set > * {
+      flex: none;
+    }
+    .stats {
+      gap: 6px;
+    }
+    .stats dd {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .map {
+      height: 260px;
+    }
+    .month__title {
+      top: 112px;
+    }
+  }
+</style>

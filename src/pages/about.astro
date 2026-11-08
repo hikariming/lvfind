@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+export const prerender = true;
+---
+
+<BaseLayout title="关于 | lvfind">
+  <div class="container about">
+    <h1 class="display-small">关于 lvfind</h1>
+    <p class="body-large">
+      lvfind 是一个整理全球 K-pop / J-pop 演出信息的小站，初衷是方便自己和朋友规划“追星 + 旅行”的行程。
+      打开就能看到整理好的近期演出，不用登录、不用搜索。
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <span class="material-symbols-rounded">fact_check</span>
+        <h2 class="title-medium">数据从哪来</h2>
+        <p class="body-medium">以艺人 / 经纪公司官方公告为第一来源，票务平台为辅，每条记录都保留来源链接。</p>
+      </div>
+      <div class="card">
+        <span class="material-symbols-rounded">update</span>
+        <h2 class="title-medium">多久更新</h2>
+        <p class="body-medium">后台定期核对，每张卡片都会标注“最近核对于 X 月 X 日”。</p>
+      </div>
+      <div class="card">
+        <span class="material-symbols-rounded">schedule</span>
+        <h2 class="title-medium">时间说明</h2>
+        <p class="body-medium">所有演出时间均为演出当地时间，并标注时区（如 JST / KST / HKT）。</p>
+      </div>
+    </div>
+
+    <p class="body-medium note">信息仅供参考，一切以官方公告为准。本站不出售门票，也不提供二手票信息。</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    max-width: 760px;
+    padding-top: 40px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin: 28px 0;
+  }
+  .card {
+    padding: 20px;
+    border-radius: var(--lv-shape-xl);
+    background: var(--md-sys-color-surface-container-low);
+  }
+  .card .material-symbols-rounded {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+  }
+  .card h2 {
+    margin: 12px 0 4px;
+  }
+  .card p {
+    margin: 0;
+    color: var(--md-sys-color-on-surface-variant);
+  }
+  .note {
+    color: var(--md-sys-color-on-surface-variant);
+  }
+</style>
