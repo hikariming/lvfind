@@ -17,6 +17,7 @@ Agent 按此表逐个查官方公告：`sources` 为首要核对入口（官方�
 | enhypen | ENHYPEN 엔하이픈 | BELIFT (HYBE) | https://www.enhypenbloodsaga.com/ · https://weverse.io/enhypen/notices | watching | BLOOD SAGA 欧巡 2027/2/24–3/9 |
 | illit | ILLIT 아일릿 | BELIFT (HYBE) | https://weverse.io/illit/notices | watching | 暂无已公布场次 |
 | babymonster | BABYMONSTER 베이비몬스터 | YG | https://yg-babymonster.com/concert/worldtourchoom/ · https://weverse.io/babymonster/notices | watching | CHOOM 巡演进行中；欧美段 TBA |
+| tws | TWS 투어스 | Pledis (HYBE) | https://weverse.io/tws/notices · https://tws-official.jp/schedule | watching | 24/7:FOR:YOU 亚洲巡演 10/24 高雄收官；关注下一站巡演公告 |
 
 ## J-pop
 
@@ -30,6 +31,7 @@ Agent 按此表逐个查官方公告：`sources` 为首要核对入口（官方�
 | king-gnu | King Gnu | — | https://kinggnu.jp/ | watching | |
 | babymetal | BABYMETAL | Amuse | https://www.babymetal.com/ | watching | |
 | aimer | Aimer | — | https://www.aimer-web.jp/ | watching | |
+| alexandros | [Alexandros]（括号团） | UKPM / UNIVERSAL J | https://alexandros.jp/ | watching | 日本摇滚乐队，官网名带方括号 |
 
 ## 扫描规则
 

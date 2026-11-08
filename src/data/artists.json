@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "ive",
+    "nameOriginal": "IVE",
+    "nameLocal": "아이브",
+    "genre": "kpop"
+  },
+  {
+    "slug": "seventeen",
+    "nameOriginal": "SEVENTEEN",
+    "nameLocal": "세븐틴",
+    "genre": "kpop"
+  },
+  {
+    "slug": "jxj",
+    "nameOriginal": "JxJ (SEVENTEEN)",
+    "nameLocal": "정한X조슈아",
+    "genre": "kpop"
+  },
+  {
+    "slug": "aespa",
+    "nameOriginal": "aespa",
+    "nameLocal": "에스파",
+    "genre": "kpop"
+  },
+  {
+    "slug": "stray-kids",
+    "nameOriginal": "Stray Kids",
+    "nameLocal": "스트레이 키즈",
+    "genre": "kpop"
+  },
+  {
+    "slug": "le-sserafim",
+    "nameOriginal": "LE SSERAFIM",
+    "nameLocal": "르세라핌",
+    "genre": "kpop"
+  },
+  {
+    "slug": "twice",
+    "nameOriginal": "TWICE",
+    "nameLocal": "트와이스",
+    "genre": "kpop"
+  },
+  {
+    "slug": "enhypen",
+    "nameOriginal": "ENHYPEN",
+    "nameLocal": "엔하이픈",
+    "genre": "kpop"
+  },
+  {
+    "slug": "illit",
+    "nameOriginal": "ILLIT",
+    "nameLocal": "아일릿",
+    "genre": "kpop"
+  },
+  {
+    "slug": "babymonster",
+    "nameOriginal": "BABYMONSTER",
+    "nameLocal": "베이비몬스터",
+    "genre": "kpop"
+  },
+  {
+    "slug": "yoasobi",
+    "nameOriginal": "YOASOBI",
+    "nameLocal": "ヨアソビ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "ado",
+    "nameOriginal": "Ado",
+    "nameLocal": "アド",
+    "genre": "jpop"
+  },
+  {
+    "slug": "mrs-green-apple",
+    "nameOriginal": "Mrs. GREEN APPLE",
+    "nameLocal": "ミセス",
+    "genre": "jpop"
+  },
+  {
+    "slug": "official-hige-dandism",
+    "nameOriginal": "Official髭男dism",
+    "nameLocal": "ヒゲダン",
+    "genre": "jpop"
+  },
+  {
+    "slug": "kenshi-yonezu",
+    "nameOriginal": "米津玄師",
+    "nameLocal": "Kenshi Yonezu",
+    "genre": "jpop"
+  },
+  {
+    "slug": "king-gnu",
+    "nameOriginal": "King Gnu",
+    "nameLocal": "キングヌー",
+    "genre": "jpop"
+  },
+  {
+    "slug": "babymetal",
+    "nameOriginal": "BABYMETAL",
+    "nameLocal": "ベビーメタル",
+    "genre": "jpop"
+  },
+  {
+    "slug": "aimer",
+    "nameOriginal": "Aimer",
+    "nameLocal": "エメ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "tws",
+    "nameOriginal": "TWS",
+    "nameLocal": "투어스",
+    "genre": "kpop"
+  },
+  {
+    "slug": "alexandros",
+    "nameOriginal": "[Alexandros]",
+    "nameLocal": "アレキサンドロス",
+    "genre": "jpop"
+  }
+]
