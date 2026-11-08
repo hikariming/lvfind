@@ -142,5 +142,113 @@
     "nameOriginal": "赞多 SANTA",
     "nameLocal": "宇野赞多 Uno Santa",
     "genre": "jpop"
+  },
+  {
+    "slug": "bts",
+    "nameOriginal": "BTS",
+    "nameLocal": "방탄소년단",
+    "genre": "kpop"
+  },
+  {
+    "slug": "bigbang",
+    "nameOriginal": "BIGBANG",
+    "nameLocal": "빅뱅",
+    "genre": "kpop"
+  },
+  {
+    "slug": "txt",
+    "nameOriginal": "TOMORROW X TOGETHER",
+    "nameLocal": "투모로우바이투게더",
+    "genre": "kpop"
+  },
+  {
+    "slug": "monsta-x",
+    "nameOriginal": "MONSTA X",
+    "nameLocal": "몬스타엑스",
+    "genre": "kpop"
+  },
+  {
+    "slug": "nct-127",
+    "nameOriginal": "NCT 127",
+    "nameLocal": "엔시티 127",
+    "genre": "kpop"
+  },
+  {
+    "slug": "nct-wish",
+    "nameOriginal": "NCT WISH",
+    "nameLocal": "엔시티 위시",
+    "genre": "kpop"
+  },
+  {
+    "slug": "andteam",
+    "nameOriginal": "&TEAM",
+    "nameLocal": "앤팀",
+    "genre": "kpop"
+  },
+  {
+    "slug": "izna",
+    "nameOriginal": "izna",
+    "nameLocal": "이즈나",
+    "genre": "kpop"
+  },
+  {
+    "slug": "qwer",
+    "nameOriginal": "QWER",
+    "nameLocal": "큐더블유이알",
+    "genre": "kpop"
+  },
+  {
+    "slug": "boynextdoor",
+    "nameOriginal": "BOYNEXTDOOR",
+    "nameLocal": "보이넥스트도어",
+    "genre": "kpop"
+  },
+  {
+    "slug": "do-kyung-soo",
+    "nameOriginal": "D.O. 도경수",
+    "nameLocal": "도경수",
+    "genre": "kpop"
+  },
+  {
+    "slug": "jinyoung",
+    "nameOriginal": "JINYOUNG",
+    "nameLocal": "진영 (GOT7)",
+    "genre": "kpop"
+  },
+  {
+    "slug": "roy-kim",
+    "nameOriginal": "ROY KIM",
+    "nameLocal": "로이킴",
+    "genre": "kpop"
+  },
+  {
+    "slug": "katseye",
+    "nameOriginal": "KATSEYE",
+    "nameLocal": "캣츠아이",
+    "genre": "kpop"
+  },
+  {
+    "slug": "sung-si-kyung",
+    "nameOriginal": "SUNG SI KYUNG",
+    "nameLocal": "성시경",
+    "genre": "kpop"
+  },
+  {
+    "slug": "epik-high",
+    "nameOriginal": "EPIK HIGH",
+    "nameLocal": "에픽하이",
+    "genre": "kpop"
+  },
+  {
+    "slug": "cravity",
+    "nameOriginal": "CRAVITY",
+    "nameLocal": "크래비티",
+    "genre": "kpop"
+  },
+  {
+    "slug": "changmin",
+    "nameOriginal": "CHANGMIN 최강창민",
+    "nameLocal": "최강창민 (TVXQ!)",
+    "genre": "kpop"
   }
 ]
