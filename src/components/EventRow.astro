@@ -63,7 +63,7 @@ const available = ['on_sale', 'presale'].includes(event.ticketStatus);
   }
 
   <div class="ev__status">
-    <span class={`status status--${event.ticketStatus}`}>
+    <span class={`status status--${event.ticketStatus}`} data-i18n={`status.${event.ticketStatus}`}>
       <span class="material-symbols-rounded">{status.icon}</span>{status.label}
     </span>
     {event.onSaleLocal && !available && event.ticketStatus === 'announced' && <span class="ev__onsale">开售 {shortDate(event.onSaleLocal)}</span>}

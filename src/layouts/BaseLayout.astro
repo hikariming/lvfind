@@ -44,12 +44,13 @@ const { title = 'lvfind · 全球 K-pop / J-pop 演出', description = '打开�
           <span class="brand__name">lvfind</span>
         </a>
         <nav class="app-bar__actions">
-          <md-text-button href="/artists">艺人</md-text-button>
-          <md-text-button href="/cities">城市</md-text-button>
-          <md-text-button href="/venues">场馆</md-text-button>
-          <md-text-button href="/insights">数据</md-text-button>
-          <md-text-button href="/about">关于</md-text-button>
-          <md-icon-button toggle data-theme-toggle aria-label="切换深色模式">
+          <md-text-button href="/artists"><span data-i18n="nav.artists">艺人</span></md-text-button>
+          <md-text-button href="/cities"><span data-i18n="nav.cities">城市</span></md-text-button>
+          <md-text-button href="/venues"><span data-i18n="nav.venues">场馆</span></md-text-button>
+          <md-text-button href="/insights"><span data-i18n="nav.insights">数据</span></md-text-button>
+          <md-text-button href="/about"><span data-i18n="nav.about">关于</span></md-text-button>
+          <select class="lang" data-lang-select aria-label="语言"></select>
+          <md-icon-button toggle data-theme-toggle aria-label="切换深色模式" data-i18n-title="nav.theme">
             <md-icon class="material-symbols-rounded">dark_mode</md-icon>
             <md-icon slot="selected" class="material-symbols-rounded">light_mode</md-icon>
           </md-icon-button>
@@ -63,17 +64,19 @@ const { title = 'lvfind · 全球 K-pop / J-pop 演出', description = '打开�
 
     <footer class="footer">
       <div class="container body-medium">
-        演出信息由 lvfind 整理核对，一切以艺人 / 主办方官方公告为准。原型阶段数据为示例。
+        <span data-i18n="ui.footer">演出信息由 lvfind 整理核对，一切以艺人 / 主办方官方公告为准。原型阶段数据为示例。</span>
       </div>
     </footer>
 
     <script>
       import '../scripts/material.ts';
+      import '../scripts/i18n.ts';
     </script>
   </body>
 </html>
 
 <style>
+  .lang { margin-right: var(--lv-space-2); border: 1px solid var(--md-sys-color-outline-variant); border-radius: var(--lv-radius-s); background: var(--md-sys-color-surface); color: var(--md-sys-color-on-surface); padding: 4px 6px; font: var(--lv-font-label-medium); }
   .app-bar {
     position: sticky;
     top: 0;
