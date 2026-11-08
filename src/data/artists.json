@@ -118,5 +118,17 @@
     "nameOriginal": "[Alexandros]",
     "nameLocal": "アレキサンドロス",
     "genre": "jpop"
+  },
+  {
+    "slug": "fujii-kaze",
+    "nameOriginal": "藤井 風",
+    "nameLocal": "Fujii Kaze",
+    "genre": "jpop"
+  },
+  {
+    "slug": "zutomayo",
+    "nameOriginal": "ずっと真夜中でいいのに。",
+    "nameLocal": "ZUTOMAYO",
+    "genre": "jpop"
   }
 ]

@@ -31,6 +31,8 @@ Agent 按此表逐个查官方公告：`sources` 为首要核对入口（官方�
 | king-gnu | King Gnu | — | https://kinggnu.jp/ | watching | |
 | babymetal | BABYMETAL | Amuse | https://www.babymetal.com/ | watching | |
 | aimer | Aimer | — | https://www.aimer-web.jp/ | watching | |
+| fujii-kaze | 藤井 風 Fujii Kaze | HEHN | https://fujiikaze.com/ · https://hehn.fujiikaze.com/pwt/ | watching | Prema World Tour：福冈/大阪/东京/曼谷/首尔已录；欧美 2027 夏场次 TBA——关注日程公布 |
+| zutomayo | ずっと真夜中でいいのに。（ZUTOMAYO） | — | https://zutomayo.net/live/ · https://zutomayo.net/apicula/ | watching | 2027/1–5 全国厅巡演「アピクラ電機」LÚ.NIM.LÀL 36 场——**场馆待批量录入** |
 | alexandros | [Alexandros]（括号团） | UKPM / UNIVERSAL J | https://alexandros.jp/ | watching | 日本摇滚乐队，官网名带方括号 |
 
 ## 扫描规则

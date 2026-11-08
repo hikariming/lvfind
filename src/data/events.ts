@@ -91,6 +91,7 @@ const T = {
   LSF: { tour: "2026 LE SSERAFIM TOUR 'PUREFLOW' IN ASIA", src: 'https://sourcemusic.com/artist/tour/LE%20SSERAFIM/17' },
   BM: { tour: '2026-27 BABYMONSTER WORLD TOUR [CHOOM]', src: 'https://yg-babymonster.com/concert/worldtourchoom/' },
   ENH: { tour: "ENHYPEN WORLD TOUR 'BLOOD SAGA'", src: 'https://www.enhypenbloodsaga.com/tournee' },
+  KAZE: { tour: 'Prema World Tour', src: 'https://fujiikaze.com/' },
   ADO: { tour: 'Adoの歌ってみたツアー2027', src: 'https://www.universal-music.co.jp/ado/' },
   JXJ: { tour: 'Jeonghan X Joshua “Journey Into [Dreaming]”', src: 'https://weverse.io/seventeen/notice' },
 } as const;
@@ -160,6 +161,16 @@ const rows: Row[] = [
   ['enhypen', 'ziggo-dome', 'ENH', '2027-03-02', 'on_sale', null],
   ['enhypen', 'uber-arena', 'ENH', '2027-03-05', 'on_sale', null],
   ['enhypen', 'o2', 'ENH', '2027-03-09', 'on_sale', null],
+  // 藤井 風 Prema World Tour（高雄 10/31 已结束；香港场取消；欧美 2027 夏待定）
+  ['fujii-kaze', 'paypay-dome', 'KAZE', '2026-11-14', 'announced', null],
+  ['fujii-kaze', 'paypay-dome', 'KAZE', '2026-11-15', 'announced', null],
+  ['fujii-kaze', 'kyocera-dome', 'KAZE', '2026-12-10', 'announced', null],
+  ['fujii-kaze', 'kyocera-dome', 'KAZE', '2026-12-12', 'announced', null],
+  ['fujii-kaze', 'kyocera-dome', 'KAZE', '2026-12-13', 'announced', null],
+  ['fujii-kaze', 'tokyo-dome', 'KAZE', '2026-12-19', 'announced', null],
+  ['fujii-kaze', 'tokyo-dome', 'KAZE', '2026-12-20', 'announced', null],
+  ['fujii-kaze', 'supachalasai', 'KAZE', '2026-12-26', 'announced', null],
+  ['fujii-kaze', 'gocheok', 'KAZE', '2027-01-09', 'announced', null],
   // Ado 歌ってみたツアー2027（FC 先行已结束，一般発売日未公布）
   ['ado', 'ariake-arena', 'ADO', '2027-01-10T17:00', 'announced', null],
   ['ado', 'ariake-arena', 'ADO', '2027-01-11T16:00', 'announced', null],

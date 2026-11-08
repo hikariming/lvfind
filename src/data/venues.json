@@ -841,5 +841,22 @@
     "capacity": 12000,
     "address": "Mahuhu Cres, Auckland CBD",
     "transit": "火车「Britomart」站步行约 10 分钟"
+  },
+  {
+    "id": "supachalasai",
+    "name": "Supachalasai National Stadium",
+    "nameLocal": "ศุภชลาศัย",
+    "type": "stadium",
+    "city": "Bangkok",
+    "citySlug": "bangkok",
+    "cityZh": "曼谷",
+    "countryCode": "TH",
+    "timezone": "Asia/Bangkok",
+    "tzAbbr": "ICT",
+    "lat": 13.7458,
+    "lng": 100.5255,
+    "capacity": 20000,
+    "address": "Rama 1 Rd, Pathum Wan, Bangkok",
+    "transit": "BTS「National Stadium」站 / 曼谷国家体育场"
   }
 ]
