@@ -250,5 +250,167 @@
     "nameOriginal": "CHANGMIN 최강창민",
     "nameLocal": "최강창민 (TVXQ!)",
     "genre": "kpop"
+  },
+  {
+    "slug": "exo",
+    "nameOriginal": "EXO",
+    "nameLocal": "엑소",
+    "genre": "kpop"
+  },
+  {
+    "slug": "cho-yong-pil",
+    "nameOriginal": "CHO YONG PIL",
+    "nameLocal": "조용필",
+    "genre": "kpop"
+  },
+  {
+    "slug": "dynamicduo",
+    "nameOriginal": "Dynamicduo",
+    "nameLocal": "다이나믹 듀오",
+    "genre": "kpop"
+  },
+  {
+    "slug": "touched",
+    "nameOriginal": "TOUCHED",
+    "nameLocal": "터치드",
+    "genre": "kpop"
+  },
+  {
+    "slug": "minho",
+    "nameOriginal": "MINHO",
+    "nameLocal": "민호 (SHINee)",
+    "genre": "kpop"
+  },
+  {
+    "slug": "nam-woo-hyun",
+    "nameOriginal": "NAM WOO HYUN",
+    "nameLocal": "남우현",
+    "genre": "kpop"
+  },
+  {
+    "slug": "evnne",
+    "nameOriginal": "EVNNE",
+    "nameLocal": "이븐",
+    "genre": "kpop"
+  },
+  {
+    "slug": "verivery",
+    "nameOriginal": "VERIVERY",
+    "nameLocal": "베리베리",
+    "genre": "kpop"
+  },
+  {
+    "slug": "flare-u",
+    "nameOriginal": "FLARE U",
+    "nameLocal": "플레어유",
+    "genre": "kpop"
+  },
+  {
+    "slug": "akmu",
+    "nameOriginal": "AKMU",
+    "nameLocal": "악뮤",
+    "genre": "kpop"
+  },
+  {
+    "slug": "young-k",
+    "nameOriginal": "Young K",
+    "nameLocal": "영케이 (DAY6)",
+    "genre": "kpop"
+  },
+  {
+    "slug": "nflying",
+    "nameOriginal": "N.Flying",
+    "nameLocal": "엔플라잉",
+    "genre": "kpop"
+  },
+  {
+    "slug": "fnc-kingdom",
+    "nameOriginal": "FNC KINGDOM",
+    "nameLocal": "FNC合同公演",
+    "genre": "kpop"
+  },
+  {
+    "slug": "radwimps",
+    "nameOriginal": "RADWIMPS",
+    "nameLocal": "ラッドウィンプス",
+    "genre": "jpop"
+  },
+  {
+    "slug": "sekai-no-owari",
+    "nameOriginal": "SEKAI NO OWARI",
+    "nameLocal": "セカオワ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "aimyon",
+    "nameOriginal": "あいみょん",
+    "nameLocal": "Aimyon",
+    "genre": "jpop"
+  },
+  {
+    "slug": "porno-graffitti",
+    "nameOriginal": "ポルノグラフィティ",
+    "nameLocal": "PornoGraffitti",
+    "genre": "jpop"
+  },
+  {
+    "slug": "yamashita-tomohisa",
+    "nameOriginal": "山下智久",
+    "nameLocal": "Tomohisa Yamashita",
+    "genre": "jpop"
+  },
+  {
+    "slug": "tomoo",
+    "nameOriginal": "TOMOO",
+    "nameLocal": "とむ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "milk",
+    "nameOriginal": "M!LK",
+    "nameLocal": "ミルク",
+    "genre": "jpop"
+  },
+  {
+    "slug": "sumika",
+    "nameOriginal": "sumika",
+    "nameLocal": "すみか",
+    "genre": "jpop"
+  },
+  {
+    "slug": "kobukuro",
+    "nameOriginal": "コブクロ",
+    "nameLocal": "KOBUKURO",
+    "genre": "jpop"
+  },
+  {
+    "slug": "hata-motohiro",
+    "nameOriginal": "秦 基博",
+    "nameLocal": "Hata Motohiro",
+    "genre": "jpop"
+  },
+  {
+    "slug": "akg",
+    "nameOriginal": "ASIAN KUNG-FU GENERATION",
+    "nameLocal": "アジカン",
+    "genre": "jpop"
+  },
+  {
+    "slug": "dustcell",
+    "nameOriginal": "DUSTCELL",
+    "nameLocal": "ダストセル",
+    "genre": "jpop"
+  },
+  {
+    "slug": "juice-juice",
+    "nameOriginal": "Juice=Juice",
+    "nameLocal": "ジュースジュース",
+    "genre": "jpop"
+  },
+  {
+    "slug": "tani-yuuki",
+    "nameOriginal": "Tani Yuuki",
+    "nameLocal": "たにゆうき",
+    "genre": "jpop"
   }
 ]
