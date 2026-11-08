@@ -1,0 +1,155 @@
+{
+  "venue": "jcom-hachioji",
+  "zasekiId": 9812,
+  "url": "https://zaseki.music-mdata.com/detail/9812",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:47.899Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "J:COMホール八王子",
+      "alias": "八王子市民会館",
+      "facility": "ホール",
+      "capacity": 2021,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9812.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9812_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9812",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9812/1130620",
+          "title": "八王子駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9812",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "めておらファンミーティングツアー『青春！めておら学園祭〜俺たちのやりたいこと全部やる〜』",
+          "slug": "/event/4b7aw1h"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "めておらファンミーティングツアー『青春！めておら学園祭〜俺たちのやりたいこと全部やる〜』",
+          "slug": "/event/4b7aw1h"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "GRANRODEO Acoustic Live 2026 PLUGLESS GR -FIRE HORSE-",
+          "slug": "/event/qwz9fk5"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "梅沢富美男劇団特別公演 梅沢富美男&研ナオコ アッ!とおどろく夢芝居",
+          "slug": "/event/knot6b"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "令和･歌の祭典 2026 ～名曲歌謡史を綴る～",
+          "slug": "/event/bg48qy0"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "岩崎宏美コンサート2026",
+          "slug": "/event/b2yktkv"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "ディズニー･オン･クラシック ～まほうの夜の音楽会 2026 Let It Go ～扉をひらけ",
+          "slug": "/event/1r8bl"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "ドラゴンクエストコンサート 交響組曲「ドラゴンクエスト8」空と海と大地と呪われし姫君",
+          "slug": "/event/b3bqkow"
+        },
+        {
+          "date": "2027-01-21",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "パチソンフェスティバル JILL OUT",
+          "slug": "/event/b3p2f9a"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "「おかあさんといっしょ」 ファンターネ!がやってきた",
+          "slug": "/event/7rish"
+        },
+        {
+          "date": "2027-01-25",
+          "name": "五木ひろし･由紀さおり",
+          "slug": "/event/b3n087b"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "氷川きよし＋KIINA Concert Tour2026-27 KIINA’S LAND 2",
+          "slug": "/event/i64ub34"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "THE MAESTROS ～二大巨匠が描くタンゴの真髄～ 民音タンゴ･シリーズ〈56〉 オラシオ･ロモ&フルビオ･ヒラウド タンゴ･キンテート",
+          "slug": "/event/b3qr4cs"
+        },
+        {
+          "date": "2027-02-11",
+          "name": "清水ミチコ",
+          "slug": "/event/bijmmh"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "稲垣潤一 稲垣潤一45th Anniversary Tour ～Special Thanks～",
+          "slug": "/event/b3lth3f"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "中村勘九郎 中村七之助 春暁歌舞伎特別公演2027",
+          "slug": "/event/b45pmw"
+        },
+        {
+          "date": "2027-03-25",
+          "name": "四人衆コンサート",
+          "slug": "/event/bxapjmv"
+        },
+        {
+          "date": "2027-04-14",
+          "name": "美川憲一&コロッケ",
+          "slug": "/event/czrfdf"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "東京都交響楽団 都響・八王子シリーズ",
+          "slug": "/event/xg3vhd5"
+        },
+        {
+          "date": "2027-05-12",
+          "name": "ザ・クロマニヨンズ ツアー Hola! Leopardo 2027 ホール公演",
+          "slug": "/event/gpiq277"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "AAA LIVE & TALK 全国ツアー2027",
+          "slug": "/event/0zg4efx"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "w-inds. LIVE TOUR 2027 “Re:1st message”",
+          "slug": "/event/v5j0wl6"
+        },
+        {
+          "date": "2027-07-19",
+          "name": "倖田來未 Koda Kumi Live Tour 2027 ～Kingdom～",
+          "slug": "/event/r9m5mto"
+        }
+      ]
+    }
+  ]
+}

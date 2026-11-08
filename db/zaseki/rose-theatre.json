@@ -1,0 +1,143 @@
+{
+  "venue": "rose-theatre",
+  "zasekiId": 17874,
+  "url": "https://zaseki.music-mdata.com/detail/17874",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:41:10.239Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "富士市文化会館ロゼシアター",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 1632,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/17874.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/17874_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/17874",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/17874/1140201",
+          "title": "富士駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/17874",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-23",
+          "name": "森高千里2026-27 今夜もWe feel fine♪",
+          "slug": "/event/5asoceh"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "高中正義",
+          "slug": "/event/bcs0ke"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "ミュージカル「星影の人ー沖田総司･まぼろしの青春ー」 富士公演",
+          "slug": "/event/b207yfu"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "ミュージカル「星影の人ー沖田総司･まぼろしの青春ー」 富士公演",
+          "slug": "/event/b207yfu"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "ゲッターズ飯田&青木さやか 2人会",
+          "slug": "/event/bwnspei"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "辻井伸行 日本ツアー2027 《展覧会の絵》",
+          "slug": "/event/bw_ibf"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "SKRYU Hall Tour 2027「アホール・ニューワールド」",
+          "slug": "/event/qvdiey7"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "神韻日本公演2027",
+          "slug": "/event/b3f0ic4"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "神韻日本公演2027",
+          "slug": "/event/b3f0ic4"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "氣志團 結成30周年記念 全國ホールGIGツアー",
+          "slug": "/event/4rqrxzk"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "富士市文化会館ロゼシアター",
+      "alias": null,
+      "facility": "中ホール",
+      "capacity": 700,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/17874_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/17874_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/17874",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/17874/1140201",
+          "title": "富士駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/17874",
+          "title": null
+        }
+      },
+      "events": []
+    },
+    {
+      "hallNo": 3,
+      "venueName": "富士市文化会館ロゼシアター",
+      "alias": null,
+      "facility": "小ホール",
+      "capacity": 326,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/17874_3.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/17874_3.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/17874",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/17874/1140201",
+          "title": "富士駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/17874",
+          "title": null
+        }
+      },
+      "events": []
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "venue": "kt-zepp-yokohama",
+  "zasekiId": 25719,
+  "url": "https://zaseki.music-mdata.com/detail/25719",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:35:51.168Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "KT Zepp横浜",
+      "alias": "KT Zepp Yokohama",
+      "facility": "ホール",
+      "capacity": 2146,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25719.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25719_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25719",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25719/9931614",
+          "title": "高島町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25719",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "VAYONN 1st Fanmeeting in JAPAN – Youth Today",
+          "slug": "/event/oh3d0hq"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "XAOSX 1st LIVE 『888 -THE REAL CLAP-』",
+          "slug": "/event/ohwaxy5"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "@onefive",
+          "slug": "/event/oy0gino"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "EX ENTERTAINMENT presents Music Splash!!",
+          "slug": "/event/wwzq9xw"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "零[Hz] ZEROHZ LIVE TOUR 2026 “ECLIPSE DOMINION” -TOUR FINAL-",
+          "slug": "/event/_8jo17"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
+          "slug": "/event/awljvii"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "NELKE 2 MAN TOUR 2026「MERGE」",
+          "slug": "/event/1hmefwf"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "菅叶和NEW BORN LIVE",
+          "slug": "/event/3zzaooi"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "ハートのアン・ウィルソン来日公演",
+          "slug": "/event/pzl6o05"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "Lv. Charm",
+          "slug": "/event/b1b8hv4"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "≠MissionE 公開収録イベント＆ミニLIVE",
+          "slug": "/event/4ant6dh"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "パンダドラゴン 「パンダドラゴン 本気の仲間探しオーディションファイナル」",
+          "slug": "/event/be6sqz3"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "マルコム・トッド",
+          "slug": "/event/4d0hyim"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "betcover!! new portrait tour",
+          "slug": "/event/bdnfzd1"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "WATWING Live Tour 2026-2027「love」",
+          "slug": "/event/v96tcpw"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "WATWING Live Tour 2026-2027「love」",
+          "slug": "/event/v96tcpw"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "ネオロマンス･フェスタ 遙かなる時空の中で3 平泉の夢",
+          "slug": "/event/hi88hh"
+        },
+        {
+          "date": "2026-11-30",
+          "name": "DIR EN GREY 30th Anniversary 列島激震行脚2026 Nothing XXX Ugly",
+          "slug": "/event/nbrc9en"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "宮本佳林",
+          "slug": "/event/bhalnyz"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "またいつか",
+          "slug": "/event/b3un1et"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "M-line Special 2026 Autumn ～NOCTURNE FINALE～",
+          "slug": "/event/blw8ew5"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "JOY-POPS(村越弘明+土屋公平)",
+          "slug": "/event/_xo5hg"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "向井秀徳×松重豊 FMヨコハマ「深夜の音楽食堂」10th ANNIVERSARY 向井秀徳×松重豊～地獄の諸行無常～",
+          "slug": "/event/bw4cak6"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "ゲスの極み乙女 TOUR 2026「おかしなダンス」",
+          "slug": "/event/42774dw"
+        },
+        {
+          "date": "2026-12-17",
+          "name": "SKAramble Japan",
+          "slug": "/event/bf9vku3"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "ヒルクライム ZEPP TOUR「2026」",
+          "slug": "/event/q9i1ac2"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "川上洋平",
+          "slug": "/event/boavdke"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "川上洋平",
+          "slug": "/event/boavdke"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "あらき",
+          "slug": "/event/ba0ped0"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "TAGRIGHT ZEPP TOUR 2026-2027",
+          "slug": "/event/npkf2tb"
+        },
+        {
+          "date": "2026-12-30",
+          "name": "LIVE 2026「CLIMAX」（D'ESPAIRSRAY）",
+          "slug": "/event/ucop88u"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "「ENTA！9」 4U. ZEPP in de SHOW",
+          "slug": "/event/6fsut1r"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "「ENTA！9」 4U. ZEPP in de SHOW",
+          "slug": "/event/6fsut1r"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "阿部顕嵐",
+          "slug": "/event/b09os87"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "Base Ball Bear 新春ベースボールベアーちゃん祭りツアー2027",
+          "slug": "/event/b40r0b"
+        },
+        {
+          "date": "2027-01-21",
+          "name": "SIRUP LIVE TOUR 2027 “Now Landing…”",
+          "slug": "/event/6tmor5b"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "白井貴子&THE CRAZY BOYS",
+          "slug": "/event/cj5r4m"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "kurayamisaka",
+          "slug": "/event/bw3tctv"
+        },
+        {
+          "date": "2027-02-04",
+          "name": "UVERworld LIVE HOUSE TOUR 2027",
+          "slug": "/event/n439f8g"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "muque 5th anniversary kick off live \"SAVE POINT\"",
+          "slug": "/event/yipc3fi"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "MYTH & ROID",
+          "slug": "/event/bqez8uz"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "miwa 再現ライブツアー \"guitarium\"",
+          "slug": "/event/gb372ak"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "DIALOGUE＋ 4th Album Release LIVE「NOVEL＋」",
+          "slug": "/event/af4maxy"
+        },
+        {
+          "date": "2027-02-18",
+          "name": "ザ･クロマニヨンズ",
+          "slug": "/event/cn5ukg"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "TOOBOE",
+          "slug": "/event/br8jn52"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "BREAKERZ LIVE 2027 -VS-",
+          "slug": "/event/5vi3zo5"
+        },
+        {
+          "date": "2027-04-06",
+          "name": "なとり Zepp TOUR 2027",
+          "slug": "/event/2s358vz"
+        },
+        {
+          "date": "2027-04-07",
+          "name": "なとり Zepp TOUR 2027",
+          "slug": "/event/2s358vz"
+        },
+        {
+          "date": "2027-04-11",
+          "name": "松浦航大",
+          "slug": "/event/bmzl63t"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "i☆Ris Final Live Tour 2027",
+          "slug": "/event/9w7cxnb"
+        },
+        {
+          "date": "2027-07-22",
+          "name": "Kroi Live Tour 2027",
+          "slug": "/event/5ght8lb"
+        }
+      ]
+    }
+  ]
+}

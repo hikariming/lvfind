@@ -1,0 +1,260 @@
+{
+  "venue": "kyocera-dome",
+  "zasekiId": 8209,
+  "url": "https://zaseki.music-mdata.com/detail/8209",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:39:23.873Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "京セラドーム大阪",
+      "alias": "大阪ドーム",
+      "facility": "スタジアム",
+      "capacity": 36220,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/8209.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/8209_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/8209",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/8209/3500209",
+          "title": "ドーム前駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/8209",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "第51回社会人野球日本選手権大会 準々決勝(25)",
+          "slug": "/event/bmt9dcn"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "第51回社会人野球日本選手権大会 準々決勝(25)",
+          "slug": "/event/bmt9dcn"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "第51回社会人野球日本選手権大会 準々決勝(25)",
+          "slug": "/event/bmt9dcn"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2026 INI DOME LIVE TOUR",
+          "slug": "/event/htsl2iw"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2026 INI DOME LIVE TOUR",
+          "slug": "/event/htsl2iw"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2026 MAMA AWARDS",
+          "slug": "/event/1g5nki5"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "2026 MAMA AWARDS",
+          "slug": "/event/1g5nki5"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "BIGBANG 2026 WORLD TOUR",
+          "slug": "/event/7ka19ng"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "BIGBANG 2026 WORLD TOUR",
+          "slug": "/event/7ka19ng"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "BIGBANG 2026 WORLD TOUR",
+          "slug": "/event/7ka19ng"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "Number_i LIVE TOUR No.III",
+          "slug": "/event/8wuurg8"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "\"EXILE 25th ANNIVERSARY BEST LIVE\" ～LDH PERFECT YEAR 2026～",
+          "slug": "/event/97zbqro"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "\"EXILE 25th ANNIVERSARY BEST LIVE\" ～LDH PERFECT YEAR 2026～",
+          "slug": "/event/97zbqro"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "Fujii Kaze Prema World Tour",
+          "slug": "/event/sk275a1"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "Fujii Kaze Prema World Tour",
+          "slug": "/event/sk275a1"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "Fujii Kaze Prema World Tour",
+          "slug": "/event/sk275a1"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN KYOCERA DOME OSAKA",
+          "slug": "/event/3bmgyl1"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN KYOCERA DOME OSAKA",
+          "slug": "/event/3bmgyl1"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Kis-My-Ft2 DOME TOUR 2026-2027 fan IS・・・・・・",
+          "slug": "/event/dj7a23f"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Kis-My-Ft2 DOME TOUR 2026-2027 fan IS・・・・・・",
+          "slug": "/event/dj7a23f"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "なにわ男子 DOME LIVE 2026-2027 「ND⁵⁺」 ～あけおめぇ 初夢ぇ Stay with MEE～",
+          "slug": "/event/05fjtid"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "なにわ男子 DOME LIVE 2026-2027 「ND⁵⁺」 ～あけおめぇ 初夢ぇ Stay with MEE～",
+          "slug": "/event/05fjtid"
+        },
+        {
+          "date": "2027-01-04",
+          "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE",
+          "slug": "/event/oltrd91"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE",
+          "slug": "/event/oltrd91"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet",
+          "slug": "/event/7wu0zvh"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet",
+          "slug": "/event/7wu0zvh"
+        },
+        {
+          "date": "2027-01-12",
+          "name": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet",
+          "slug": "/event/7wu0zvh"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        },
+        {
+          "date": "2027-01-19",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-20",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "BUMP OF CHICKEN TOUR 2026-2027 Ratio Clavis",
+          "slug": "/event/efzf9yc"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "BUMP OF CHICKEN TOUR 2026-2027 Ratio Clavis",
+          "slug": "/event/efzf9yc"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN",
+          "slug": "/event/s1xq3gq"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN",
+          "slug": "/event/s1xq3gq"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "LAPOSTA 2027",
+          "slug": "/event/a4mj0n8"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "LAPOSTA 2027",
+          "slug": "/event/a4mj0n8"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "Da-iCE DAY DOME PHASE 2027",
+          "slug": "/event/82wa72k"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "Da-iCE DAY DOME PHASE 2027",
+          "slug": "/event/82wa72k"
+        },
+        {
+          "date": "2027-02-19",
+          "name": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+          "slug": "/event/cfts0iy"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+          "slug": "/event/cfts0iy"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "XG WORLD TOUR: THE CORE FINAL \"1\" & \"7\"",
+          "slug": "/event/eh8b09o"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "XG WORLD TOUR: THE CORE FINAL \"1\" & \"7\"",
+          "slug": "/event/eh8b09o"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "King Gnu 10th Anniversary Opening Live ”KICKOFF”",
+          "slug": "/event/ldnx4dk"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "King Gnu 10th Anniversary Opening Live ”KICKOFF”",
+          "slug": "/event/ldnx4dk"
+        }
+      ]
+    }
+  ]
+}

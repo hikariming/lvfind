@@ -1,0 +1,235 @@
+{
+  "venue": "hbg-hall",
+  "zasekiId": 7677,
+  "url": "https://zaseki.music-mdata.com/detail/7677",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:28.813Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "広島文化学園HBGホール",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 2001,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/7677.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/7677_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/7677",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/7677/9971415",
+          "title": "舟入町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/7677",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "THE ALFEE",
+          "slug": "/event/euaj"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "CANDY TUNE JAPAN TOUR 2026 - AUTUMN -",
+          "slug": "/event/twyegjp"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "The 50th Anniversary 俺たちの旅 スペシャルコンサート",
+          "slug": "/event/sf8piwq"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "広島交響楽団 第466回定期演奏会",
+          "slug": "/event/7rmpj4r"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "ディズニー･オン･クラシック ～まほうの夜の音楽会2026",
+          "slug": "/event/1r8bl"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "MAZZEL 2nd Fan Meeting -Play at the MUZEUM Vol.2-",
+          "slug": "/event/2rdjsgv"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "斉藤和義 KAZUYOSHI SAITO LIVE TOUR 2026",
+          "slug": "/event/uv81h3k"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "島津亜矢",
+          "slug": "/event/8mpei"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
+          "slug": "/event/azwb2ya"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "コレサワ HALL TOUR 2026 THE PINK",
+          "slug": "/event/5m2kyll"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "森山良子",
+          "slug": "/event/bx34k"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "清水ミチコ",
+          "slug": "/event/bijmmh"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "Da-iCE DAY HALL PHASE 2026",
+          "slug": "/event/zs9r3tk"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "デビュー50周年記念 松山千春コンサート・ツアー2026",
+          "slug": "/event/0s7ueoi"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "LiSA 『LiVE is Smile Always～LACE UP～』",
+          "slug": "/event/raaesiv"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "Tani Yuuki",
+          "slug": "/event/bmxu8vw"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "広島交響楽団 年末スペシャル ドラゴンクエストコンサート",
+          "slug": "/event/ocs3s03"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "吉幾三 コンサート2027",
+          "slug": "/event/tcom0"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "ASIAN KUNG-FU GENERATION 30th Anniversary Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "清塚信也Piano Trio ツアー 2026-2027「Harmony」",
+          "slug": "/event/dy2lw2u"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "高嶋ちさ子",
+          "slug": "/event/ulcc2k"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "水瀬いのり2027年ライブツアー",
+          "slug": "/event/vk28e2a"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "しなこワールドは何色？ツアー",
+          "slug": "/event/qkq089a"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "しなこ",
+          "slug": "/event/b3mxrqx"
+        },
+        {
+          "date": "2027-02-26",
+          "name": "NDRエルプフィルハーモニー管弦楽団 アラン･ギルバート×角野隼斗 広島公演",
+          "slug": "/event/cs127f"
+        },
+        {
+          "date": "2027-03-19",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-03-24",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-03-25",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-04-09",
+          "name": "岩崎宏美･サーカス･渡辺真知子",
+          "slug": "/event/bxtuo9b"
+        },
+        {
+          "date": "2027-04-24",
+          "name": "松下洸平 KOUHEI MATSUSHITA LIVE TOUR 2027 〜New Dawn〜",
+          "slug": "/event/00mqb2c"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-05-15",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "Chevon ONE MAN TOUR 2027",
+          "slug": "/event/x7f20fx"
+        },
+        {
+          "date": "2027-05-29",
+          "name": "FANTASTICS LIVE TOUR 2027 \"PROMISE\"",
+          "slug": "/event/utv86ru"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "きゃりーぱみゅぱみゅ 15th ANNIVERSARY JAPAN TOUR 2027",
+          "slug": "/event/gynw7n9"
+        }
+      ]
+    }
+  ]
+}

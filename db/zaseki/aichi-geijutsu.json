@@ -1,0 +1,585 @@
+{
+  "venue": "aichi-geijutsu",
+  "zasekiId": 13785,
+  "url": "https://zaseki.music-mdata.com/detail/13785",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:42:47.471Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "愛知県芸術劇場",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 2480,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/13785.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/13785_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/13785",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/13785/3001201",
+          "title": "栄町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/13785",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "山下達郎 PERFORMANCE 2026 Supported by Rakuten Card",
+          "slug": "/event/hls0vfq"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "山下達郎 PERFORMANCE 2026 Supported by Rakuten Card",
+          "slug": "/event/hls0vfq"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "まふまふ ひきこもりでもLIVEがしたい！～Acoustic Live Tour 2026～『叙情』",
+          "slug": "/event/rq6cnny"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "まふまふ ひきこもりでもLIVEがしたい！～Acoustic Live Tour 2026～『叙情』",
+          "slug": "/event/rq6cnny"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "CNBLUE AUTUMN TOUR 2026 -FULL CIRCLE-",
+          "slug": "/event/ncd77pc"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "CNBLUE AUTUMN TOUR 2026 -FULL CIRCLE-",
+          "slug": "/event/ncd77pc"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "10th Anniversary ミュージカル「ヘタリア～World☆Starts～」",
+          "slug": "/event/y0tdja"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "10th Anniversary ミュージカル「ヘタリア～World☆Starts～」",
+          "slug": "/event/y0tdja"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "10th Anniversary ミュージカル「ヘタリア～World☆Starts～」",
+          "slug": "/event/y0tdja"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "REBECCA 『Cosmic Autonomy Tour 2026-2027』",
+          "slug": "/event/x3uclkq"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "REBECCA 『Cosmic Autonomy Tour 2026-2027』",
+          "slug": "/event/x3uclkq"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "ミュージカル『RENT』",
+          "slug": "/event/dnivb1"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "ミュージカル『RENT』",
+          "slug": "/event/dnivb1"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "ミュージカル『RENT』",
+          "slug": "/event/dnivb1"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "MAZZEL 2nd Fan Meeting -Play at the MUZEUM Vol.2-",
+          "slug": "/event/2rdjsgv"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "ディズニー･オン･クラシック ～まほうの夜の音楽会 2026",
+          "slug": "/event/1r8bl"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "ディズニー･オン･クラシック ～まほうの夜の音楽会 2026",
+          "slug": "/event/1r8bl"
+        },
+        {
+          "date": "2026-12-17",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "チャイコフスキー･バレエ劇場「くるみ割り人形」",
+          "slug": "/event/b2qfjrf"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "松任谷由実 THE WORMHOLE TOUR 2025-26 第3期",
+          "slug": "/event/7gkbn1a"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "松任谷由実 THE WORMHOLE TOUR 2025-26 第3期",
+          "slug": "/event/7gkbn1a"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "T.M.R. LIVE REVOLUTION '26-'27",
+          "slug": "/event/970i91n"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "ミュージカル『ラ･カージュ･オ･フォール 籠の中の道化たち』",
+          "slug": "/event/dmzbnx"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "ミュージカル『ラ･カージュ･オ･フォール 籠の中の道化たち』",
+          "slug": "/event/dmzbnx"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "ミュージカル『ラ･カージュ･オ･フォール 籠の中の道化たち』",
+          "slug": "/event/dmzbnx"
+        },
+        {
+          "date": "2027-01-13",
+          "name": "青春のグラフィティコンサート2027",
+          "slug": "/event/blcnq_s"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "PROJECT vα-liv 3rdLIVE&MEETING",
+          "slug": "/event/jw68nwy"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "PROJECT vα-liv 3rdLIVE&MEETING",
+          "slug": "/event/jw68nwy"
+        },
+        {
+          "date": "2027-02-02",
+          "name": "沢田研二 LIVE 2027『NoWarの祈り』",
+          "slug": "/event/leyio7d"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "SUPER★DRAGON LIVE TOUR 2027「house」",
+          "slug": "/event/fbt2sr9"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "DRUM TAO 2027 「THE HUMAN」",
+          "slug": "/event/cpjc2v"
+        },
+        {
+          "date": "2027-02-19",
+          "name": "ミュージカル『ファインディング･ネバーランド』",
+          "slug": "/event/brrm86u"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "ミュージカル『ファインディング･ネバーランド』",
+          "slug": "/event/brrm86u"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "ミュージカル『ファインディング･ネバーランド』",
+          "slug": "/event/brrm86u"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "平原綾香",
+          "slug": "/event/b0c8ag"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "清水ミチコ",
+          "slug": "/event/bijmmh"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "手嶌葵 20th Anniversary Concert 2026-2027",
+          "slug": "/event/erabosz"
+        },
+        {
+          "date": "2027-03-17",
+          "name": "舟木一夫",
+          "slug": "/event/r3o5o"
+        },
+        {
+          "date": "2027-03-18",
+          "name": "舟木一夫",
+          "slug": "/event/r3o5o"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "LUNA SEA SLAVE 35th ANNIVERSARY SLAVE限定GIG TOUR -DEAR SLAVES 2027-",
+          "slug": "/event/wrml4yj"
+        },
+        {
+          "date": "2027-03-24",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-03-25",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-03-30",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-04-13",
+          "name": "神韻日本公演2027",
+          "slug": "/event/b3f0ic4"
+        },
+        {
+          "date": "2027-04-14",
+          "name": "神韻日本公演2027",
+          "slug": "/event/b3f0ic4"
+        },
+        {
+          "date": "2027-04-15",
+          "name": "神韻日本公演2027",
+          "slug": "/event/b3f0ic4"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "w-inds. LIVE TOUR 2027 “Re:1st message”",
+          "slug": "/event/v5j0wl6"
+        },
+        {
+          "date": "2027-05-28",
+          "name": "ディズニー・オン・クラシック 〜夢とまほうの贈りもの 2027",
+          "slug": "/event/swe3i9d"
+        },
+        {
+          "date": "2027-05-29",
+          "name": "東京都交響楽団 名古屋特別公演",
+          "slug": "/event/r7ur0df"
+        },
+        {
+          "date": "2027-07-02",
+          "name": "ナポリ サン･カルロ歌劇場 ヴェルディ:歌劇『アイーダ』 第50回名古屋国際音楽祭",
+          "slug": "/event/b3wjbbo"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "愛知県芸術劇場",
+      "alias": null,
+      "facility": "小ホール",
+      "capacity": 330,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/13785_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/13785_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/13785",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/13785/3001201",
+          "title": "栄町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/13785",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "Dream 柏木玲子･窪田宏･鷹野雅史･武本和大",
+          "slug": "/event/b2u1bpv"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "桂春蝶 独演会",
+          "slug": "/event/ffkq0p"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "立川志の春 独演会 其の29",
+          "slug": "/event/jglxum"
+        }
+      ]
+    },
+    {
+      "hallNo": 3,
+      "venueName": "愛知県芸術劇場",
+      "alias": null,
+      "facility": "コンサートホール",
+      "capacity": 1800,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/13785_3.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/13785_3.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/13785",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/13785/3001201",
+          "title": "栄町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/13785",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "マルティン･ガルシア･ガルシア ピアノ･リサイタル <第44回名古屋クラシックフェスティバル>",
+          "slug": "/event/boni90a"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "反田恭平 ピアノリサイタル2026 デビュー10周年記念ツアー",
+          "slug": "/event/ytp0p4"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "内田光子 ピアノ･リサイタル",
+          "slug": "/event/xhbvmr"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "佐渡裕指揮 シエナ･ウインド･オーケストラ 《ブラスの祭典 2026》 第30回記念スーパークラシックコンサート",
+          "slug": "/event/yz6ae"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "名古屋フィルハーモニー交響楽団 第550回定期演奏会",
+          "slug": "/event/3mu7l35"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "名古屋フィルハーモニー交響楽団 第550回定期演奏会",
+          "slug": "/event/3mu7l35"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "名古屋フィルハーモニー交響楽団 スペシャル・クワトロIII",
+          "slug": "/event/nma8hz6"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "第45回 名古屋銀行チャリティーコンサート",
+          "slug": "/event/sj20bwd"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "アレクサンドル･カントロフ ピアノ･リサイタル <第44回名古屋クラシックフェスティバル>",
+          "slug": "/event/bjs5qzj"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "THE DAY OF MISHIMA-花と音楽･舞踊の宴- -西川千雅･石田巳賀･川井郁子･滑川真希-",
+          "slug": "/event/b3v3b5f"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "愛知室内オーケストラ 第102回定期演奏会",
+          "slug": "/event/e2i0jln"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "愛知室内オーケストラ 第103回定期演奏会",
+          "slug": "/event/iiwt94y"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "セントラル愛知交響楽団 市民合唱団による「悠久の第九」",
+          "slug": "/event/enqnilh"
+        },
+        {
+          "date": "2027-01-08",
+          "name": "ウィーン･リング･アンサンブル ニューイヤー･コンサート2027",
+          "slug": "/event/e3dir"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "八神純子",
+          "slug": "/event/jvc7og"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "ニューイヤー･コンサート2027 ウィーン･フォルクスオーパー交響楽団 第30回記念スーパークラシックコンサート",
+          "slug": "/event/dvc25"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "ウィーン宮殿祝賀コンサート ～ウィンナー･ワルツ2027～",
+          "slug": "/event/b29r7x6"
+        },
+        {
+          "date": "2027-01-13",
+          "name": "東京キューバンボーイズVSアロージャズオーケストラ 灼熱のマンボVS輝けるスイング!",
+          "slug": "/event/bp6obpt"
+        },
+        {
+          "date": "2027-01-14",
+          "name": "プラハ交響楽団 トマーシュ･ネトピル指揮 金子三勇士ピアノ <第44回名古屋クラシックフェスティバル>",
+          "slug": "/event/dgj8v"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "セントラル愛知交響楽団 第222回定期演奏会",
+          "slug": "/event/b4ftkyu"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "愛知室内オーケストラ 第104回定期演奏会",
+          "slug": "/event/azsszm5"
+        },
+        {
+          "date": "2027-02-04",
+          "name": "愛知室内オーケストラ 第105回定期演奏会",
+          "slug": "/event/2wealtl"
+        },
+        {
+          "date": "2027-02-12",
+          "name": "中部フィルハーモニー交響楽団 第109回定期演奏会",
+          "slug": "/event/bvfrq1h"
+        },
+        {
+          "date": "2027-02-24",
+          "name": "辻井伸行 日本ツアー2027 《展覧会の絵》",
+          "slug": "/event/bw_ibf"
+        },
+        {
+          "date": "2027-02-25",
+          "name": "アラン･ギルバート指揮 NDRエルプフィルハーモニー管弦楽団 ピアノ:角野隼斗 第30回記念スーパークラシックコンサート",
+          "slug": "/event/cs127l"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "岩崎宏美/岩崎良美",
+          "slug": "/event/bs2aekm"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "Osaka Shion Wind Orchestra ドラゴンクエストコンサート in NAGOYA",
+          "slug": "/event/f5h8c8"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "牛田智大 ピアノ･リサイタル",
+          "slug": "/event/k3rgmd"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "手嶌葵",
+          "slug": "/event/dag6k8"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "バッハ･コレギウム･ジャパン 第50回名古屋国際音楽祭",
+          "slug": "/event/pgj_p"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "名古屋国際音楽祭ガラ･コンサート 第50回名古屋国際音楽祭",
+          "slug": "/event/brktqk6"
+        },
+        {
+          "date": "2027-04-21",
+          "name": "亀井聖矢ピアノリサイタルツアー2027 Supported by MUFG Wealth Management",
+          "slug": "/event/bk222yp"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "中部フィルハーモニー交響楽団 第110回定期演奏会",
+          "slug": "/event/pjrubw0"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "ミハイル･プレトニョフピアノ･リサイタル 第50回名古屋国際音楽祭",
+          "slug": "/event/qv1itw"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "ジョルディ･サヴァール指揮 ル･コンセール･デ･ナシオン 第50回名古屋国際音楽祭",
+          "slug": "/event/b3wdd7k"
+        },
+        {
+          "date": "2027-07-01",
+          "name": "山田和樹指揮 バーミンガム市交響楽団 第50回名古屋国際音楽祭",
+          "slug": "/event/oogb22"
+        },
+        {
+          "date": "2027-07-11",
+          "name": "トーマス･ヘンゲルブロック指揮 パリ室内管弦楽団 第50回名古屋国際音楽祭",
+          "slug": "/event/b3wjimy"
+        },
+        {
+          "date": "2027-07-16",
+          "name": "中部フィルハーモニー交響楽団 第112回定期演奏会",
+          "slug": "/event/3cji3ir"
+        },
+        {
+          "date": "2027-08-28",
+          "name": "愛知4大オーケストラ･フェスティヴァル 2027 ベートーヴェン交響曲演奏会 第50回名古屋国際音楽祭",
+          "slug": "/event/by782va"
+        }
+      ]
+    }
+  ]
+}

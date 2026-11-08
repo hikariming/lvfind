@@ -1,0 +1,380 @@
+{
+  "venue": "glion-arena",
+  "zasekiId": 28525,
+  "url": "https://zaseki.music-mdata.com/detail/28525",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:07.576Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "ジーライオンアリーナ神戸",
+      "alias": "GLION ARENA KOBE",
+      "facility": "アリーナ",
+      "capacity": 10000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/28525.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/28525_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/28525",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/28525/9964803",
+          "title": "ポートターミナル駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/28525",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "BUMP OF CHICKEN TOUR 2026-2027 Ratio Clavis",
+          "slug": "/event/efzf9yc"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 東京サンロッカーズ",
+          "slug": "/event/9i7b16a"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 川崎ブレイブサンダース",
+          "slug": "/event/kho1gpi"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "マカロニえんぴつ「マカロックツアーvol.22 〜いま、きみがすき！篇〜」",
+          "slug": "/event/9qh1bkc"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "B.PREMIER公式戦 神戸ストークス vs アルティーリ千葉",
+          "slug": "/event/azpqlyh"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "大同生命SV.LEAGUE 第7節 大阪ブルテオン vs ジェイテクトSTINGS愛知",
+          "slug": "/event/tvpsfdf"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "大同生命SV.LEAGUE 第7節 大阪ブルテオン vs ジェイテクトSTINGS愛知",
+          "slug": "/event/tvpsfdf"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 茨城ロボッツ",
+          "slug": "/event/a0c3ovr"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "ONE LOVE フェス 2026",
+          "slug": "/event/g5fh5ol"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 島根スサノオマジック",
+          "slug": "/event/fwg09ne"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "ØMI MOON NIGHT 2026 \"Ø to 3\" ～今年もお世話になりました!!大忘年会SPECIAL～",
+          "slug": "/event/g5ojogi"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "ØMI MOON NIGHT 2026 \"Ø to 3\" ～今年もお世話になりました!!大忘年会SPECIAL～",
+          "slug": "/event/g5ojogi"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "マーベル・スタジオ インフィニティ・サーガ コンサート・エクスペリエンス 2026",
+          "slug": "/event/vn8nvc2"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "マーベル・スタジオ インフィニティ・サーガ コンサート・エクスペリエンス 2026",
+          "slug": "/event/vn8nvc2"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 信州ブレイブウォリアーズ",
+          "slug": "/event/fyhih6u"
+        },
+        {
+          "date": "2027-01-02",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 信州ブレイブウォリアーズ",
+          "slug": "/event/fyhih6u"
+        },
+        {
+          "date": "2027-01-03",
+          "name": "B.PREMIER公式戦 神戸ストークス vs 信州ブレイブウォリアーズ",
+          "slug": "/event/fyhih6u"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2027-01-20",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-01-21",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "キタニタツヤ ONEMAM ARENA TOUR \"DEKAI / PURE\"",
+          "slug": "/event/wglge32"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "キタニタツヤ ONEMAM ARENA TOUR \"DEKAI / PURE\"",
+          "slug": "/event/wglge32"
+        },
+        {
+          "date": "2027-02-03",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-02-04",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "Tani Yuuki",
+          "slug": "/event/bmxu8vw"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "宮本浩次 Tour 2026 – 2027「I AM HERO」",
+          "slug": "/event/9ldguw4"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "宮本浩次 Tour 2026 – 2027「I AM HERO」",
+          "slug": "/event/9ldguw4"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "大同生命SV.LEAGUE 第17節 大阪ブルテオン vs 東京グレートベアーズ",
+          "slug": "/event/wyrbaar"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "大同生命SV.LEAGUE 第17節 大阪ブルテオン vs 東京グレートベアーズ",
+          "slug": "/event/wyrbaar"
+        },
+        {
+          "date": "2027-03-17",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-03-18",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "STARGLOW 1st Arena Tour 2027 Aurora – The Dawn -",
+          "slug": "/event/jakg4nz"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "STARGLOW 1st Arena Tour 2027 Aurora – The Dawn -",
+          "slug": "/event/jakg4nz"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "ASIAN KUNG-FU GENERATION",
+          "slug": "/event/bf28lc"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "ASIAN KUNG-FU GENERATION Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-04-10",
+          "name": "イキヅライブ! LOVELIVE! BLUEBIRD いきづらい部! 3rd LIVE ～いつかみんなで叶いそう～",
+          "slug": "/event/bz635d2"
+        },
+        {
+          "date": "2027-04-11",
+          "name": "イキヅライブ! LOVELIVE! BLUEBIRD いきづらい部! 3rd LIVE ～いつかみんなで叶いそう～",
+          "slug": "/event/bz635d2"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Suchmos BAY SIDE TOUR 2027",
+          "slug": "/event/rtceh5g"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Suchmos BAY SIDE TOUR 2027",
+          "slug": "/event/rtceh5g"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-05-19",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "Creepy Nuts ONEMAN TOUR 2027",
+          "slug": "/event/h54een5"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "Creepy Nuts ONEMAN TOUR 2027",
+          "slug": "/event/h54een5"
+        },
+        {
+          "date": "2027-05-28",
+          "name": "矢沢永吉 EIKICHI YAZAWA CONCERT TOUR 2027「GOLD RUSH 2027」",
+          "slug": "/event/tosykpx"
+        },
+        {
+          "date": "2027-05-29",
+          "name": "矢沢永吉 EIKICHI YAZAWA CONCERT TOUR 2027「GOLD RUSH 2027」",
+          "slug": "/event/tosykpx"
+        },
+        {
+          "date": "2027-06-19",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-06-22",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-06-23",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-07-10",
+          "name": "Novelbright 2027 ARENA TOUR",
+          "slug": "/event/bjdgr8t"
+        },
+        {
+          "date": "2027-07-11",
+          "name": "Novelbright 2027 ARENA TOUR",
+          "slug": "/event/bjdgr8t"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        }
+      ]
+    }
+  ]
+}

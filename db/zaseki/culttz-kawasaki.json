@@ -1,0 +1,130 @@
+{
+  "venue": "culttz-kawasaki",
+  "zasekiId": 25493,
+  "url": "https://zaseki.music-mdata.com/detail/25493",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:18.546Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "カルッツかわさき",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 2013,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25493.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25493_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25493",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25493/2700302",
+          "title": "港町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25493",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "山内惠介",
+          "slug": "/event/d70y0v"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "Culttz presents 「カラフル･クラシック」 石井琢磨×神奈川フィル",
+          "slug": "/event/b2zno4g"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "DA PUMP <追加公演>",
+          "slug": "/event/nipeb"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "水瀬いのり MELODY FLAG 10周年記念イベント～カルッツかわさきで待ち合わせ～",
+          "slug": "/event/abqoiqt"
+        },
+        {
+          "date": "2026-12-21",
+          "name": "T.M.R. LIVE REVOLUTION '26-'27",
+          "slug": "/event/970i91n"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "キーウ･クラシック･バレエ 「くるみ割り人形」",
+          "slug": "/event/dh8tv4"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "Plastic Tree 年末公演2026ゆくプラくるプラ〜Songs for The Flowers of Romance〜",
+          "slug": "/event/xcjrh0b"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "神奈川フィルハーモニー管弦楽団 For Future巡回公演シリーズ「吹奏楽inオーケストラVol.2」",
+          "slug": "/event/b3iqsmr"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "米村でんじろう でんじろう先生のドキドキわくわくサイエンスショー",
+          "slug": "/event/b3e8v7x"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "清水ミチコ",
+          "slug": "/event/bijmmh"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "THE MAESTROS ～二大巨匠が描くタンゴの真髄～ 民音タンゴ･シリーズ〈56〉 オラシオ･ロモ&フルビオ･ヒラウド タンゴ･キンテート",
+          "slug": "/event/b3qr4cs"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "w-inds. LIVE TOUR 2027 “Re:1st message”",
+          "slug": "/event/v5j0wl6"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "ザ・グレン・ミラー・オーケストラ Japan Tour 2027",
+          "slug": "/event/wtian0v"
+        },
+        {
+          "date": "2027-05-14",
+          "name": "SING LIKE TALKING “THE FINAL” Dedicated to 西村智彦",
+          "slug": "/event/cf8wezq"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "くるり『くるりの30回転』～芳しきアンサンブル～（ホール編）",
+          "slug": "/event/63tjc84"
+        },
+        {
+          "date": "2027-06-25",
+          "name": "高橋優 LIVE TOUR 2027「free style stroke 2」",
+          "slug": "/event/choxnj6"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "中村雅俊",
+          "slug": "/event/d49an"
+        }
+      ]
+    }
+  ]
+}

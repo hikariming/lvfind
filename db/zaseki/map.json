@@ -1,0 +1,933 @@
+{
+  "tokyo-dome": {
+    "query": "東京ドーム 座席表",
+    "candidates": [
+      {
+        "title": "東京ドーム スタジアムの座席表 （55,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/8759/1",
+        "score": 0
+      },
+      {
+        "title": "東京ドーム スタジアムの座席表 （55,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/8759/1",
+        "score": 0
+      },
+      {
+        "title": "カナデビアホール ホールの座席表 （3,190席）",
+        "href": "https://zaseki.music-mdata.com/detail/8760/1",
+        "score": 0
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8759/1",
+    "match": "retry"
+  },
+  "saitama-super-arena": {
+    "query": "web_search",
+    "candidates": [],
+    "detail": "https://zaseki.music-mdata.com/detail/24238/1",
+    "match": "weak",
+    "note": "GMOアリーナさいたま = さいたまスーパーアリーナ 冠名"
+  },
+  "k-arena": {
+    "query": "Kアリーナ横浜",
+    "candidates": [
+      {
+        "title": "Kアリーナ横浜 アリーナの座席表 （20,033席）",
+        "href": "https://zaseki.music-mdata.com/detail/29025/1",
+        "score": 2
+      },
+      {
+        "title": "Kアリーナ横浜 アリーナの座席表 （20,033席）",
+        "href": "https://zaseki.music-mdata.com/detail/29025/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/29025/1",
+    "match": "auto"
+  },
+  "kyocera-dome": {
+    "query": "京セラドーム大阪",
+    "candidates": [
+      {
+        "title": "京セラドーム大阪 スタジアムの座席表 （36,220席）",
+        "href": "https://zaseki.music-mdata.com/detail/8209/1",
+        "score": 2
+      },
+      {
+        "title": "京セラドーム大阪 スタジアムの座席表 （36,220席）",
+        "href": "https://zaseki.music-mdata.com/detail/8209/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8209/1",
+    "match": "auto"
+  },
+  "vantelin-dome": {
+    "query": "バンテリンドーム ナゴヤ",
+    "candidates": [
+      {
+        "title": "バンテリンドーム ナゴヤ ドームの座席表 （36,778席）",
+        "href": "https://zaseki.music-mdata.com/detail/15156/1",
+        "score": 2
+      },
+      {
+        "title": "バンテリンドーム ナゴヤ ドームの座席表 （36,778席）",
+        "href": "https://zaseki.music-mdata.com/detail/15156/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/15156/1",
+    "match": "auto"
+  },
+  "paypay-dome": {
+    "query": "みずほPayPayドーム福岡",
+    "candidates": [
+      {
+        "title": "みずほPayPayドーム福岡 ドームの座席表 （40,062席）",
+        "href": "https://zaseki.music-mdata.com/detail/13568/1",
+        "score": 2
+      },
+      {
+        "title": "みずほPayPayドーム福岡 ドームの座席表 （40,062席）",
+        "href": "https://zaseki.music-mdata.com/detail/13568/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/13568/1",
+    "match": "auto"
+  },
+  "premist-dome": {
+    "query": "大和ハウス プレミストドーム",
+    "candidates": [
+      {
+        "title": "大和ハウス プレミストドーム ドームの座席表 （53,820席）",
+        "href": "https://zaseki.music-mdata.com/detail/24233/1",
+        "score": 2
+      },
+      {
+        "title": "大和ハウス プレミストドーム ドームの座席表 （53,820席）",
+        "href": "https://zaseki.music-mdata.com/detail/24233/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/24233/1",
+    "match": "auto"
+  },
+  "belluna-dome": {
+    "query": "ベルーナドーム",
+    "candidates": [
+      {
+        "title": "ベルーナドーム 野球場の座席表 （31,552席）",
+        "href": "https://zaseki.music-mdata.com/detail/9886/1",
+        "score": 2
+      },
+      {
+        "title": "ベルーナドーム 野球場の座席表 （31,552席）",
+        "href": "https://zaseki.music-mdata.com/detail/9886/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9886/1",
+    "match": "auto"
+  },
+  "ariake-arena": {
+    "query": "有明アリーナ",
+    "candidates": [
+      {
+        "title": "有明アリーナ メインアリーナの座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/25721/1",
+        "score": 2
+      },
+      {
+        "title": "有明アリーナ メインアリーナの座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/25721/1",
+        "score": 2
+      },
+      {
+        "title": "有明コロシアム アリーナの座席表 （10,008席）",
+        "href": "https://zaseki.music-mdata.com/detail/9860/1",
+        "score": 1
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25721/1",
+    "match": "auto"
+  },
+  "asue-arena-osaka": {
+    "query": "web_search",
+    "candidates": [],
+    "detail": "https://zaseki.music-mdata.com/detail/22041/1",
+    "match": "weak",
+    "note": "Asueアリーナ大阪 = アシストヒューマンエキスポアリーナ大阪 = 大阪市中央体育館"
+  },
+  "port-messe": {
+    "query": "ポートメッセなごや",
+    "candidates": [
+      {
+        "title": "ポートメッセなごや 第1展示館の座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/20639/1",
+        "score": 2
+      },
+      {
+        "title": "ポートメッセなごや 第1展示館の座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/20639/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/20639/1",
+    "match": "auto"
+  },
+  "hbg-hall": {
+    "query": "広島文化学園HBGホール",
+    "candidates": [
+      {
+        "title": "広島文化学園HBGホール 大ホールの座席表 （2,001席）",
+        "href": "https://zaseki.music-mdata.com/detail/7677/1",
+        "score": 2
+      },
+      {
+        "title": "広島文化学園HBGホール 大ホールの座席表 （2,001席）",
+        "href": "https://zaseki.music-mdata.com/detail/7677/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/7677/1",
+    "match": "auto"
+  },
+  "ichikawa-bunka": {
+    "query": "市川市文化会館 大ホール",
+    "candidates": [
+      {
+        "title": "市川市文化会館 大ホールの座席表 （1,758席）",
+        "href": "https://zaseki.music-mdata.com/detail/9890/1",
+        "score": 2
+      },
+      {
+        "title": "市川市文化会館 大ホールの座席表 （1,758席）",
+        "href": "https://zaseki.music-mdata.com/detail/9890/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9890/1",
+    "match": "auto"
+  },
+  "jcom-hachioji": {
+    "query": "J:COMホール八王子",
+    "candidates": [
+      {
+        "title": "J:COMホール八王子 ホールの座席表 （2,021席）",
+        "href": "https://zaseki.music-mdata.com/detail/9812/1",
+        "score": 2
+      },
+      {
+        "title": "J:COMホール八王子 ホールの座席表 （2,021席）",
+        "href": "https://zaseki.music-mdata.com/detail/9812/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9812/1",
+    "match": "auto"
+  },
+  "sgc-hall": {
+    "query": "SGCホール有明",
+    "candidates": [
+      {
+        "title": "SGCホール有明 ホールの座席表 （5,306席）",
+        "href": "https://zaseki.music-mdata.com/detail/31078/1",
+        "score": 2
+      },
+      {
+        "title": "SGCホール有明 ホールの座席表 （5,306席）",
+        "href": "https://zaseki.music-mdata.com/detail/31078/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/31078/1",
+    "match": "auto"
+  },
+  "rose-theatre": {
+    "query": "富士市文化会館ロゼシアター",
+    "candidates": [
+      {
+        "title": "富士市文化会館ロゼシアター 大ホールの座席表 （1,632席）",
+        "href": "https://zaseki.music-mdata.com/detail/17874/1",
+        "score": 2
+      },
+      {
+        "title": "富士市文化会館ロゼシアター 大ホールの座席表 （1,632席）",
+        "href": "https://zaseki.music-mdata.com/detail/17874/1",
+        "score": 2
+      },
+      {
+        "title": "富士市文化会館ロゼシアター 中ホールの座席表 （700席）",
+        "href": "https://zaseki.music-mdata.com/detail/17874/2",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/17874/1",
+    "match": "auto"
+  },
+  "kobe-kokusai": {
+    "query": "神戸国際会館こくさいホール",
+    "candidates": [
+      {
+        "title": "神戸国際会館こくさいホール こくさいホールの座席表 （2,022席）",
+        "href": "https://zaseki.music-mdata.com/detail/8146/1",
+        "score": 2
+      },
+      {
+        "title": "神戸国際会館こくさいホール こくさいホールの座席表 （2,022席）",
+        "href": "https://zaseki.music-mdata.com/detail/8146/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8146/1",
+    "match": "auto"
+  },
+  "iichiko-gran": {
+    "query": "iichikoグランシアタ",
+    "candidates": [
+      {
+        "title": "iichiko総合文化センター グランシアタの座席表 （1,966席）",
+        "href": "https://zaseki.music-mdata.com/detail/13628/1",
+        "score": 1
+      },
+      {
+        "title": "iichiko総合文化センター グランシアタの座席表 （1,966席）",
+        "href": "https://zaseki.music-mdata.com/detail/13628/1",
+        "score": 1
+      },
+      {
+        "title": "iichiko総合文化センター 音の泉ホールの座席表 （710席）",
+        "href": "https://zaseki.music-mdata.com/detail/13628/2",
+        "score": 0.6363636363636364
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/13628/1",
+    "match": "weak"
+  },
+  "kumamoto-jo": {
+    "query": "熊本城ホール メインホール",
+    "candidates": [
+      {
+        "title": "熊本城ホール メインホールの座席表 （2,304席）",
+        "href": "https://zaseki.music-mdata.com/detail/25635/1",
+        "score": 2
+      },
+      {
+        "title": "熊本城ホール メインホールの座席表 （2,304席）",
+        "href": "https://zaseki.music-mdata.com/detail/25635/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25635/1",
+    "match": "auto"
+  },
+  "iwaki-alios": {
+    "query": "いわき芸術文化交流会館アリオス アルパイン大ホール",
+    "candidates": [
+      {
+        "title": "いわき芸術文化交流館アリオス（アルパイン大ホール ... - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/9610/1",
+        "score": 0.9523809523809523
+      },
+      {
+        "title": "いわき芸術文化交流館アリオス（アルパイン大ホール ... - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/9610/1",
+        "score": 0.9523809523809523
+      },
+      {
+        "title": "いわき芸術文化交流館アリオス GSユアサいわき小劇場の座席表 ...",
+        "href": "https://zaseki.music-mdata.com/detail/9610/3",
+        "score": 0.6666666666666666
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9610/1",
+    "match": "weak"
+  },
+  "tokyo-garden": {
+    "query": "東京ガーデンシアター",
+    "candidates": [
+      {
+        "title": "東京ガーデンシアター シアターの座席表 （8,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/27706/1",
+        "score": 2
+      },
+      {
+        "title": "東京ガーデンシアター シアターの座席表 （8,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/27706/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/27706/1",
+    "match": "auto"
+  },
+  "matsuyama-shimin": {
+    "query": "松山市民会館 大ホール",
+    "candidates": [
+      {
+        "title": "松山市民会館 大ホールの座席表 （1,845席）",
+        "href": "https://zaseki.music-mdata.com/detail/17870/1",
+        "score": 2
+      },
+      {
+        "title": "松山市民会館 大ホールの座席表 （1,845席）",
+        "href": "https://zaseki.music-mdata.com/detail/17870/1",
+        "score": 2
+      },
+      {
+        "title": "松山市北条市民会館 大ホールの座席表 （547席）",
+        "href": "https://zaseki.music-mdata.com/detail/27960/1",
+        "score": 1
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/17870/1",
+    "match": "auto"
+  },
+  "fukuoka-sunpalace": {
+    "query": "福岡サンパレス",
+    "candidates": [
+      {
+        "title": "福岡サンパレス コンサートホールの座席表 （2,316席）",
+        "href": "https://zaseki.music-mdata.com/detail/13566/1",
+        "score": 2
+      },
+      {
+        "title": "福岡サンパレス コンサートホールの座席表 （2,316席）",
+        "href": "https://zaseki.music-mdata.com/detail/13566/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/13566/1",
+    "match": "auto"
+  },
+  "kddi-ishin": {
+    "query": "KDDI維新ホール",
+    "candidates": [
+      {
+        "title": "KDDI維新ホール メインホールの座席表 （2,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/27940/1",
+        "score": 2
+      },
+      {
+        "title": "KDDI維新ホール メインホールの座席表 （2,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/27940/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/27940/1",
+    "match": "auto"
+  },
+  "aichi-geijutsu": {
+    "query": "愛知県芸術劇場 大ホール",
+    "candidates": [
+      {
+        "title": "愛知県芸術劇場 大ホールの座席表 （2,480席）",
+        "href": "https://zaseki.music-mdata.com/detail/13785/1",
+        "score": 2
+      },
+      {
+        "title": "愛知県芸術劇場 大ホールの座席表 （2,480席）",
+        "href": "https://zaseki.music-mdata.com/detail/13785/1",
+        "score": 2
+      },
+      {
+        "title": "愛知県芸術劇場 コンサートホールの座席表 （1,800席）",
+        "href": "https://zaseki.music-mdata.com/detail/13785/3",
+        "score": 0.9
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/13785/1",
+    "match": "auto"
+  },
+  "kanazawa-kagekiza": {
+    "query": "金沢歌劇座",
+    "candidates": [
+      {
+        "title": "金沢歌劇座 ホールの座席表 （1,919席）",
+        "href": "https://zaseki.music-mdata.com/detail/18446/1",
+        "score": 2
+      },
+      {
+        "title": "金沢歌劇座 ホールの座席表 （1,919席）",
+        "href": "https://zaseki.music-mdata.com/detail/18446/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/18446/1",
+    "match": "auto"
+  },
+  "nara-100": {
+    "query": "なら100年会館 大ホール",
+    "candidates": [
+      {
+        "title": "なら100年会館 大ホールの座席表 （1,476席）",
+        "href": "https://zaseki.music-mdata.com/detail/15136/1",
+        "score": 2
+      },
+      {
+        "title": "なら100年会館 大ホールの座席表 （1,476席）",
+        "href": "https://zaseki.music-mdata.com/detail/15136/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/15136/1",
+    "match": "auto"
+  },
+  "harenowa": {
+    "query": "岡山芸術創造劇場 ハレノワ 大劇場",
+    "candidates": [
+      {
+        "title": "岡山芸術創造劇場ハレノワ 大劇場の座席表 （1,753席）",
+        "href": "https://zaseki.music-mdata.com/detail/26533/1",
+        "score": 2
+      },
+      {
+        "title": "岡山芸術創造劇場ハレノワ 大劇場の座席表 （1,753席）",
+        "href": "https://zaseki.music-mdata.com/detail/26533/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/26533/1",
+    "match": "auto"
+  },
+  "hitaru": {
+    "query": "札幌文化芸術劇場 hitaru",
+    "candidates": [
+      {
+        "title": "札幌文化芸術劇場 hitaru 劇場の座席表 （2,302席）",
+        "href": "https://zaseki.music-mdata.com/detail/25509/1",
+        "score": 2
+      },
+      {
+        "title": "札幌文化芸術劇場 hitaru 劇場の座席表 （2,302席）",
+        "href": "https://zaseki.music-mdata.com/detail/25509/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25509/1",
+    "match": "auto"
+  },
+  "festival-hall": {
+    "query": "フェスティバルホール",
+    "candidates": [
+      {
+        "title": "フェスティバルホール 2700席 - 座席表ガイド - MUSIC-MDATA",
+        "href": "https://zaseki.music-mdata.com/detail/8211/1",
+        "score": 2
+      },
+      {
+        "title": "フェスティバルホール 2700席 - 座席表ガイド - MUSIC-MDATA",
+        "href": "https://zaseki.music-mdata.com/detail/8211/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8211/1",
+    "match": "auto"
+  },
+  "tachikawa-stage": {
+    "query": "立川ステージガーデン",
+    "candidates": [
+      {
+        "title": "立川ステージガーデン ホールの座席表 （2,448席）",
+        "href": "https://zaseki.music-mdata.com/detail/27660/1",
+        "score": 2
+      },
+      {
+        "title": "立川ステージガーデン ホールの座席表 （2,448席）",
+        "href": "https://zaseki.music-mdata.com/detail/27660/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/27660/1",
+    "match": "auto"
+  },
+  "sendai-sunplaza": {
+    "query": "仙台サンプラザ",
+    "candidates": [
+      {
+        "title": "仙台サンプラザホール ホールの座席表 （2,054席）",
+        "href": "https://zaseki.music-mdata.com/detail/9525/1",
+        "score": 0
+      },
+      {
+        "title": "仙台サンプラザホール ホールの座席表 （2,054席）",
+        "href": "https://zaseki.music-mdata.com/detail/9525/1",
+        "score": 0
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9525/1",
+    "match": "retry"
+  },
+  "culttz-kawasaki": {
+    "query": "カルッツかわさき ホール",
+    "candidates": [
+      {
+        "title": "カルッツかわさき ホールの座席表 （2,013席）",
+        "href": "https://zaseki.music-mdata.com/detail/25493/1",
+        "score": 2
+      },
+      {
+        "title": "カルッツかわさき ホールの座席表 （2,013席）",
+        "href": "https://zaseki.music-mdata.com/detail/25493/1",
+        "score": 2
+      },
+      {
+        "title": "カルッツかわさき 大体育室の座席表 （1,544席）",
+        "href": "https://zaseki.music-mdata.com/detail/26127/1",
+        "score": 0.8888888888888888
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25493/1",
+    "match": "auto"
+  },
+  "wakayama-kenmin": {
+    "query": "和歌山県民文化会館 大ホール",
+    "candidates": [
+      {
+        "title": "和歌山県民文化会館 大ホールの座席表 （2,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/20716/1",
+        "score": 2
+      },
+      {
+        "title": "和歌山県民文化会館 大ホールの座席表 （2,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/20716/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/20716/1",
+    "match": "auto"
+  },
+  "gorilla-hall": {
+    "query": "GORILLA HALL OSAKA",
+    "candidates": [],
+    "detail": null,
+    "match": "none"
+  },
+  "sapporo-factory": {
+    "query": "サッポロファクトリーホール",
+    "candidates": [
+      {
+        "title": "サッポロファクトリーホール ホールの座席表 （660席）",
+        "href": "https://zaseki.music-mdata.com/detail/2397/1",
+        "score": 2
+      },
+      {
+        "title": "サッポロファクトリーホール ホールの座席表 （660席）",
+        "href": "https://zaseki.music-mdata.com/detail/2397/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/2397/1",
+    "match": "auto"
+  },
+  "diamond-hall": {
+    "query": "ダイアモンドホール",
+    "candidates": [
+      {
+        "title": "名古屋ダイアモンドホール ホールの座席表 （1,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/2466/1",
+        "score": 2
+      },
+      {
+        "title": "名古屋ダイアモンドホール ホールの座席表 （1,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/2466/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/2466/1",
+    "match": "auto"
+  },
+  "unitedlab": {
+    "query": "UNITEDLAB",
+    "candidates": [],
+    "detail": null,
+    "match": "none"
+  },
+  "zepp-shinjuku": {
+    "query": "Zepp Shinjuku (TOKYO)",
+    "candidates": [
+      {
+        "title": "Zepp新宿 ホールの座席表 （1,500席）",
+        "href": "https://zaseki.music-mdata.com/detail/28957/1",
+        "score": 0.23076923076923078
+      },
+      {
+        "title": "Zepp新宿 ホールの座席表 （1,500席）",
+        "href": "https://zaseki.music-mdata.com/detail/28957/1",
+        "score": 0.23076923076923078
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/28957/1",
+    "match": "weak"
+  },
+  "zepp-fukuoka": {
+    "query": "Zepp Fukuoka",
+    "candidates": [
+      {
+        "title": "Zepp福岡 ホールの座席表 （1,526席）",
+        "href": "https://zaseki.music-mdata.com/detail/2520/1",
+        "score": 0.375
+      },
+      {
+        "title": "Zepp福岡 ホールの座席表 （1,526席）",
+        "href": "https://zaseki.music-mdata.com/detail/2520/1",
+        "score": 0.375
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/2520/1",
+    "match": "weak"
+  },
+  "zepp-nagoya": {
+    "query": "Zepp Nagoya",
+    "candidates": [
+      {
+        "title": "Zepp名古屋 ホールの座席表 （1,864席）",
+        "href": "https://zaseki.music-mdata.com/detail/14934/1",
+        "score": 0.375
+      },
+      {
+        "title": "Zepp名古屋 ホールの座席表 （1,864席）",
+        "href": "https://zaseki.music-mdata.com/detail/14934/1",
+        "score": 0.375
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/14934/1",
+    "match": "weak"
+  },
+  "zepp-sapporo": {
+    "query": "Zepp Sapporo",
+    "candidates": [
+      {
+        "title": "Zepp札幌 シーティング（座席）の座席表 （723席）",
+        "href": "https://zaseki.music-mdata.com/detail/2398/1",
+        "score": 0.42857142857142855
+      },
+      {
+        "title": "Zepp札幌 シーティング（座席）の座席表 （723席）",
+        "href": "https://zaseki.music-mdata.com/detail/2398/1",
+        "score": 0.42857142857142855
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/2398/1",
+    "match": "weak"
+  },
+  "zepp-osaka-bayside": {
+    "query": "Zepp Osaka Bayside",
+    "candidates": [
+      {
+        "title": "Zepp大阪ベイサイド ホールの座席表 （2,801席）",
+        "href": "https://zaseki.music-mdata.com/detail/24952/1",
+        "score": 0.2727272727272727
+      },
+      {
+        "title": "Zepp大阪ベイサイド ホールの座席表 （2,801席）",
+        "href": "https://zaseki.music-mdata.com/detail/24952/1",
+        "score": 0.2727272727272727
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/24952/1",
+    "match": "weak"
+  },
+  "zepp-haneda": {
+    "query": "Zepp Haneda (TOKYO)",
+    "candidates": [
+      {
+        "title": "Zepp羽田 ホールの座席表 （2,925席）",
+        "href": "https://zaseki.music-mdata.com/detail/27036/1",
+        "score": 0.2727272727272727
+      },
+      {
+        "title": "Zepp羽田 ホールの座席表 （2,925席）",
+        "href": "https://zaseki.music-mdata.com/detail/27036/1",
+        "score": 0.2727272727272727
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/27036/1",
+    "match": "weak"
+  },
+  "osaka-jo-hall": {
+    "query": "大阪城ホール",
+    "candidates": [
+      {
+        "title": "大阪城ホール ホールの座席表 （16,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/24181/1",
+        "score": 2
+      },
+      {
+        "title": "大阪城ホール ホールの座席表 （16,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/24181/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/24181/1",
+    "match": "auto"
+  },
+  "kt-zepp-yokohama": {
+    "query": "KT Zepp Yokohama",
+    "candidates": [
+      {
+        "title": "KT Zepp横浜 ホールの座席表 （2,146席）",
+        "href": "https://zaseki.music-mdata.com/detail/25719/1",
+        "score": 0.5
+      },
+      {
+        "title": "KT Zepp横浜 ホールの座席表 （2,146席）",
+        "href": "https://zaseki.music-mdata.com/detail/25719/1",
+        "score": 0.5
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25719/1",
+    "match": "weak"
+  },
+  "pia-arena-mm": {
+    "query": "ぴあアリーナMM",
+    "candidates": [
+      {
+        "title": "ぴあアリーナMM アリーナの座席表 （12,141席）",
+        "href": "https://zaseki.music-mdata.com/detail/25915/1",
+        "score": 2
+      },
+      {
+        "title": "ぴあアリーナMM アリーナの座席表 （12,141席）",
+        "href": "https://zaseki.music-mdata.com/detail/25915/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/25915/1",
+    "match": "auto"
+  },
+  "glion-arena": {
+    "query": "GLION ARENA KOBE",
+    "candidates": [
+      {
+        "title": "ジーライオンアリーナ神戸 アリーナの座席表 （10,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/28525/1",
+        "score": 0
+      },
+      {
+        "title": "ジーライオンアリーナ神戸 アリーナの座席表 （10,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/28525/1",
+        "score": 0
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/28525/1",
+    "match": "weak"
+  },
+  "kitakyushu-messe": {
+    "query": "西日本総合展示場",
+    "candidates": [
+      {
+        "title": "北九州メッセ 展示場の座席表 （10,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/30509/1",
+        "score": 0.375
+      },
+      {
+        "title": "北九州メッセ 展示場の座席表 （10,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/30509/1",
+        "score": 0.375
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/30509/1",
+    "match": "weak"
+  },
+  "marine-messe": {
+    "query": "マリンメッセ福岡",
+    "candidates": [
+      {
+        "title": "マリンメッセ福岡A館 多目的展示室の座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/13569/1",
+        "score": 2
+      },
+      {
+        "title": "マリンメッセ福岡A館 多目的展示室の座席表 （15,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/13569/1",
+        "score": 2
+      },
+      {
+        "title": "マリンメッセ福岡B館 多目的展示室の座席表 （6,000席）",
+        "href": "https://zaseki.music-mdata.com/detail/30975/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/13569/1",
+    "match": "auto"
+  },
+  "sekisui-heim": {
+    "query": "セキスイハイムスーパーアリーナ",
+    "candidates": [
+      {
+        "title": "宮城セキスイハイムスーパーアリーナ メインアリーナの座席表 ...",
+        "href": "https://zaseki.music-mdata.com/detail/9531/1",
+        "score": 2
+      },
+      {
+        "title": "宮城セキスイハイムスーパーアリーナ メインアリーナの座席表 ...",
+        "href": "https://zaseki.music-mdata.com/detail/9531/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/9531/1",
+    "match": "auto"
+  },
+  "zepp-namba": {
+    "query": "Zepp Namba (OSAKA)",
+    "candidates": [
+      {
+        "title": "Zeppなんば大阪 ホールの座席表 （2,513席）",
+        "href": "https://zaseki.music-mdata.com/detail/2489/1",
+        "score": 0.3
+      },
+      {
+        "title": "Zeppなんば大阪 ホールの座席表 （2,513席）",
+        "href": "https://zaseki.music-mdata.com/detail/2489/1",
+        "score": 0.3
+      },
+      {
+        "title": "Zepp大阪ベイサイド ホールの座席表 （2,801席）",
+        "href": "https://zaseki.music-mdata.com/detail/24952/1",
+        "score": 0.3
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/2489/1",
+    "match": "weak"
+  },
+  "kanamoto-hall": {
+    "query": "カナモトホール",
+    "candidates": [
+      {
+        "title": "カナモトホール 大ホールの座席表 （1,500席）",
+        "href": "https://zaseki.music-mdata.com/detail/8650/1",
+        "score": 2
+      },
+      {
+        "title": "カナモトホール 大ホールの座席表 （1,500席）",
+        "href": "https://zaseki.music-mdata.com/detail/8650/1",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8650/1",
+    "match": "auto"
+  },
+  "obihiro-civic": {
+    "query": "帯広市民文化ホール",
+    "candidates": [
+      {
+        "title": "帯広市民文化ホール 大ホールの座席表 （1,540席）",
+        "href": "https://zaseki.music-mdata.com/detail/8688/1",
+        "score": 2
+      },
+      {
+        "title": "帯広市民文化ホール 大ホールの座席表 （1,540席）",
+        "href": "https://zaseki.music-mdata.com/detail/8688/1",
+        "score": 2
+      },
+      {
+        "title": "帯広市民文化ホール 小ホールの座席表 （512席）",
+        "href": "https://zaseki.music-mdata.com/detail/8688/2",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8688/1",
+    "match": "auto"
+  }
+}

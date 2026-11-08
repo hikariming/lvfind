@@ -1,0 +1,65 @@
+{
+  "venue": "kitakyushu-messe",
+  "zasekiId": 30509,
+  "url": "https://zaseki.music-mdata.com/detail/30509",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:15.803Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "北九州メッセ",
+      "alias": "北九州国際展示場",
+      "facility": "展示場",
+      "capacity": 10000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/30509.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/30509_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/30509",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/30509/1190205",
+          "title": "小倉駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/30509",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-12-26",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "THE RAMPAGE COUNTDOWN LIVE 2026→2027",
+          "slug": "/event/5d1v5p1"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "北九州爬虫類フェス 2027",
+          "slug": "/event/b3uujgq"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        }
+      ]
+    }
+  ]
+}

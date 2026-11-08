@@ -1,0 +1,405 @@
+{
+  "venue": "kobe-kokusai",
+  "zasekiId": 8146,
+  "url": "https://zaseki.music-mdata.com/detail/8146",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:41:18.317Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "神戸国際会館こくさいホール",
+      "alias": null,
+      "facility": "こくさいホール",
+      "capacity": 2022,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/8146.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/8146_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/8146",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/8146/1160313",
+          "title": "三ノ宮駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/8146",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "私立恵比寿中学 SOUND OF EBICHU 2026-Band Edition-",
+          "slug": "/event/id7dxm7"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "関西ジュニア Concert 2026 〜僕たち粉もんちゃうで〜",
+          "slug": "/event/ehrh022"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "平原綾香 Concert Tour 2026 ～ my Orchestra! ～",
+          "slug": "/event/8fb496o"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "The 50th Anniversary 俺たちの旅 スペシャルコンサート",
+          "slug": "/event/sf8piwq"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "椎名林檎と彼奴等と試す煩悩菩提",
+          "slug": "/event/u3cvw9r"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "椎名林檎と彼奴等と試す煩悩菩提",
+          "slug": "/event/u3cvw9r"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "CRAZY KEN BAND TOUR ？ 2026-2027",
+          "slug": "/event/d5bmtnf"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "MAZZEL 2nd Fan Meeting -Play at the MUZEUM Vol.2-",
+          "slug": "/event/2rdjsgv"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "浜崎あゆみ",
+          "slug": "/event/bj2aip"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "浜崎あゆみ",
+          "slug": "/event/bj2aip"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "尾崎亜美",
+          "slug": "/event/rm4jz"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "野口五郎",
+          "slug": "/event/h1ows3"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "吉幾三",
+          "slug": "/event/tcom0"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "チャイコフスキー･バレエ劇場「くるみ割り人形」",
+          "slug": "/event/b2qfjrf"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "アロージャズオーケストラ 渡辺真知子、サーカス、三浦祐太朗 ～時代を彩る名曲コンサート～",
+          "slug": "/event/ety_ek"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "島津亜矢",
+          "slug": "/event/8mpei"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "夏川椎菜",
+          "slug": "/event/bfxnha6"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "ミュージカル 「ALICE 〜不思議の国のアリスより〜」",
+          "slug": "/event/euke2q5"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "ミュージカル『ALICE～不思議の国のアリスより～』",
+          "slug": "/event/04nc20"
+        },
+        {
+          "date": "2026-12-14",
+          "name": "REBECCA 『Cosmic Autonomy Tour 2026-2027』",
+          "slug": "/event/x3uclkq"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "REBECCA 『Cosmic Autonomy Tour 2026-2027』",
+          "slug": "/event/x3uclkq"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "BUCK∞TICK TOUR 2026 ナイショの薔薇の下",
+          "slug": "/event/xp6n0mi"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "手嶌葵",
+          "slug": "/event/dag6k8"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "手嶌葵 20th Anniversary Concert 2026-2027",
+          "slug": "/event/erabosz"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "「第九コンサート2026」",
+          "slug": "/event/crkdtk"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Jang Wooyoung Concert in Japan",
+          "slug": "/event/5di3w8t"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Jang Wooyoung Concert in Japan",
+          "slug": "/event/5di3w8t"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "角松敏生 TOSHIKI KADOMATSU Performance 2026",
+          "slug": "/event/nuaoqio"
+        },
+        {
+          "date": "2027-01-02",
+          "name": "新春吉本お笑いバラエティーショー 2027",
+          "slug": "/event/6om8v"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "新春吉本お笑いバラエティーショー 2027",
+          "slug": "/event/6om8v"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "打首獄門同好会",
+          "slug": "/event/n1z3fc"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "打首獄門同好会 ホール ワンマンツアー 2026-2027",
+          "slug": "/event/ybjd7vr"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "HY KUKURU CHANPURU TOUR 2026-2027",
+          "slug": "/event/8xacqe6"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "佐野元春 & THE COYOTE BAND「MOTOHARU SANO & THE COYOTE BAND \"IN & OUT TOUR 2026\"」",
+          "slug": "/event/br0pexk"
+        },
+        {
+          "date": "2027-01-12",
+          "name": "CHIC",
+          "slug": "/event/b3s20b0"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "桂文珍独演会",
+          "slug": "/event/kk4vo"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "松平健 マツケンサンバコンサート",
+          "slug": "/event/89b1904"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "松平健",
+          "slug": "/event/domxo9"
+        },
+        {
+          "date": "2027-01-27",
+          "name": "純烈",
+          "slug": "/event/o58csg"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "清塚信也Piano Trio ツアー 2026-2027「Harmony」",
+          "slug": "/event/dy2lw2u"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "太鼓奏者 木村優一 プロデュース 神戸国際taiko音楽祭 2027 ～歌い、奏でる未来への希望～",
+          "slug": "/event/d_jjd1"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "ワハハ本舗特別公演「最後のショービジネス」",
+          "slug": "/event/q9h17"
+        },
+        {
+          "date": "2027-02-15",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-02-16",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-02-19",
+          "name": "Kalafina Anniversary LIVE 2027",
+          "slug": "/event/b1dq53f"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "Kalafina Anniversary LIVE 2027",
+          "slug": "/event/b1dq53f"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "吉井和哉 TOUR 2027 イ･キ･モ･ノ･エ･ネ･ジ･ー",
+          "slug": "/event/yrsuurr"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "ORANGE RANGE LIVE TOUR 026-027 ～おかげさまで25周年！ニコニコカーニバル～",
+          "slug": "/event/w2sgh7z"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "スターダスト☆レビュー",
+          "slug": "/event/byhir2"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "KYUHYUN ASIA TOUR ‘CONTINUE’ IN TOKYO, KOBE",
+          "slug": "/event/dsyhktq"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "KYUHYUN ASIA TOUR ‘CONTINUE’ IN TOKYO, KOBE",
+          "slug": "/event/dsyhktq"
+        },
+        {
+          "date": "2027-03-24",
+          "name": "舟木一夫",
+          "slug": "/event/r3o5o"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "阿部真央LIVE -たすきがけツアー2027-",
+          "slug": "/event/ek8xqne"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "ICEx Fifth Concert Tour 2027 ''NICOx LAND''",
+          "slug": "/event/ylw720y"
+        },
+        {
+          "date": "2027-04-19",
+          "name": "ICEx Fifth Concert Tour 2027 ''NICOx LAND''",
+          "slug": "/event/ylw720y"
+        },
+        {
+          "date": "2027-04-22",
+          "name": "ザ・クロマニヨンズ ツアー Hola! Leopardo 2027 ホール公演",
+          "slug": "/event/gpiq277"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "今市隆二 RYUJI IMAICHI RILY'S NIGHT 2027 \"BLACK\"",
+          "slug": "/event/xa1rqz9"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "AAA LIVE & TALK 全国ツアー2027",
+          "slug": "/event/0zg4efx"
+        },
+        {
+          "date": "2027-05-06",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        },
+        {
+          "date": "2027-05-07",
+          "name": "w-inds. LIVE TOUR 2027 “Re:1st message”",
+          "slug": "/event/v5j0wl6"
+        },
+        {
+          "date": "2027-05-21",
+          "name": "高橋優 LIVE TOUR 2027「free style stroke 2」",
+          "slug": "/event/choxnj6"
+        },
+        {
+          "date": "2027-05-26",
+          "name": "ディズニー・オン・クラシック 〜夢とまほうの贈りもの 2027",
+          "slug": "/event/swe3i9d"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus” ホール公演",
+          "slug": "/event/40icyyt"
+        },
+        {
+          "date": "2027-06-22",
+          "name": "ゴールデンボンバー全国ツアー2027",
+          "slug": "/event/hfowcx7"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "田村ゆかり LOVE ♡ LIVE 2027",
+          "slug": "/event/z5prjvy"
+        },
+        {
+          "date": "2027-07-04",
+          "name": "レミオロメン Re Dialogue Tour 2027",
+          "slug": "/event/l36475w"
+        },
+        {
+          "date": "2027-07-17",
+          "name": "ナオト・インティライミ LIVE TOUR 2027",
+          "slug": "/event/3btnf2f"
+        },
+        {
+          "date": "2027-07-18",
+          "name": "ナオト・インティライミ LIVE TOUR 2027",
+          "slug": "/event/3btnf2f"
+        },
+        {
+          "date": "2027-08-22",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        }
+      ]
+    }
+  ]
+}

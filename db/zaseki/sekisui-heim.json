@@ -1,0 +1,145 @@
+{
+  "venue": "sekisui-heim",
+  "zasekiId": 9531,
+  "url": "https://zaseki.music-mdata.com/detail/9531",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:32.454Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "宮城セキスイハイムスーパーアリーナ",
+      "alias": "宮城県総合運動公園総合体育館",
+      "facility": "メインアリーナ",
+      "capacity": 7063,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9531.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9531_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9531",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9531/1123146",
+          "title": "新利府駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9531",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "高嶋ちさ子のザワつく！昭和歌謡祭＆音楽会 2026",
+          "slug": "/event/998pr4l"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "高嶋ちさ子のザワつく！昭和歌謡祭＆音楽会 2026",
+          "slug": "/event/998pr4l"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "マカロニえんぴつ「マカロックツアーvol.22 〜いま、きみがすき！篇〜」",
+          "slug": "/event/9qh1bkc"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        }
+      ]
+    }
+  ]
+}

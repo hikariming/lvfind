@@ -1,0 +1,85 @@
+{
+  "venue": "saitama-super-arena",
+  "zasekiId": 24238,
+  "url": "https://zaseki.music-mdata.com/detail/24238",
+  "match": "weak",
+  "note": "GMOアリーナさいたま = さいたまスーパーアリーナ 冠名",
+  "fetchedAt": "2026-11-08T14:39:07.627Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "GMOアリーナさいたま",
+      "alias": "さいたまスーパーアリーナ",
+      "facility": "メインアリーナモード",
+      "capacity": 22500,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/24238.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/24238_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/24238",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/24238/1131905",
+          "title": "さいたま新都心駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/24238",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2027-05-02",
+          "name": "VIVA LA ROCK 2027",
+          "slug": "/event/7qsen7f"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "VIVA LA ROCK 2027",
+          "slug": "/event/7qsen7f"
+        },
+        {
+          "date": "2027-06-08",
+          "name": "レディオヘッド来日公演",
+          "slug": "/event/728lcpo"
+        },
+        {
+          "date": "2027-06-13",
+          "name": "レディオヘッド来日公演",
+          "slug": "/event/728lcpo"
+        },
+        {
+          "date": "2027-07-10",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-07-11",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-08-07",
+          "name": "ヒプノシスマイク -Division Rap Battle- 13th LIVE",
+          "slug": "/event/wlc7bog"
+        },
+        {
+          "date": "2027-08-08",
+          "name": "ヒプノシスマイク -Division Rap Battle- 13th LIVE",
+          "slug": "/event/wlc7bog"
+        },
+        {
+          "date": "2027-10-23",
+          "name": "SUPER BEAVER 都会のラクダ TOUR 2027-2028 〜 ラクダムーンと、サンサンサンライズ 〜",
+          "slug": "/event/tl7vqsz"
+        },
+        {
+          "date": "2027-10-24",
+          "name": "SUPER BEAVER 都会のラクダ TOUR 2027-2028 〜 ラクダムーンと、サンサンサンライズ 〜",
+          "slug": "/event/tl7vqsz"
+        }
+      ]
+    }
+  ]
+}

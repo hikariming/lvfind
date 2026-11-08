@@ -1,0 +1,155 @@
+{
+  "venue": "matsuyama-shimin",
+  "zasekiId": 17870,
+  "url": "https://zaseki.music-mdata.com/detail/17870",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:42:16.149Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "松山市民会館",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 1845,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/17870.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/17870_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/17870",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/17870/9980802",
+          "title": "南堀端駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/17870",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "劇団飛行船マスクプレイミュージカル「シンドバッドの大冒険」",
+          "slug": "/event/b179mej"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
+          "slug": "/event/azwb2ya"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "椎名林檎と彼奴等と試す煩悩菩提",
+          "slug": "/event/u3cvw9r"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "LiSA 『LiVE is Smile Always～LACE UP～』",
+          "slug": "/event/raaesiv"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "高嶋ちさ子 12人のヴァイオリニスト ～結成20周年記念～ 高嶋ちさ子 12人のヴァイオリニスト コンサートツアー 2026～2027",
+          "slug": "/event/cwn40y"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "チャイコフスキー･バレエ劇場「くるみ割り人形」",
+          "slug": "/event/b2qfjrf"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "ASIAN KUNG-FU GENERATION 30th Anniversary Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "UVERworld LIVE HOUSE TOUR 2027",
+          "slug": "/event/n439f8g"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "名探偵プリキュア! ドリームステージ♪",
+          "slug": "/event/dns482"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "石川さゆり",
+          "slug": "/event/gw30g"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "FANTASTICS LIVE TOUR 2027 \"PROMISE\"",
+          "slug": "/event/utv86ru"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "川崎鷹也",
+          "slug": "/event/bk9qf3v"
+        },
+        {
+          "date": "2027-06-12",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "松山市民会館",
+      "alias": null,
+      "facility": "中ホール",
+      "capacity": 605,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/17870_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/17870_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/17870",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/17870/9980802",
+          "title": "南堀端駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/17870",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2027-01-09",
+          "name": "宮沢和史",
+          "slug": "/event/syohg"
+        }
+      ]
+    }
+  ]
+}

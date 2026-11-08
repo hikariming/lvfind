@@ -1,4 +1,7 @@
 -- 由 scripts/seed.ts 生成，勿手改
+-- 注意：zaseki 两表引用 venues，需先清空（之后重跑 db/zaseki.sql 恢复）
+DELETE FROM venue_schedule;
+DELETE FROM venue_seat_layouts;
 DELETE FROM events;
 DELETE FROM artists;
 DELETE FROM venues;
@@ -71,6 +74,7 @@ INSERT INTO artists (slug, name_original, name_local, genre) VALUES ('akg', 'ASI
 INSERT INTO artists (slug, name_original, name_local, genre) VALUES ('dustcell', 'DUSTCELL', 'ダストセル', 'jpop');
 INSERT INTO artists (slug, name_original, name_local, genre) VALUES ('juice-juice', 'Juice=Juice', 'ジュースジュース', 'jpop');
 INSERT INTO artists (slug, name_original, name_local, genre) VALUES ('tani-yuuki', 'Tani Yuuki', 'たにゆうき', 'jpop');
+INSERT INTO artists (slug, name_original, name_local, genre) VALUES ('one-ok-rock', 'ONE OK ROCK', 'ワンオクロック', 'jpop');
 INSERT INTO venues (slug, name, name_local, type, city, city_slug, city_zh, country_code, timezone, tz_abbr, capacity, lat, lng, address, transit, website) VALUES ('tokyo-dome', 'Tokyo Dome', '東京ドーム', 'dome', 'Tokyo', 'tokyo', '东京', 'JP', 'Asia/Tokyo', 'JST', 55000, 35.7056, 139.7519, '東京都文京区後楽 1-3-61', 'JR / 都营三田线「水道桥」站，丸之内线 / 南北线「后乐园」站', 'https://www.tokyo-dome.co.jp/');
 INSERT INTO venues (slug, name, name_local, type, city, city_slug, city_zh, country_code, timezone, tz_abbr, capacity, lat, lng, address, transit, website) VALUES ('saitama-super-arena', 'Saitama Super Arena', 'さいたまスーパーアリーナ', 'arena', 'Saitama', 'saitama', '埼玉', 'JP', 'Asia/Tokyo', 'JST', 37000, 35.8949, 139.6311, '埼玉県さいたま市中央区新都心 8', 'JR「埼玉新都心」站步行约 3 分钟', NULL);
 INSERT INTO venues (slug, name, name_local, type, city, city_slug, city_zh, country_code, timezone, tz_abbr, capacity, lat, lng, address, transit, website) VALUES ('k-arena', 'K-Arena Yokohama', 'Kアリーナ横浜', 'arena', 'Yokohama', 'yokohama', '横滨', 'JP', 'Asia/Tokyo', 'JST', 20000, 35.4672, 139.6283, '神奈川県横浜市西区みなとみらい 6-2-14', '「横滨」站步行约 13 分钟，港未来线「新高岛」站约 5 分钟', NULL);

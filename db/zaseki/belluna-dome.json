@@ -1,0 +1,90 @@
+{
+  "venue": "belluna-dome",
+  "zasekiId": 9886,
+  "url": "https://zaseki.music-mdata.com/detail/9886",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:39:56.437Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "ベルーナドーム",
+      "alias": "西武ドーム",
+      "facility": "野球場",
+      "capacity": 31552,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9886.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9886_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9886",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9886/2200503",
+          "title": "西武球場前駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9886",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "渡辺美里 スタジアム伝説～復活～ Sweet 60",
+          "slug": "/event/voyw553"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "\"EXILE 25th ANNIVERSARY BEST LIVE\" ～LDH PERFECT YEAR 2026～",
+          "slug": "/event/97zbqro"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "\"EXILE 25th ANNIVERSARY BEST LIVE\" ～LDH PERFECT YEAR 2026～",
+          "slug": "/event/97zbqro"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+          "slug": "/event/2cnmvov"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+          "slug": "/event/2cnmvov"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "MEYCHAN ONE-MAN LIVE 2026『MEGA WATT』",
+          "slug": "/event/ohxygez"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "MEYCHAN ONE-MAN LIVE 2026『MEGA WATT』",
+          "slug": "/event/ohxygez"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        }
+      ]
+    }
+  ]
+}

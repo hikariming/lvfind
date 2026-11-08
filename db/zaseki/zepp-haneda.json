@@ -1,0 +1,365 @@
+{
+  "venue": "zepp-haneda",
+  "zasekiId": 27036,
+  "url": "https://zaseki.music-mdata.com/detail/27036",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:35:34.834Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "Zepp羽田",
+      "alias": "Zepp Haneda (TOKYO)",
+      "facility": "ホール",
+      "capacity": 2925,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/27036.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/27036_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/27036",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/27036/2700205",
+          "title": "天空橋駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/27036",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "甲斐よしひろ",
+          "slug": "/event/fyysc"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "礼賛",
+          "slug": "/event/brcrmm3"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "ヤバイTシャツ屋さん \"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
+          "slug": "/event/kfv0pex"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "ヤバイTシャツ屋さん \"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
+          "slug": "/event/kfv0pex"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "BRIMOIRE -ブリモワール-",
+          "slug": "/event/42bqrbo"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2026 VERIVERY CONCERT “GIVE ME FIVE, KEEP THAT VIBE” JAPAN",
+          "slug": "/event/ekem09d"
+        },
+        {
+          "date": "2026-11-16",
+          "name": "私立恵比寿中学 TAIBAN LIVE「放課後ロッケンロール-HYPER- 2026」",
+          "slug": "/event/mz2yane"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "私立恵比寿中学 TAIBAN LIVE「放課後ロッケンロール-HYPER- 2026」",
+          "slug": "/event/mz2yane"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "sumika Live Tour 2026 『Flügel Letter』",
+          "slug": "/event/uhnewse"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "sumika Live Tour 2026 『Flügel Letter』",
+          "slug": "/event/uhnewse"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "電気グルーヴ “菩薩アー”",
+          "slug": "/event/xz84ipf"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "電気グルーヴ “菩薩アー”",
+          "slug": "/event/xz84ipf"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "Galileo Galilei \"Rise of The Man\" Tour 2026",
+          "slug": "/event/qql35te"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "Hump Back",
+          "slug": "/event/80sz9d"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "クイーンズ・オブ・ザ・ストーン・エイジ 来日公演",
+          "slug": "/event/4src73f"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "Groove-Method LIVE 2026",
+          "slug": "/event/djelrcc"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "Fear,and Loathing in Las Vegas The Focus 「Feeling of Unity」 Vol.1",
+          "slug": "/event/hvdq2w"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "丸山純奈 1st Zepp TOUR “ Lv.23 ”",
+          "slug": "/event/bxag2i9"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "人間椅子 還暦記念ツアー『猟奇覚醒』",
+          "slug": "/event/dn7wvqv"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "Orange Station Live 2026",
+          "slug": "/event/5qhkhhc"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "ねぐせ。秋冬ワンマンツアー2026「君を強く抱きしめたいんだ！」",
+          "slug": "/event/ynbeh45"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "ねぐせ。秋冬ワンマンツアー2026「君を強く抱きしめたいんだ！」",
+          "slug": "/event/ynbeh45"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "神はサイコロを振らない Zepp Tour 2026 View From The Soyuz",
+          "slug": "/event/j90eq7s"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "BARBEE BOYS 4PEACE",
+          "slug": "/event/c389ze3"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "ジェイムス・ブレイク",
+          "slug": "/event/hdysydf"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "ジェイムス・ブレイク",
+          "slug": "/event/hdysydf"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "森山直太朗 Zepp TOURS 2026『Zepp de Rolling DOSA 〜すべからく愛々〜』",
+          "slug": "/event/c5n01fh"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "音田雅則 One Man Tour 2026 “Hiraeth“",
+          "slug": "/event/brv2wow"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "RETRORIRON Zepp Tour 2026",
+          "slug": "/event/9vb2f6z"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "DIR EN GREY 30th Anniversary 列島激震行脚2026 Nothing XXX Ugly",
+          "slug": "/event/nbrc9en"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "¥ellow Bucks Zepp Tour 2026",
+          "slug": "/event/dhjc94x"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "天月-あまつき- 新規FC開設記念ツアー『#僕らの居場所』",
+          "slug": "/event/ewseciv"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "CiON",
+          "slug": "/event/blp6tud"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "原因は自分にある。GNJB FC Limited Tour Laboratory – Ne",
+          "slug": "/event/mrwqr7g"
+        },
+        {
+          "date": "2026-12-30",
+          "name": "ムーンライダーズ",
+          "slug": "/event/jc4e2"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "高中正義",
+          "slug": "/event/bcs0ke"
+        },
+        {
+          "date": "2027-01-03",
+          "name": "AKASAKI 1st World Tour \"ONIGIRI\"",
+          "slug": "/event/6rmmtnb"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "宮川大聖",
+          "slug": "/event/93is0j"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "SATOMI UTATTEMITA TOUR 10th",
+          "slug": "/event/3ri1eey"
+        },
+        {
+          "date": "2027-01-08",
+          "name": "SATOMI UTATTEMITA TOUR 10th",
+          "slug": "/event/3ri1eey"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "THE TOUR FINAL STAGE",
+          "slug": "/event/vbt6up2"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "UMIMOYASU 2026-2027 MOVE",
+          "slug": "/event/5h1rnc5"
+        },
+        {
+          "date": "2027-01-20",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus”",
+          "slug": "/event/se4vkr8"
+        },
+        {
+          "date": "2027-01-21",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus”",
+          "slug": "/event/se4vkr8"
+        },
+        {
+          "date": "2027-01-28",
+          "name": "超能力戦士ドリアン ワンマンライブツアー「ドキドキ異世界ファンタジー」",
+          "slug": "/event/_jb_ep"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "go!go!vanillas LIVEHOUSE TOUR 2626",
+          "slug": "/event/bpnk3wr"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "go!go!vanillas LIVEHOUSE TOUR 2626",
+          "slug": "/event/bpnk3wr"
+        },
+        {
+          "date": "2027-02-03",
+          "name": "She is Legend",
+          "slug": "/event/btgm0an"
+        },
+        {
+          "date": "2027-02-12",
+          "name": "MORISAKI WIN",
+          "slug": "/event/bl861t3"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "TOWER RECORDS “NO MUSIC, NO LIFE.” presents UNFRAMED — 30th Anniversary Live Series —",
+          "slug": "/event/zu5kdr6"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "Chilli Beans. Chilli Beans. TOUR 2026-2027 “HONESTY”",
+          "slug": "/event/bopoe5o"
+        },
+        {
+          "date": "2027-02-24",
+          "name": "Paledusk ”LIVE!!” TOUR",
+          "slug": "/event/bjnf3y6"
+        },
+        {
+          "date": "2027-02-25",
+          "name": "クリープハイプ 太客倶楽部限定ツアー2027 それはそれで幸せ",
+          "slug": "/event/qngj3sn"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "HARUTYA ONE-MAN LIVE 「ここから。」",
+          "slug": "/event/u27meh4"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "This is LAST one man live Zepp tour 2027",
+          "slug": "/event/2goqgfc"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "This is LAST one man live Zepp tour 2027",
+          "slug": "/event/2goqgfc"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "UVERworld LIVE HOUSE TOUR 2027",
+          "slug": "/event/n439f8g"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "izna",
+          "slug": "/event/b0l28c9"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "ナナクロニクル",
+          "slug": "/event/bta708i"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "龍LIVE『瞬撃』",
+          "slug": "/event/v3xzp82"
+        },
+        {
+          "date": "2027-04-24",
+          "name": "MON7A LIVE TOUR 2027",
+          "slug": "/event/reiq6sh"
+        },
+        {
+          "date": "2027-05-06",
+          "name": "Dannie May Dannie May ONEMAN TOUR 2027「DECALAND」",
+          "slug": "/event/blt99go"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "Sakurashimeji ZeppTour+ 2027",
+          "slug": "/event/a8m7ho7"
+        },
+        {
+          "date": "2027-07-21",
+          "name": "[Alexandros] DEAR ENEMIES TOUR 2027",
+          "slug": "/event/o0gxqb5"
+        },
+        {
+          "date": "2027-07-22",
+          "name": "[Alexandros] DEAR ENEMIES TOUR 2027",
+          "slug": "/event/o0gxqb5"
+        },
+        {
+          "date": "2027-07-24",
+          "name": "NELKE ONE MAN LIVE TOUR 2027",
+          "slug": "/event/ttdpkqd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "venue": "ariake-arena",
+  "zasekiId": 25721,
+  "url": "https://zaseki.music-mdata.com/detail/25721",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:04.552Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "有明アリーナ",
+      "alias": null,
+      "facility": "メインアリーナ",
+      "capacity": 15000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25721.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25721_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25721",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25721/9931113",
+          "title": "有明テニスの森駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25721",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "GENERATIONS LIVE TOUR 2026 \"PARALLEL QUEST\"",
+          "slug": "/event/gvy3fmw"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2026 SLS CHAMPIONSHIP TOUR TOKYO presented by MinebeaMitsumi フリーアングルシート専用受付",
+          "slug": "/event/bssa8y8"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "HiGH&LOW THE 戦国 LOVE&HATE",
+          "slug": "/event/b3qvnun"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "HiGH&LOW THE 戦国 LOVE&HATE",
+          "slug": "/event/b3qvnun"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "HiGH&LOW THE 戦国 LOVE&HATE",
+          "slug": "/event/b3qvnun"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "HiGH&LOW THE 戦国 LOVE&HATE",
+          "slug": "/event/7euulow"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "HiGH&LOW THE 戦国 LOVE&HATE",
+          "slug": "/event/7euulow"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "Hearts2Hearts JAPAN 1st Fan Event “READY! S2U”",
+          "slug": "/event/gn5zj0z"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "Hearts2Hearts JAPAN 1st Fan Event “READY! S2U”",
+          "slug": "/event/gn5zj0z"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "マカロニえんぴつ「マカロックツアーvol.22 〜いま、きみがすき！篇〜」",
+          "slug": "/event/9qh1bkc"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "マカロニえんぴつ「マカロックツアーvol.22 〜いま、きみがすき！篇〜」",
+          "slug": "/event/9qh1bkc"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "KAWAII LAB. Christmas SESSION 2026 Day1",
+          "slug": "/event/xrtmk28"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "Saucy Dog ARENA TOUR 2026-2027 NEW GAME＋",
+          "slug": "/event/iivn2c2"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "Saucy Dog ARENA TOUR 2026-2027 NEW GAME＋",
+          "slug": "/event/iivn2c2"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "LUNA SEA TOUR 2026 UNENDING JOURNEY -TO RISE-",
+          "slug": "/event/cft6ztz"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "LUNA SEA TOUR 2026 UNENDING JOURNEY -TO RISE-",
+          "slug": "/event/cft6ztz"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "LUNA SEA",
+          "slug": "/event/c9rz4q"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+          "slug": "/event/xahby3l"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+          "slug": "/event/xahby3l"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+          "slug": "/event/xahby3l"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "Adoの歌ってみたツアー2027",
+          "slug": "/event/h4q7rb2"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "Adoの歌ってみたツアー2027",
+          "slug": "/event/h4q7rb2"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "Thank YOU From INI ～5th Anniversary Fan Meeting～",
+          "slug": "/event/k4hvduz"
+        },
+        {
+          "date": "2027-03-16",
+          "name": "Creepy Nuts ONEMAN TOUR 2027",
+          "slug": "/event/h54een5"
+        },
+        {
+          "date": "2027-03-17",
+          "name": "Creepy Nuts ONEMAN TOUR 2027",
+          "slug": "/event/h54een5"
+        },
+        {
+          "date": "2027-03-23",
+          "name": "TOTO 結成50周年アニバーサリー・ツアー",
+          "slug": "/event/ggiam09"
+        },
+        {
+          "date": "2027-03-24",
+          "name": "TOTO 結成50周年アニバーサリー・ツアー",
+          "slug": "/event/ggiam09"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "イキヅライブ! LOVELIVE! BLUEBIRD いきづらい部! 3rd LIVE ～いつかみんなで叶いそう～",
+          "slug": "/event/bz635d2"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "イキヅライブ! LOVELIVE! BLUEBIRD いきづらい部! 3rd LIVE ～いつかみんなで叶いそう～",
+          "slug": "/event/bz635d2"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-04-10",
+          "name": "STARGLOW 1st Arena Tour 2027 Aurora – The Dawn -",
+          "slug": "/event/jakg4nz"
+        },
+        {
+          "date": "2027-04-11",
+          "name": "STARGLOW 1st Arena Tour 2027 Aurora – The Dawn -",
+          "slug": "/event/jakg4nz"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "ももいろクローバーZ MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+          "slug": "/event/pauhjj3"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "ももいろクローバーZ MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+          "slug": "/event/pauhjj3"
+        },
+        {
+          "date": "2027-05-11",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-05-12",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-09-18",
+          "name": "GAN 5TH ANNIVERSARY LIVE “2.0”",
+          "slug": "/event/lsabpyc"
+        },
+        {
+          "date": "2027-09-19",
+          "name": "GAN 5TH ANNIVERSARY LIVE “2.0”",
+          "slug": "/event/lsabpyc"
+        }
+      ]
+    }
+  ]
+}

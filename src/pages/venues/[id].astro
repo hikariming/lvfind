@@ -5,9 +5,15 @@ import { env } from 'cloudflare:workers';
 import { getData, toMapVenue } from '../../lib/db';
 import { venueTypes, regions } from '../../data/events';
 
-const { artistBySlug, venueById, venues, events } = await getData(env.DB);
+const { artistBySlug, venueById, venues, events, layoutsByVenue } = await getData(env.DB);
 const venue = venues.find((v) => v.id === Astro.params.id);
 if (!venue) return Astro.redirect('/404');
+
+const layouts = layoutsByVenue[venue.id] ?? [];
+const mainLayout = layouts.reduce<(typeof layouts)[number] | undefined>(
+  (best, l) => ((l.seats ?? 0) > (best?.seats ?? 0) ? l : best),
+  undefined,
+);
 
 const upcoming = events.filter((e) => e.venue === venue.id);
 const sameCity = venues.filter((v) => v.citySlug === venue.citySlug && v.id !== venue.id);
@@ -38,7 +44,19 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${venue.lat},${
       <dl class="facts">
         <div>
           <dt><span class="material-symbols-rounded">groups</span>容量</dt>
-          <dd>约 {venue.capacity.toLocaleString('zh-CN')} 人</dd>
+          <dd>
+            约 {venue.capacity.toLocaleString('zh-CN')} 人
+            {layouts.length > 0 && (
+              <ul class="seat-layouts">
+                {layouts.map((l) => (
+                  <li>
+                    {l.hallLabel}
+                    {l.seats != null && ` ${l.seats.toLocaleString('zh-CN')}席`}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </dd>
         </div>
         <div>
           <dt><span class="material-symbols-rounded">home_pin</span>地址</dt>
@@ -60,6 +78,13 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${venue.lat},${
             venue.website && (
               <md-outlined-button href={venue.website} target="_blank">
                 <md-icon slot="icon" class="material-symbols-rounded">language</md-icon>官网
+              </md-outlined-button>
+            )
+          }
+          {
+            mainLayout && (
+              <md-outlined-button href={mainLayout.seatmapUrl} target="_blank">
+                <md-icon slot="icon" class="material-symbols-rounded">event_seat</md-icon>座位图
               </md-outlined-button>
             )
           }
@@ -197,6 +222,13 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${venue.lat},${
   .facts dd {
     margin: 2px 0 0 24px;
     font-size: 15px;
+  }
+  .seat-layouts {
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+    color: var(--md-sys-color-on-surface-variant);
   }
   .actions {
     display: flex;

@@ -1,0 +1,134 @@
+{
+  "venue": "wakayama-kenmin",
+  "zasekiId": 20716,
+  "url": "https://zaseki.music-mdata.com/detail/20716",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:29.587Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "和歌山県民文化会館",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 2000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/20716.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/20716_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/20716",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/20716/1164003",
+          "title": "和歌山市駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/20716",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-23",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "クリスマス/アヴェ･マリア ～エリザベート弦楽アンサンブル～",
+          "slug": "/event/jfqyh4"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "チャイコフスキー･バレエ劇場「白鳥の湖」",
+          "slug": "/event/b2qfjrf"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "「おとうさんといっしょ」 レオてつコンサート",
+          "slug": "/event/bfh9ixw"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "岡本知高 Concerto del Sopranista 2027",
+          "slug": "/event/bbnyou"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "FANTASTICS LIVE TOUR 2027 \"PROMISE\"",
+          "slug": "/event/utv86ru"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "しなこワールドは何色？ツアー",
+          "slug": "/event/qkq089a"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "しなこ",
+          "slug": "/event/b3mxrqx"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "今市隆二 RYUJI IMAICHI RILY'S NIGHT 2027 \"BLACK\"",
+          "slug": "/event/xa1rqz9"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus” ホール公演",
+          "slug": "/event/40icyyt"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "和歌山県民文化会館",
+      "alias": null,
+      "facility": "小ホール",
+      "capacity": 328,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/20716_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/20716_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/20716",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/20716/1164003",
+          "title": "和歌山市駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/20716",
+          "title": null
+        }
+      },
+      "events": []
+    }
+  ]
+}

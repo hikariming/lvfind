@@ -1,0 +1,149 @@
+{
+  "venue": "iwaki-alios",
+  "zasekiId": 9610,
+  "url": "https://zaseki.music-mdata.com/detail/9610",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:41:56.565Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "いわき芸術文化交流館アリオス",
+      "alias": null,
+      "facility": "アルパイン大ホール",
+      "capacity": 1705,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9610.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9610_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9610",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9610/1122801",
+          "title": "いわき駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9610",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-28",
+          "name": "BUCK∞TICK TOUR 2026 ナイショの薔薇の下",
+          "slug": "/event/xp6n0mi"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "スターダスト☆レビュー",
+          "slug": "/event/byhir2"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "コレサワ HALL TOUR 2026 THE PINK",
+          "slug": "/event/5m2kyll"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "いわき芸術文化交流館アリオス",
+      "alias": null,
+      "facility": "セキショウ中劇場",
+      "capacity": 687,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9610_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9610_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9610",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9610/1122801",
+          "title": "いわき駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9610",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-29",
+          "name": "ミキ漫 全国ツアー2026",
+          "slug": "/event/w2icwis"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "リアルピース 全国47都道府県ツアー2027〜天下笑一〜",
+          "slug": "/event/d30d612"
+        }
+      ]
+    },
+    {
+      "hallNo": 3,
+      "venueName": "いわき芸術文化交流館アリオス",
+      "alias": null,
+      "facility": "GSユアサいわき小劇場",
+      "capacity": 233,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9610_3.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9610_3.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9610",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9610/1122801",
+          "title": "いわき駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9610",
+          "title": null
+        }
+      },
+      "events": []
+    },
+    {
+      "hallNo": 4,
+      "venueName": "いわき芸術文化交流館アリオス",
+      "alias": null,
+      "facility": "いわしん音楽小ホール",
+      "capacity": 200,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9610_4.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9610_4.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9610",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9610/1122801",
+          "title": "いわき駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9610",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2027-05-01",
+          "name": "黒金寛行 ソロアルバム「ALIVE」発売記念 バストロンボーンリサイタル",
+          "slug": "/event/b3ar86i"
+        }
+      ]
+    }
+  ]
+}

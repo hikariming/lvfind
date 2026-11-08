@@ -1,0 +1,210 @@
+{
+  "venue": "ichikawa-bunka",
+  "zasekiId": 9890,
+  "url": "https://zaseki.music-mdata.com/detail/9890",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:39.823Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "市川市文化会館",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 1758,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9890.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9890_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9890",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9890/1131328",
+          "title": "本八幡駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9890",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "清水ミチコ",
+          "slug": "/event/bijmmh"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "キーウ･クラシック･バレエ「白鳥の湖」(全2幕)",
+          "slug": "/event/b2wxeut"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "access TOUR 2026 AUTUMN-WINTER",
+          "slug": "/event/fp77iol"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "MUSIC IN MOTION! supported by blast",
+          "slug": "/event/b3qdaii"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "SID HALL TOUR 2026 〜Re:Quest〜",
+          "slug": "/event/ter3qsc"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "Da-iCE DAY HALL PHASE 2026",
+          "slug": "/event/zs9r3tk"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "ディズニー･オン･クラシック ～まほうの夜の音楽会 2026 Let It Go ～扉をひらけ",
+          "slug": "/event/1r8bl"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "第48回 習志野第九演奏会",
+          "slug": "/event/dzkmixp"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "Sakurashimejiの忘年会ライブ「きのこりあんの集い Vol.11」",
+          "slug": "/event/fg50rcr"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "ウィーン宮殿祝賀コンサート ～ウィンナー･ワルツ2027～",
+          "slug": "/event/b29r7x6"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "ぷしゅソングフェス2026-2027〜レッツ・スパークル！ぷしゅっとおんがくのまほう♪〜",
+          "slug": "/event/d8qlukb"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-01-18",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-19",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "海宝直人コンサート Home My Home 2027",
+          "slug": "/event/b3i9jkf"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "五木ひろし･由紀さおり",
+          "slug": "/event/b3n087b"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "「おかあさんといっしょ」 ファンターネ!がやってきた",
+          "slug": "/event/7rish"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "AAA LIVE & TALK 全国ツアー2027",
+          "slug": "/event/0zg4efx"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "岡村靖幸 2027 NEW SPRING TOUR",
+          "slug": "/event/58bqpk8"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "NHK交響楽団 in ICHIKAWA",
+          "slug": "/event/b3o4ibg"
+        },
+        {
+          "date": "2027-04-10",
+          "name": "氣志團 結成30周年記念 全國ホールGIGツアー",
+          "slug": "/event/4rqrxzk"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "i☆Ris Final Live Tour 2027",
+          "slug": "/event/9w7cxnb"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "ザ・クロマニヨンズ ツアー Hola! Leopardo 2027 ホール公演",
+          "slug": "/event/gpiq277"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "Chevon ONE MAN TOUR 2027",
+          "slug": "/event/x7f20fx"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "高橋優 LIVE TOUR 2027「free style stroke 2」",
+          "slug": "/event/choxnj6"
+        },
+        {
+          "date": "2027-05-29",
+          "name": "コロッケ ものまねエンターテイメント コロッケコンサート2027",
+          "slug": "/event/eles6"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "ディズニー・オン・クラシック 〜夢とまほうの贈りもの 2027",
+          "slug": "/event/swe3i9d"
+        },
+        {
+          "date": "2027-06-27",
+          "name": "田村ゆかり LOVE ♡ LIVE 2027",
+          "slug": "/event/z5prjvy"
+        },
+        {
+          "date": "2027-07-08",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus” ホール公演",
+          "slug": "/event/40icyyt"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "市川市文化会館",
+      "alias": null,
+      "facility": "小ホール",
+      "capacity": 413,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9890_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9890_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9890",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9890/1131328",
+          "title": "本八幡駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9890",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2027-01-08",
+          "name": "松井秀太郎 CONCERT HALL LIVE 2027 “ANCHOR”",
+          "slug": "/event/bt5oahx"
+        }
+      ]
+    }
+  ]
+}

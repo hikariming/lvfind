@@ -1,0 +1,270 @@
+{
+  "venue": "sendai-sunplaza",
+  "zasekiId": 9525,
+  "url": "https://zaseki.music-mdata.com/detail/9525",
+  "match": "retry",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:10.419Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "仙台サンプラザホール",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 2054,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/9525.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/9525_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/9525",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/9525/1122203",
+          "title": "榴ケ岡駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/9525",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "デビュー50周年記念 松山千春コンサート・ツアー2026",
+          "slug": "/event/0s7ueoi"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "コレサワ HALL TOUR 2026 THE PINK",
+          "slug": "/event/5m2kyll"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "SENRA LIVE TOUR 2026 Calea",
+          "slug": "/event/4s9m7dq"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
+          "slug": "/event/azwb2ya"
+        },
+        {
+          "date": "2026-11-16",
+          "name": "大野智 1st Birthday Event「さと島 -SATOSHI OHNO 45→46」",
+          "slug": "/event/wtsuqgm"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "薬師丸ひろ子 Concert Tour 2026 〜明日が来る〜",
+          "slug": "/event/wby3jcn"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "島袋寛子",
+          "slug": "/event/dzjnly"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "東京スカパラダイスオーケストラ Hall Tour 2026-2027「A Whole New Paradise」",
+          "slug": "/event/prcdsom"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "山下達郎 PERFORMANCE 2026 Supported by Rakuten Card",
+          "slug": "/event/hls0vfq"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "Da-iCE DAY HALL PHASE 2026",
+          "slug": "/event/zs9r3tk"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "indigo la End ONEMAN TOUR 2026 「紫にて」",
+          "slug": "/event/1mk9je9"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "しまさかでバースデーイベントやるってよwww >>10th anniversary ～Present For You～",
+          "slug": "/event/dr3z1af"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "みちのくプロレス 「新崎人生還暦記念大会 助走60年～人生、これから本番～」",
+          "slug": "/event/b_mgfn"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "まふまふ ひきこもりでもLIVEがしたい！～Acoustic Live Tour 2026～『叙情』",
+          "slug": "/event/rq6cnny"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "まふまふ ひきこもりでもLIVEがしたい！～Acoustic Live Tour 2026～『叙情』",
+          "slug": "/event/rq6cnny"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "REBECCA 『Cosmic Autonomy Tour 2026-2027』",
+          "slug": "/event/x3uclkq"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "LiSA 『LiVE is Smile Always～LACE UP～』",
+          "slug": "/event/raaesiv"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "離婚伝説 HALL TOUR 2026-2027 「ファーストキス」",
+          "slug": "/event/1uwcqjj"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "ASIAN KUNG-FU GENERATION 30th Anniversary Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-02-12",
+          "name": "吉井和哉 TOUR 2027 イ･キ･モ･ノ･エ･ネ･ジ･ー",
+          "slug": "/event/yrsuurr"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "氷川きよし＋KIINA Concert Tour2026-27 KIINA’S LAND 2",
+          "slug": "/event/i64ub34"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "ハンバート ハンバート TOUR 2027「今日も快晴」",
+          "slug": "/event/nix8tin"
+        },
+        {
+          "date": "2027-02-22",
+          "name": "T.M.R. LIVE REVOLUTION '26-'27",
+          "slug": "/event/970i91n"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2027-03-16",
+          "name": "LUNA SEA SLAVE 35th ANNIVERSARY SLAVE限定GIG TOUR -DEAR SLAVES 2027-",
+          "slug": "/event/wrml4yj"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "川崎鷹也",
+          "slug": "/event/bk9qf3v"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "ICEx Fifth Concert Tour 2027 ''NICOx LAND''",
+          "slug": "/event/ylw720y"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "ICEx Fifth Concert Tour 2027 ''NICOx LAND''",
+          "slug": "/event/ylw720y"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "松下洸平 KOUHEI MATSUSHITA LIVE TOUR 2027 〜New Dawn〜",
+          "slug": "/event/00mqb2c"
+        },
+        {
+          "date": "2027-05-11",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-12",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Chevon ONE MAN TOUR 2027",
+          "slug": "/event/x7f20fx"
+        },
+        {
+          "date": "2027-06-26",
+          "name": "レミオロメン Re Dialogue Tour 2027",
+          "slug": "/event/l36475w"
+        },
+        {
+          "date": "2027-06-27",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        },
+        {
+          "date": "2027-07-17",
+          "name": "ゴールデンボンバー全国ツアー2027",
+          "slug": "/event/hfowcx7"
+        }
+      ]
+    }
+  ]
+}

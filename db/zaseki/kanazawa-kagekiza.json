@@ -1,0 +1,120 @@
+{
+  "venue": "kanazawa-kagekiza",
+  "zasekiId": 18446,
+  "url": "https://zaseki.music-mdata.com/detail/18446",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:33:15.416Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "金沢歌劇座",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 1919,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/18446.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/18446_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/18446",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/18446/9941601",
+          "title": "野町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/18446",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-17",
+          "name": "SENRA LIVE TOUR 2026 Calea",
+          "slug": "/event/4s9m7dq"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "いしかわ秋の芸術祭 文化絢爛 歌心りえコンサートツアー Sing A Life",
+          "slug": "/event/b3f13s_"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "秋季歌舞伎特別公演 金沢",
+          "slug": "/event/b3cgtp8"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "「坂東玉三郎･春風亭小朝の越路吹雪物語」",
+          "slug": "/event/bwp2s6n"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "綾小路きみまろ 爆笑スーパーライブ2026in金沢",
+          "slug": "/event/70egm"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "NON STYLE LIVE 2026～リバーシ～",
+          "slug": "/event/smxdb3e"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "ビューティーこくぶ×Mr.シャチホコ×ななみなな×nanami 無双!! ものまねLIVE2026 in 金沢",
+          "slug": "/event/b3b85ba"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "T.M.R. LIVE REVOLUTION '26-'27",
+          "slug": "/event/970i91n"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "2026年劇団☆新感線46周年興行･冬公演 いのうえ歌舞伎 『髑髏城の七人 LAST STAND』",
+          "slug": "/event/b29l3hs"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "2026年劇団☆新感線46周年興行･冬公演 いのうえ歌舞伎 『髑髏城の七人 LAST STAND』",
+          "slug": "/event/b29l3hs"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2027-03-18",
+          "name": "今市隆二 RYUJI IMAICHI RILY'S NIGHT 2027 \"BLACK\"",
+          "slug": "/event/xa1rqz9"
+        },
+        {
+          "date": "2027-03-30",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-03-31",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "ディズニー・オン・クラシック 〜夢とまほうの贈りもの 2027",
+          "slug": "/event/swe3i9d"
+        }
+      ]
+    }
+  ]
+}

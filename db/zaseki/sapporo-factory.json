@@ -1,0 +1,50 @@
+{
+  "venue": "sapporo-factory",
+  "zasekiId": 2397,
+  "url": "https://zaseki.music-mdata.com/detail/2397",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:37.694Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "サッポロファクトリーホール",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 660,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/2397.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/2397_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/2397",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/2397/9910110",
+          "title": "バスセンター前駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/2397",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "ズーカラデル",
+          "slug": "/event/bcgr28v"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "クリープハイプ 太客倶楽部限定ツアー2027 それはそれで幸せ",
+          "slug": "/event/qngj3sn"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "[Alexandros] FC TOUR 2027 \"大饗宴\"",
+          "slug": "/event/52x7xbt"
+        }
+      ]
+    }
+  ]
+}

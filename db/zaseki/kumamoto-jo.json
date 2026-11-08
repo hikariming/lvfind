@@ -1,0 +1,165 @@
+{
+  "venue": "kumamoto-jo",
+  "zasekiId": 25635,
+  "url": "https://zaseki.music-mdata.com/detail/25635",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:41:37.485Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "熊本城ホール",
+      "alias": null,
+      "facility": "メインホール",
+      "capacity": 2304,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25635.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25635_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25635",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25635/9992309",
+          "title": "西辛島町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25635",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "田原俊彦 Dance with KING of IDOL 2026 〜パーティーはこれからだ！〜",
+          "slug": "/event/mkf1232"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "NON STYLE LIVE 2026～リバーシ～",
+          "slug": "/event/smxdb3e"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "吉幾三コンサート2026",
+          "slug": "/event/b209iv0"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "三浦大知 DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+          "slug": "/event/uqon919"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "しなこワールドは何色？ツアー",
+          "slug": "/event/qkq089a"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "しなこ",
+          "slug": "/event/b3mxrqx"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "DRUM TAO 2026「THE HUMAN2」12月九州 凱旋ツアー",
+          "slug": "/event/cpjc2v"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "MAZZEL 2nd Fan Meeting -Play at the MUZEUM Vol.2-",
+          "slug": "/event/2rdjsgv"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "佐野元春 & THE COYOTE BAND「MOTOHARU SANO & THE COYOTE BAND \"IN & OUT TOUR 2026\"」",
+          "slug": "/event/br0pexk"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "THE ORAL CIGARETTES <振替公演>",
+          "slug": "/event/pwmw5l"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "島津亜矢",
+          "slug": "/event/b2wro0z"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "ASIAN KUNG-FU GENERATION 30th Anniversary Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "市川團十郎特別公演",
+          "slug": "/event/bz7at_l"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "最強!ものまねフェスin熊本 ビューティーこくぶ×ミラクルひかる×原口あきまさ×ノブ&フッキー",
+          "slug": "/event/b3hwz4l"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "中村勘九郎 中村七之助 中村勘太郎 中村長三郎 陽春歌舞伎特別公演 2027",
+          "slug": "/event/b45pmq"
+        },
+        {
+          "date": "2027-04-24",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "岩田剛典 GAN FAN MEETING TOUR 2027 “kokokara”",
+          "slug": "/event/fqmum38"
+        },
+        {
+          "date": "2027-05-24",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-05-25",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "FANTASTICS LIVE TOUR 2027 \"PROMISE\"",
+          "slug": "/event/utv86ru"
+        }
+      ]
+    }
+  ]
+}

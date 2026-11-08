@@ -62,6 +62,45 @@ CREATE INDEX IF NOT EXISTS idx_events_start  ON events(start_local);
 CREATE INDEX IF NOT EXISTS idx_events_artist ON events(artist_id, start_local);
 CREATE INDEX IF NOT EXISTS idx_events_venue  ON events(venue_id, start_local);
 
+-- zaseki.music-mdata.com（座席表ガイド）快照：日本场馆的精确席数 / 座位图 / 日程。
+-- 第三方参考数据（robots: use=reference），用于核对 venues.capacity、给用户外链座位图、交叉查漏场次。
+CREATE TABLE IF NOT EXISTS venue_seat_layouts (
+  id              INTEGER PRIMARY KEY,
+  venue_id        INTEGER NOT NULL REFERENCES venues(id),
+  zaseki_id       INTEGER NOT NULL,        -- /detail/{zaseki_id}/{hall_no}
+  hall_no         INTEGER NOT NULL,
+  name            TEXT,                    -- zaseki 上的场馆名（可能是冠名，如 'GMOアリーナさいたま'）
+  name_alias      TEXT,                    -- 别名行的正式名（如 'さいたまスーパーアリーナ'）
+  hall_label      TEXT,                    -- 厅/布局名：'ホール' 'メインアリーナモード' '大ホール'
+  seats           INTEGER,                 -- 精确席数
+  seatmap_url     TEXT NOT NULL,           -- 座位图详情页（外链给用户）
+  seatmap_img     TEXT,                    -- 座位图 PNG（cdn）
+  seatmap_pdf     TEXT,                    -- 座位表 PDF（cdn）
+  livewalker_url  TEXT,                    -- 施設情報（姊妹站）
+  nearest_station TEXT,                    -- 从「最寄り駅」链接提取：'高島町駅'
+  parking_url     TEXT,
+  match           TEXT NOT NULL,           -- 匹配置信度：auto / weak / retry（weak 需人工复核）
+  fetched_at      TEXT NOT NULL,
+  UNIQUE(venue_id, zaseki_id, hall_no)
+);
+
+CREATE INDEX IF NOT EXISTS idx_layouts_venue ON venue_seat_layouts(venue_id);
+
+-- zaseki 上的场馆日程快照（全类型活动，不限 kpop/jpop；用于交叉核对与发现漏收场次）
+CREATE TABLE IF NOT EXISTS venue_schedule (
+  id          INTEGER PRIMARY KEY,
+  venue_id    INTEGER REFERENCES venues(id),
+  zaseki_id   INTEGER NOT NULL,
+  hall_no     INTEGER NOT NULL,
+  event_date  TEXT NOT NULL,
+  event_name  TEXT NOT NULL,
+  event_slug  TEXT,                        -- /event/{slug}
+  fetched_at  TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_vsched_venue ON venue_schedule(venue_id, event_date);
+CREATE INDEX IF NOT EXISTS idx_vsched_date  ON venue_schedule(event_date);
+
 -- 变更日志（方便追溯 Agent / 人工改了什么）
 CREATE TABLE IF NOT EXISTS event_changes (
   id         INTEGER PRIMARY KEY,

@@ -1,0 +1,185 @@
+{
+  "venue": "tachikawa-stage",
+  "zasekiId": 27660,
+  "url": "https://zaseki.music-mdata.com/detail/27660",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:02.312Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "立川ステージガーデン",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 2448,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/27660.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/27660_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/27660",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/27660/9933412",
+          "title": "立川北駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/27660",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "TACHIHI presents 「立川立飛歌舞伎特別公演」",
+          "slug": "/event/b0cwf54"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "PARK EUNBIN",
+          "slug": "/event/bw4sv6v"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "OCTPATH5周年記念ライブ≪結成記念≫",
+          "slug": "/event/4xe8a69"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "AVAM",
+          "slug": "/event/pb5ro6p"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "大野智 1st Birthday Event「さと島 -SATOSHI OHNO 45→46」",
+          "slug": "/event/wtsuqgm"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "大野智 1st Birthday Event「さと島 -SATOSHI OHNO 45→46」",
+          "slug": "/event/wtsuqgm"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "TVアニメ『忘却バッテリー』スペシャルイベント「忘却フェスタ2026」",
+          "slug": "/event/bwvgsqf"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "access TOUR 2026 AUTUMN-WINTER",
+          "slug": "/event/fp77iol"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2026 KIM JI WOONG BIRTHDAY PARTY “WISHLIST” in TOKYO",
+          "slug": "/event/kwqlj0z"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "TACHIKAWA Sound of CHRISTMAS 2026",
+          "slug": "/event/b3pptq0"
+        },
+        {
+          "date": "2027-01-03",
+          "name": "しなこワールドは何色？ツアー",
+          "slug": "/event/qkq089a"
+        },
+        {
+          "date": "2027-01-03",
+          "name": "しなこ",
+          "slug": "/event/b3mxrqx"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "リトル・フィート 来日公演",
+          "slug": "/event/2b0ql0u"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "Jang Wooyoung Concert in Japan",
+          "slug": "/event/5di3w8t"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "Jang Wooyoung Concert in Japan",
+          "slug": "/event/5di3w8t"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "fripSide",
+          "slug": "/event/mkwmdc"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "Sakurashimeji Hall Tour 2027 \"soup\"",
+          "slug": "/event/8fvbqxm"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "Element Sicks LIVE 2027 “VERSE” <追加公演>",
+          "slug": "/event/bzry19a"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "Element Sicks LIVE 2027 “VERSE” <追加公演>",
+          "slug": "/event/bzry19a"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "Element Sicks LIVE 2027 “VERSE” <追加公演>",
+          "slug": "/event/bzry19a"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "n.SSign Special Session 2027 “THREE STAGES : Three Sides of n.SSign” – the BEAUTY",
+          "slug": "/event/2wm80zq"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "n.SSign Special Session 2027 “THREE STAGES : Three Sides of n.SSign” – the BEAUTY",
+          "slug": "/event/2wm80zq"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "森雪之丞 50th Anniversary Wonder Live",
+          "slug": "/event/es100lh"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "MeseMoa. MeseMoa. 47都道府県ツアー 「BooM!! ～にほんめ。ぐるーぷ～」ファイナル",
+          "slug": "/event/zat2je"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "劇場版えぐいっちtokyo（仮）～10万人記念ライブ～",
+          "slug": "/event/3hvgba4"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "Brewin' Groove Festival 2027",
+          "slug": "/event/j7wgrvn"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-07-19",
+          "name": "ReLIT",
+          "slug": "/event/bni78u2"
+        },
+        {
+          "date": "2027-07-25",
+          "name": "i☆Ris Final Live Tour 2027",
+          "slug": "/event/9w7cxnb"
+        }
+      ]
+    }
+  ]
+}

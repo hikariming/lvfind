@@ -1,0 +1,75 @@
+{
+  "venue": "premist-dome",
+  "zasekiId": 24233,
+  "url": "https://zaseki.music-mdata.com/detail/24233",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:39:47.970Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "大和ハウス プレミストドーム",
+      "alias": "札幌ドーム",
+      "facility": "ドーム",
+      "capacity": 53820,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/24233.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/24233_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/24233",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/24233/9910314",
+          "title": "福住駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/24233",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "YOASOBI アジア10大ドーム＆スタジアムツアー",
+          "slug": "/event/zx5meph"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "YOASOBI アジア10大ドーム＆スタジアムツアー",
+          "slug": "/event/zx5meph"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "サッポロ モノ ヴィレッジ 2026秋",
+          "slug": "/event/b3atmae"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "J2リーグ第19節 北海道コンサドーレ札幌 vs 藤枝MYFC",
+          "slug": "/event/5h5b44h"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "J2リーグ第21節 北海道コンサドーレ札幌 vs アルビレックス新潟",
+          "slug": "/event/vsfsxhf"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "J2リーグ第22節 北海道コンサドーレ札幌 vs カターレ富山",
+          "slug": "/event/i4q7my4"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        }
+      ]
+    }
+  ]
+}

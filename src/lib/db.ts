@@ -1,4 +1,4 @@
-import type { Artist, Event, Genre, MapVenue, Venue, VenueType } from '../data/events';
+import type { Artist, Event, Genre, MapVenue, SeatLayout, Venue, VenueType } from '../data/events';
 import { regions } from '../data/events';
 
 // 字段与 src/data/events.ts 的接口保持一致：venue.id 用 slug，event.artist/venue 存 slug。
@@ -57,22 +57,65 @@ export async function fetchEvents(db: D1Database): Promise<Event[]> {
   }));
 }
 
+export async function fetchSeatLayouts(db: D1Database): Promise<Record<string, SeatLayout[]>> {
+  try {
+    const { results } = await db
+      .prepare(
+        `SELECT v.slug AS venue, l.zaseki_id, l.hall_no, l.name, l.name_alias, l.hall_label,
+                l.seats, l.seatmap_url, l.seatmap_img, l.seatmap_pdf,
+                l.livewalker_url, l.nearest_station, l.parking_url, l.match, l.fetched_at
+         FROM venue_seat_layouts l JOIN venues v ON v.id = l.venue_id
+         ORDER BY v.slug, l.hall_no`,
+      )
+      .all<Row>();
+    const byVenue: Record<string, SeatLayout[]> = {};
+    for (const r of results) {
+      (byVenue[r.venue as string] ??= []).push({
+        zasekiId: r.zaseki_id as number,
+        hallNo: r.hall_no as number,
+        name: r.name as string,
+        nameAlias: r.name_alias as string | undefined,
+        hallLabel: r.hall_label as string,
+        seats: r.seats as number | null,
+        seatmapUrl: r.seatmap_url as string,
+        seatmapImg: r.seatmap_img as string | undefined,
+        seatmapPdf: r.seatmap_pdf as string | undefined,
+        livewalkerUrl: r.livewalker_url as string | undefined,
+        nearestStation: r.nearest_station as string | undefined,
+        parkingUrl: r.parking_url as string | undefined,
+        match: r.match as string,
+        fetchedAt: r.fetched_at as string,
+      });
+    }
+    return byVenue;
+  } catch {
+    return {}; // 表不存在（老库）时静默降级
+  }
+}
+
 export interface SiteData {
   artists: Artist[];
   venues: Venue[];
   events: Event[];
   artistBySlug: Record<string, Artist>;
   venueById: Record<string, Venue>;
+  layoutsByVenue: Record<string, SeatLayout[]>;
 }
 
 async function loadData(db: D1Database): Promise<SiteData> {
-  const [artists, venues, events] = await Promise.all([fetchArtists(db), fetchVenues(db), fetchEvents(db)]);
+  const [artists, venues, events, layoutsByVenue] = await Promise.all([
+    fetchArtists(db),
+    fetchVenues(db),
+    fetchEvents(db),
+    fetchSeatLayouts(db),
+  ]);
   return {
     artists,
     venues,
     events,
     artistBySlug: Object.fromEntries(artists.map((a) => [a.slug, a])),
     venueById: Object.fromEntries(venues.map((v) => [v.id, v])),
+    layoutsByVenue,
   };
 }
 

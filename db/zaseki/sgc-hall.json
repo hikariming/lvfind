@@ -1,0 +1,420 @@
+{
+  "venue": "sgc-hall",
+  "zasekiId": 31078,
+  "url": "https://zaseki.music-mdata.com/detail/31078",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:56.130Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "SGCホール有明",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 5306,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/31078.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/31078_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/31078",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/31078/9931111",
+          "title": "東京ビッグサイト駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/31078",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "AMPTAKx侵略計画レインボーロード中93％～REVIVAL～",
+          "slug": "/event/4gzqvwf"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "CUTIE STREET 古澤里紗 生誕祭 2026",
+          "slug": "/event/zebkgfw"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "CUTIE STREET 板倉可奈 生誕祭 2026",
+          "slug": "/event/errth3i"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "SONG KANG",
+          "slug": "/event/bt_de55"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "SONG KANG",
+          "slug": "/event/bt_de55"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "布袋寅泰 HOTEI the LIVE 2026 \"45th Celebration GIGS\" STAY WILD TOUR",
+          "slug": "/event/z4faw1q"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "LOVE SUPREME JAZZ FESTIVAL JAPAN 2026",
+          "slug": "/event/bjp1f3p"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "テデスキ・トラックス・バンド",
+          "slug": "/event/jpmtf4z"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "テデスキ・トラックス・バンド",
+          "slug": "/event/jpmtf4z"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "「SGCホール有明 オープニングシリーズ」 OFFICIAL FAN CLUB \"K2\" presents K2 Member's Night 2026",
+          "slug": "/event/em2n5ax"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "ファイヴ・セカンズ・オブ・サマー",
+          "slug": "/event/q4cqngi"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "ファイヴ・セカンズ・オブ・サマー",
+          "slug": "/event/q4cqngi"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2026 Kep1er FAN-CON TOUR [RSVP:Respond our code] in TOKYO",
+          "slug": "/event/z2btt2a"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "FRUITS ZIPPER 鎮西寿々歌 生誕祭 2026",
+          "slug": "/event/0u12cp7"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "CUTIE STREET 佐野愛花 生誕祭 2026",
+          "slug": "/event/w8q0gp6"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "GIFT ～Girls Idol Festival Tokyo～",
+          "slug": "/event/oo8649m"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "GIFT ～Girls Idol Festival Tokyo～",
+          "slug": "/event/oo8649m"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "GIFT ～Girls Idol Festival Tokyo～",
+          "slug": "/event/oo8649m"
+        },
+        {
+          "date": "2026-11-30",
+          "name": "トゥー・ドア・シネマ・クラブ",
+          "slug": "/event/p63g6h9"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "エヴァネッセンス",
+          "slug": "/event/3ljpfcr"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "エヴァネッセンス",
+          "slug": "/event/3ljpfcr"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "CANDY TUNE 村川緋杏 生誕祭 2026",
+          "slug": "/event/y2evf2q"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "KURE 5-56 Presents Rockon Social Club Tour 2026 WARRIORS",
+          "slug": "/event/vbvahg8"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "斉藤和義 KAZUYOSHI SAITO LIVE TOUR 2026",
+          "slug": "/event/uv81h3k"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "斉藤和義 KAZUYOSHI SAITO LIVE TOUR 2026",
+          "slug": "/event/uv81h3k"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "SWEET STEADY 白石まゆみ BIRTHDAY LIVE 2026",
+          "slug": "/event/xnne1zh"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "MAN WITH A MISSION",
+          "slug": "/event/ibv3u4"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "MAN WITH A MISSION",
+          "slug": "/event/ibv3u4"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "ももいろクローバーZ クリスマスツアー2026「ももクリDelivery」",
+          "slug": "/event/amfgxal"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "ももいろクローバーZ クリスマスツアー2026「ももクリDelivery」",
+          "slug": "/event/amfgxal"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "ももいろクローバーZ クリスマスツアー2026「ももクリDelivery」",
+          "slug": "/event/amfgxal"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "CANDY TUNE 福山梨乃 生誕祭 2026",
+          "slug": "/event/t4zo265"
+        },
+        {
+          "date": "2026-12-17",
+          "name": "FRUITS ZIPPER 早瀬ノエル 生誕祭 2026",
+          "slug": "/event/3ow66pz"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "SWEET STEADY JAPAN HALL TOUR 2026",
+          "slug": "/event/st2wvb7"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "SWEET STEADY JAPAN TOUR 2026 -WINTER-",
+          "slug": "/event/4u9jjjc"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "スターダスト☆レビュー",
+          "slug": "/event/byhir2"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "スターダスト☆レビュー",
+          "slug": "/event/byhir2"
+        },
+        {
+          "date": "2027-01-02",
+          "name": "最強無敵連合 (喋るやつ)※はとねもいます",
+          "slug": "/event/b3p31og"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "rockin’on sonic 2027",
+          "slug": "/event/bxbs8dj"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "rockin’on sonic 2027",
+          "slug": "/event/bxbs8dj"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "島袋寛子",
+          "slug": "/event/dzjnly"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "We are SneakerStep! -3rd Step- “DAWN”",
+          "slug": "/event/gey8hb0"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "We are SneakerStep! -3rd Step- “DAWN”",
+          "slug": "/event/gey8hb0"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "ヨーロッパ THE FINAL COUNTDOWN 40TH ANNIVERSARY TOUR",
+          "slug": "/event/8j6q3p8"
+        },
+        {
+          "date": "2027-01-20",
+          "name": "CRAVITY CONCERTIN JAPAN",
+          "slug": "/event/oos44pg"
+        },
+        {
+          "date": "2027-01-21",
+          "name": "CRAVITY CONCERTIN JAPAN",
+          "slug": "/event/oos44pg"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-27",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-01-28",
+          "name": "フォンテインズD.C. 来日公演",
+          "slug": "/event/bthiguo"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "柴咲コウ KO SHIBASAKI LIVE TOUR 2026 ACTOR'S THE BEST 〜泡沫〜",
+          "slug": "/event/fd8xt6z"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "柴咲コウ KO SHIBASAKI LIVE TOUR 2026 ACTOR'S THE BEST 〜泡沫〜",
+          "slug": "/event/fd8xt6z"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "SHEʼS 15th Anniversary Final",
+          "slug": "/event/rfxxyqk"
+        },
+        {
+          "date": "2027-02-11",
+          "name": "美波 「Timesick Traveler2027」",
+          "slug": "/event/_cb2gu"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "カキンツハルカ",
+          "slug": "/event/bxljpk2"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "『響け！ユーフォニアム』公式吹奏楽コンサート 北宇治高校吹奏楽部 第10回定期演奏会",
+          "slug": "/event/sig0feh"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "アンダーワールド＆ブルータリスムス3000 来日公演",
+          "slug": "/event/hryy5sd"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "w-inds. LIVE TOUR 2027 “Re:1st message”",
+          "slug": "/event/v5j0wl6"
+        },
+        {
+          "date": "2027-03-18",
+          "name": "吉井和哉 TOUR 2027 イ･キ･モ･ノ･エ･ネ･ジ･ー",
+          "slug": "/event/yrsuurr"
+        },
+        {
+          "date": "2027-04-09",
+          "name": "凛として時雨 TOUR 2749025 TURBO SAURUS",
+          "slug": "/event/epq9k76"
+        },
+        {
+          "date": "2027-04-10",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-04-11",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "宇宙 日本 東京2027 -低音リターンズ-",
+          "slug": "/event/ww61c7r"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "LUNA SEA SLAVE 35th ANNIVERSARY SLAVE限定GIG TOUR -DEAR SLAVES 2027-",
+          "slug": "/event/wrml4yj"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "LUNA SEA SLAVE 35th ANNIVERSARY SLAVE限定GIG TOUR -DEAR SLAVES 2027-",
+          "slug": "/event/wrml4yj"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "La'cryma Christi 30th Anniversary Live 未来航路〜Final Voyage〜",
+          "slug": "/event/rqhsq11"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "YUIKAORI Anniversary Party〜One Night Reunion〜",
+          "slug": "/event/4zmve9z"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "NOMELON NOLEMON ONE MAN LIVE「DOCUMENTARIUM 2027」",
+          "slug": "/event/g29cyah"
+        },
+        {
+          "date": "2027-05-29",
+          "name": "CLAN QUEEN HALL TOUR 2027",
+          "slug": "/event/1qg0vma"
+        },
+        {
+          "date": "2027-06-11",
+          "name": "LIVE DA PUMP 2027",
+          "slug": "/event/vnt8alm"
+        },
+        {
+          "date": "2027-06-12",
+          "name": "きゃりーぱみゅぱみゅ 15th ANNIVERSARY JAPAN TOUR 2027",
+          "slug": "/event/gynw7n9"
+        },
+        {
+          "date": "2027-06-13",
+          "name": "jo0ji「live tour 2027 ”≒” nearly equal」日本公演",
+          "slug": "/event/diah79v"
+        },
+        {
+          "date": "2027-06-22",
+          "name": "ザ・クロマニヨンズ ツアー Hola! Leopardo 2027 ホール公演",
+          "slug": "/event/gpiq277"
+        },
+        {
+          "date": "2027-06-28",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        },
+        {
+          "date": "2027-06-29",
+          "name": "アイナ・ジ・エンド 「AiNA THE END LIVE TOUR 2027」",
+          "slug": "/event/vt42s7j"
+        },
+        {
+          "date": "2027-07-02",
+          "name": "iri Hall Tour 2027",
+          "slug": "/event/s1q8alb"
+        },
+        {
+          "date": "2027-09-04",
+          "name": "田村ゆかり LOVE ♡ LIVE 2027",
+          "slug": "/event/z5prjvy"
+        },
+        {
+          "date": "2027-09-05",
+          "name": "田村ゆかり LOVE ♡ LIVE 2027",
+          "slug": "/event/z5prjvy"
+        }
+      ]
+    }
+  ]
+}

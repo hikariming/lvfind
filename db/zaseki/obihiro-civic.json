@@ -1,0 +1,99 @@
+{
+  "venue": "obihiro-civic",
+  "zasekiId": 8688,
+  "url": "https://zaseki.music-mdata.com/detail/8688",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:59.935Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "帯広市民文化ホール",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 1540,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/8688.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/8688_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/8688",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/8688/1110709",
+          "title": "帯広駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/8688",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "LiSA 『LiVE is Smile Always～LACE UP～』",
+          "slug": "/event/raaesiv"
+        },
+        {
+          "date": "2026-11-16",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "徳永英明 『Hideaki Tokunaga 40th Anniversary Concert Tour 2026 COVERS & BEST』[後半]",
+          "slug": "/event/imk9j6s"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "東京スカパラダイスオーケストラ Hall Tour 2026-2027「A Whole New Paradise」",
+          "slug": "/event/prcdsom"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "ミュージカル 「ALICE 〜不思議の国のアリスより〜」",
+          "slug": "/event/euke2q5"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "CHANGMIN from 東方神起 CONCERT TOUR ～The Second Dining～",
+          "slug": "/event/7ocgs6a"
+        },
+        {
+          "date": "2027-07-04",
+          "name": "氣志團 結成30周年記念 全國ホールGIGツアー",
+          "slug": "/event/4rqrxzk"
+        },
+        {
+          "date": "2027-08-22",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus” ホール公演",
+          "slug": "/event/40icyyt"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "帯広市民文化ホール",
+      "alias": null,
+      "facility": "小ホール",
+      "capacity": 512,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/8688_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/8688_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/8688",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/8688/1110709",
+          "title": "帯広駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/8688",
+          "title": null
+        }
+      },
+      "events": []
+    }
+  ]
+}

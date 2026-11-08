@@ -1,0 +1,130 @@
+{
+  "venue": "port-messe",
+  "zasekiId": 20639,
+  "url": "https://zaseki.music-mdata.com/detail/20639",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:40:20.660Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "ポートメッセなごや",
+      "alias": "名古屋市国際展示場",
+      "facility": "第1展示館",
+      "capacity": 15000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/20639.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/20639_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/20639",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/20639/9950911",
+          "title": "金城ふ頭駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/20639",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-12-08",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "山下智久 TOMOHISA YAMASHITA Tour 2026",
+          "slug": "/event/cat90b5"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "山下智久 TOMOHISA YAMASHITA Tour 2026",
+          "slug": "/event/cat90b5"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "NEXZ 1ST ASIA TOUR ＜SAUCIN' THE WORLD＞ IN JAPAN",
+          "slug": "/event/wy40n4d"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "NEXZ 1ST ASIA TOUR ＜SAUCIN' THE WORLD＞ IN JAPAN",
+          "slug": "/event/wy40n4d"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "ALL-STANDING ARENA TOUR 2027「DOPE PURPLE HOLE」",
+          "slug": "/event/jqchyse"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "Adoの歌ってみたツアー2027",
+          "slug": "/event/h4q7rb2"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "Adoの歌ってみたツアー2027",
+          "slug": "/event/h4q7rb2"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN JAPAN",
+          "slug": "/event/m8j6pwp"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-09-24",
+          "name": "SUPER BEAVER 都会のラクダ TOUR 2027-2028 〜 ラクダムーンと、サンサンサンライズ 〜",
+          "slug": "/event/tl7vqsz"
+        },
+        {
+          "date": "2027-09-25",
+          "name": "SUPER BEAVER 都会のラクダ TOUR 2027-2028 〜 ラクダムーンと、サンサンサンライズ 〜",
+          "slug": "/event/tl7vqsz"
+        }
+      ]
+    }
+  ]
+}

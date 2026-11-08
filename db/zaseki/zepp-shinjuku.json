@@ -1,0 +1,330 @@
+{
+  "venue": "zepp-shinjuku",
+  "zasekiId": 28957,
+  "url": "https://zaseki.music-mdata.com/detail/28957",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:53.974Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "Zepp新宿",
+      "alias": "Zepp Shinjuku (TOKYO)",
+      "facility": "ホール",
+      "capacity": 1500,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/28957.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/28957_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/28957",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/28957/2200701",
+          "title": "西武新宿駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/28957",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "浪漫派マシュマロ",
+          "slug": "/event/b083_1q"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "0.1gの誤算 初心者にも優しい自由に見ていいワンマン",
+          "slug": "/event/56w_oo"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "eill presents Therapy at the Floor supported by ライブナタリー",
+          "slug": "/event/md7ynqb"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "初Zeppワンマン『いままでのこと、これからのこと』",
+          "slug": "/event/wyxik8r"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "GLIM SPANKY",
+          "slug": "/event/q1vara"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "仮面女子",
+          "slug": "/event/0wskdw"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "log you 1st ANNIVERSARY LIVE ～ Beyond the log ～",
+          "slug": "/event/ufaqy2f"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "FINLANDS",
+          "slug": "/event/6uzy0o"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "-30th Anniversary Party Special-",
+          "slug": "/event/bk0en6v"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "TENDOUJI",
+          "slug": "/event/97x2w2"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "SUGIZO TOUR 2026「THE ASCENSION TO THE NEXT ERA」",
+          "slug": "/event/tt7zkdq"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "ポルカドットスティングレイ",
+          "slug": "/event/75y0ik2"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "kobore",
+          "slug": "/event/baq8k4o"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "UNCHAIN presents 30th Anniv. \"Another departure from Zepp Shinjuku\"",
+          "slug": "/event/jz9xwb4"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "Fcukers",
+          "slug": "/event/b3o247k"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "EMNW TO KAMASU ゛LOVING TO GET US BY゛ TOUR 2026",
+          "slug": "/event/b1no53g"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "Azavana",
+          "slug": "/event/bl8fssu"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "DOMICO TWOMAN TOUR 2026",
+          "slug": "/event/bcsc1wd"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "渋谷怪談夜会 第十三夜",
+          "slug": "/event/ighsdam"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "長岡亮介 MOKKEI",
+          "slug": "/event/b3o5o53"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "Liza",
+          "slug": "/event/bwpjga6"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "バックドロップシンデレラ",
+          "slug": "/event/uykkva"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "花冷え。",
+          "slug": "/event/bs61xcw"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "Zilqy",
+          "slug": "/event/b0svxqu"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "オレンジスパイニクラブ ワンマンツアー2026「Do you like me？」",
+          "slug": "/event/qyvgt6v"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "ART-SCHOOL TOUR 2026 「The Fragile Songs」",
+          "slug": "/event/7wzz51l"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "fav me 全国ふぁぼツアー2026",
+          "slug": "/event/bgcejsw"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "絶品 -non stop music-",
+          "slug": "/event/2fdja2u"
+        },
+        {
+          "date": "2026-12-29",
+          "name": "ウルトラ寿司ふぁいやー",
+          "slug": "/event/bjbjnd7"
+        },
+        {
+          "date": "2026-12-30",
+          "name": "Hi-Fi Un!corn 2026 LIVE HOUSE TOUR Ⅱ - TELESCOPE -追加公演",
+          "slug": "/event/6wz7mhc"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+          "slug": "/event/b1q4wm0"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "こみっきゅおん! ONE MAN LIVE「TAKE ON!」",
+          "slug": "/event/btbnehy"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "ASH DA HERO ASH DA HERO presents 2MAN LIVE SERIES “GACHINKO”",
+          "slug": "/event/tk_oos"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "First Love is Never Returned",
+          "slug": "/event/bxfxtug"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "電気式華憐音楽集団 DENKARE 25th Anniversary Live “GIG SILVER BULLET JUBILEE”",
+          "slug": "/event/jj7sui"
+        },
+        {
+          "date": "2027-01-14",
+          "name": "ENJIN",
+          "slug": "/event/brk3lto"
+        },
+        {
+          "date": "2027-01-15",
+          "name": "えんそく",
+          "slug": "/event/odh81e"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "BREIMEN 5th Album Release LIVE “TOKYO in the m.....”",
+          "slug": "/event/qx7eeq2"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "NakamuraEmi",
+          "slug": "/event/zxm1py"
+        },
+        {
+          "date": "2027-01-20",
+          "name": "賽 from u. 1st ONEMAN LIVE「賽」",
+          "slug": "/event/b9bdz4f"
+        },
+        {
+          "date": "2027-01-22",
+          "name": "終活クラブ 結成6周年記念公演『新宿大宴会』",
+          "slug": "/event/v8q1elm"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "brainchild’s",
+          "slug": "/event/irafux"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "カメレオ",
+          "slug": "/event/mprgvk"
+        },
+        {
+          "date": "2027-01-28",
+          "name": "VII 2nd Anniversary LIVE「TRACE」",
+          "slug": "/event/b3ld4bc"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "ハク。 みんなの世界が変わる時ツアー",
+          "slug": "/event/bof41ww"
+        },
+        {
+          "date": "2027-02-02",
+          "name": "つきみ <追加公演>",
+          "slug": "/event/buiy7it"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "アンと私 ONE MAN TOUR “ANN” <FINAL 26FES 2027 -ONEMAN SHOW->",
+          "slug": "/event/bux497x"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "OZworld \"RESPAWN TOUR 2027\"",
+          "slug": "/event/c5vt7gg"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "USHIO REIRA One Man Live「I'm mine」",
+          "slug": "/event/64nfas5"
+        },
+        {
+          "date": "2027-02-12",
+          "name": "LEGO BIG MORL \"Thanks Giving\" vol.19",
+          "slug": "/event/bg8lauc"
+        },
+        {
+          "date": "2027-02-25",
+          "name": "ノーテッド来日公演",
+          "slug": "/event/26bifen"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "nyamura 2nd one-man Live『mine』",
+          "slug": "/event/184fbb6"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "THE BOYS&GIRLS 15th ANNIVERSARY Zepp Shinkuju ONE MAN LIVE",
+          "slug": "/event/5q2x0z"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "リュックと添い寝ごはん one-man tour 「とは？」",
+          "slug": "/event/871amdl"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "BURNOUT SYNDROMES Fly Me To The Moon TOUR 2027- Debut 10th Anniversary -",
+          "slug": "/event/54pa057"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "[Alexandros] FC TOUR 2027 \"大饗宴\"",
+          "slug": "/event/52x7xbt"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "[Alexandros] FC TOUR 2027 \"大饗宴\"",
+          "slug": "/event/52x7xbt"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "ビレッジマンズストア 完全公演「五人のゆくえ」",
+          "slug": "/event/d7m1w1e"
+        },
+        {
+          "date": "2027-06-26",
+          "name": "キノコホテル創業20周年記念大実演会 サロン・ド・キノコ～愛と欲望の支配者XX",
+          "slug": "/event/chf47d4"
+        }
+      ]
+    }
+  ]
+}

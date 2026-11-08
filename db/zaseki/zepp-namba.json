@@ -1,0 +1,265 @@
+{
+  "venue": "zepp-namba",
+  "zasekiId": 2489,
+  "url": "https://zaseki.music-mdata.com/detail/2489",
+  "match": "weak",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:40.665Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "Zeppなんば大阪",
+      "alias": "Zepp Namba",
+      "facility": "ホール",
+      "capacity": 2513,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/2489.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/2489_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/2489",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/2489/3200702",
+          "title": "今宮戎駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/2489",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "jo0ji",
+          "slug": "/event/bxhzfhz"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2026 VERIVERY CONCERT “GIVE ME FIVE, KEEP THAT VIBE” JAPAN",
+          "slug": "/event/ekem09d"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "WATWING Live Tour 2026-2027「love」",
+          "slug": "/event/v96tcpw"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "lecca Live Tour 2026 “Lovers & Dreamers”",
+          "slug": "/event/nnojjud"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "EX ENTERTAINMENT presents Music Splash!!",
+          "slug": "/event/wwzq9xw"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "丸山純奈",
+          "slug": "/event/bxag2i9"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "Groove-Method LIVE 2026",
+          "slug": "/event/djelrcc"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
+          "slug": "/event/awljvii"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
+          "slug": "/event/awljvii"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "クイーンズ・オブ・ザ・ストーン・エイジ 来日公演",
+          "slug": "/event/4src73f"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "Skoop On Somebody",
+          "slug": "/event/dwclh"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "JOY-POPS(村越弘明+土屋公平)",
+          "slug": "/event/_xo5hg"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "森山直太朗 Zepp TOURS 2026『Zepp de Rolling DOSA 〜すべからく愛々〜』",
+          "slug": "/event/c5n01fh"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "ロージークロニクル",
+          "slug": "/event/bzjxbwq"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "Hello! Project 研修生発表会 2026 12月 ～光星～",
+          "slug": "/event/c08bi8"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "しるこ siruko Fan Meeting Tour 2026 ～みんなでしるこの部屋～",
+          "slug": "/event/bq1s71d"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "STGR METROPOLIS -OSAKA-",
+          "slug": "/event/b3ugxf4"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2026 SUPER JUNIOR-83z FAN-CON TOUR [1983] in JAPAN 追加公演",
+          "slug": "/event/84ybj2t"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2026 SUPER JUNIOR-83z FAN-CON TOUR [1983] in JAPAN 追加公演",
+          "slug": "/event/84ybj2t"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "EVNNE FAN-CONCERT [ONE TAKE] IN JAPAN",
+          "slug": "/event/ftq5l9h"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "AKASAKI 1st World Tour \"ONIGIRI\"",
+          "slug": "/event/6rmmtnb"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "SATOMI UTATTEMITA TOUR 10th",
+          "slug": "/event/3ri1eey"
+        },
+        {
+          "date": "2026-12-29",
+          "name": "SATOMI UTATTEMITA TOUR 10th",
+          "slug": "/event/3ri1eey"
+        },
+        {
+          "date": "2026-12-30",
+          "name": "THE LIVE 2026",
+          "slug": "/event/buj8605"
+        },
+        {
+          "date": "2027-01-08",
+          "name": "「ENTA！9」 4U. ZEPP in de SHOW",
+          "slug": "/event/6fsut1r"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "「ENTA！9」 4U. ZEPP in de SHOW",
+          "slug": "/event/6fsut1r"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "阿部顕嵐",
+          "slug": "/event/b09os87"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "さだ工務店",
+          "slug": "/event/bwq62t5"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "INCOGNITO",
+          "slug": "/event/ptsot"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "MONKEY MAJIK",
+          "slug": "/event/czuzva"
+        },
+        {
+          "date": "2027-01-27",
+          "name": "石川晟也の2nd音楽ライブ「イニミニレカピカ」",
+          "slug": "/event/4pdmof4"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "SIRUP LIVE TOUR 2027 “Now Landing…”",
+          "slug": "/event/6tmor5b"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "miwa 再現ライブツアー \"guitarium\"",
+          "slug": "/event/gb372ak"
+        },
+        {
+          "date": "2027-02-19",
+          "name": "春畑道哉",
+          "slug": "/event/c2cr2"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "WANDS Live Tour 2027 ～LAST ACT 5th period～",
+          "slug": "/event/mkaz8ur"
+        },
+        {
+          "date": "2027-03-12",
+          "name": "OZworld \"RESPAWN TOUR 2027\"",
+          "slug": "/event/c5vt7gg"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "龍LIVE『瞬撃』",
+          "slug": "/event/v3xzp82"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "izna",
+          "slug": "/event/b0l28c9"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "Ms.OOJA Zepp Tour 2027",
+          "slug": "/event/n8xn7ke"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "THUNDER ONEMAN LIVE 2027「THE NEXT」",
+          "slug": "/event/be4hu0v"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "i☆Ris Final Live Tour 2027",
+          "slug": "/event/9w7cxnb"
+        },
+        {
+          "date": "2027-06-05",
+          "name": "山内総一郎アルバムツアー2027「UN」",
+          "slug": "/event/vwdqjzh"
+        },
+        {
+          "date": "2027-06-27",
+          "name": "Sakurashimeji ZeppTour+ 2027",
+          "slug": "/event/a8m7ho7"
+        },
+        {
+          "date": "2027-07-04",
+          "name": "Kroi Live Tour 2027",
+          "slug": "/event/5ght8lb"
+        },
+        {
+          "date": "2027-07-09",
+          "name": "NELKE",
+          "slug": "/event/bxbbukr"
+        },
+        {
+          "date": "2027-09-10",
+          "name": "爆風スランプ 2027 Zepp TOUR",
+          "slug": "/event/3zt60bx"
+        }
+      ]
+    }
+  ]
+}

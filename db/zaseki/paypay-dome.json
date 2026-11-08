@@ -1,0 +1,165 @@
+{
+  "venue": "paypay-dome",
+  "zasekiId": 13568,
+  "url": "https://zaseki.music-mdata.com/detail/13568",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T14:39:39.905Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "みずほPayPayドーム福岡",
+      "alias": "福岡ドーム",
+      "facility": "ドーム",
+      "capacity": 40062,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/13568.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/13568_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/13568",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/13568/9990509",
+          "title": "唐人町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/13568",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-14",
+          "name": "Fujii Kaze Prema World Tour",
+          "slug": "/event/sk275a1"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "Fujii Kaze Prema World Tour",
+          "slug": "/event/sk275a1"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "福岡ソフトバンクホークス",
+          "slug": "/event/hrc_0q"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "YOASOBI アジア10大ドーム＆スタジアムツアー",
+          "slug": "/event/zx5meph"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "YOASOBI アジア10大ドーム＆スタジアムツアー",
+          "slug": "/event/zx5meph"
+        },
+        {
+          "date": "2026-12-04",
+          "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE",
+          "slug": "/event/oltrd91"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE",
+          "slug": "/event/oltrd91"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE",
+          "slug": "/event/oltrd91"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet",
+          "slug": "/event/7wu0zvh"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet",
+          "slug": "/event/7wu0zvh"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN",
+          "slug": "/event/s1xq3gq"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN",
+          "slug": "/event/s1xq3gq"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "BIGBANG 2026 WORLD TOUR",
+          "slug": "/event/7ka19ng"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "BIGBANG 2026 WORLD TOUR",
+          "slug": "/event/7ka19ng"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "トミカ博 in FUKUOKA～出動!まちをまもるパトロールカー～ 入場分",
+          "slug": "/event/_4__b"
+        },
+        {
+          "date": "2027-01-04",
+          "name": "トミカ博 in FUKUOKA～出動!まちをまもるパトロールカー～ 入場分",
+          "slug": "/event/_4__b"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "Number_i LIVE TOUR No.III",
+          "slug": "/event/8wuurg8"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "Number_i LIVE TOUR No.III",
+          "slug": "/event/8wuurg8"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "Bruno Mars - The Romantic Tour in Japan",
+          "slug": "/event/f3hocwf"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "FUKUOKA MUSIC FES.2027",
+          "slug": "/event/okt6jci"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "FUKUOKA MUSIC FES.2027",
+          "slug": "/event/okt6jci"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+          "slug": "/event/cfts0iy"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+          "slug": "/event/cfts0iy"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+          "slug": "/event/u8rqf8a"
+        }
+      ]
+    }
+  ]
+}

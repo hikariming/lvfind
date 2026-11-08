@@ -1,0 +1,305 @@
+{
+  "venue": "diamond-hall",
+  "zasekiId": 2466,
+  "url": "https://zaseki.music-mdata.com/detail/2466",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:34:45.851Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "名古屋ダイアモンドホール",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 1000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/2466.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/2466_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/2466",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/2466/9951311",
+          "title": "新栄町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/2466",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "打首獄門同好会",
+          "slug": "/event/n1z3fc"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "粗品",
+          "slug": "/event/b3kxbw1"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "syrup16g",
+          "slug": "/event/1_kmm"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "MIYAVI JAPAN Circuit 2026 “SAMURAI 45 -Back to BASICS-“",
+          "slug": "/event/bkh3eo"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "MIYAVIライブツアー2026",
+          "slug": "/event/qcdkowp"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "9mm Parabellum Bullet",
+          "slug": "/event/cvosy8"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "SHADOWS",
+          "slug": "/event/1ln2pp"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "吉澤嘉代子 \"歌う星ツアー2026\"",
+          "slug": "/event/70eap1p"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "Fear,and Loathing in Las Vegas The Focus 「Feeling of Unity」 Vol.1",
+          "slug": "/event/hvdq2w"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "SHE’S",
+          "slug": "/event/v3t6au"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "Soala",
+          "slug": "/event/bxnwdap"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "THE MODS 45TH ANNIVERSARY LIVE ”REVOLVER 45”",
+          "slug": "/event/cxe6a"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "杉本琢弥",
+          "slug": "/event/bk24uo2"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "秋山黄色",
+          "slug": "/event/bf978cd"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "mudy on the 昨晩20周年企画最終公演＆4thフルアルバムリリースライブ「ALL SUPER MAXXXXX!!」",
+          "slug": "/event/d6jgud7"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "mudy on the 昨晩20周年企画最終公演＆4thフルアルバムリリースライブ「ALL SUPER MAXXXXX!!」",
+          "slug": "/event/d6jgud7"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "mudy on the 昨晩 20周年企画最終公演&4thフルアルバムリリースライブ『ALL SUPER MAXXXXX!!』",
+          "slug": "/event/d2sv4k"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "トゥー・ドア・シネマ・クラブ",
+          "slug": "/event/p63g6h9"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "織田哲郎",
+          "slug": "/event/tbwex"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "DEEP LIVE TOUR 2026 ～DEEP～",
+          "slug": "/event/vc8y24v"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "TK from 凛として時雨 TOUR 2026 生癖 -seiheki-",
+          "slug": "/event/kgziqio"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "竹原ピストル",
+          "slug": "/event/gz2y3v"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "SPYAIR",
+          "slug": "/event/g0pgb1"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "SPYAIR JAPAN TOUR 2026-2027 -EP.01-",
+          "slug": "/event/95o3nui"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "GLIM SPANKY",
+          "slug": "/event/q1vara"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "八十八ヶ所巡礼 20th Anniversary tour 日本万歳!!",
+          "slug": "/event/b30p35k"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "DEZERT",
+          "slug": "/event/oypdw9"
+        },
+        {
+          "date": "2026-12-14",
+          "name": "fiveStars",
+          "slug": "/event/bo4dba_"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "エリック･マーティン",
+          "slug": "/event/ezvmah"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "四星球",
+          "slug": "/event/bbht9g"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "みんなの祭り X’mas SPECIAL",
+          "slug": "/event/bxukqzc"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "超能力戦士ドリアン ワンマンライブツアー「ドキドキ異世界ファンタジー」",
+          "slug": "/event/_jb_ep"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "BIGMAMA 20th Anniversary 「BIGMAMA COUNTDOWN 2627」",
+          "slug": "/event/dzned3"
+        },
+        {
+          "date": "2027-01-08",
+          "name": "石崎ひゅーい TOUR 2026-2027 -City Lights-",
+          "slug": "/event/nz0km01"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "デイヴ・マシューズ 2027年来日公演",
+          "slug": "/event/rdz83en"
+        },
+        {
+          "date": "2027-01-12",
+          "name": "Kula Shaker",
+          "slug": "/event/da1ans"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "真心ブラザーズ ライブ・ツアー『TWIN MOUNTAIN TRAILS』",
+          "slug": "/event/38lzjt6"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "キュウソネコカミ",
+          "slug": "/event/m354or"
+        },
+        {
+          "date": "2027-01-22",
+          "name": "T字路s",
+          "slug": "/event/w_qqvw"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "The Ravens",
+          "slug": "/event/bqfidd7"
+        },
+        {
+          "date": "2027-01-27",
+          "name": "クリープハイプ 太客倶楽部限定ツアー2027 それはそれで幸せ",
+          "slug": "/event/qngj3sn"
+        },
+        {
+          "date": "2027-01-29",
+          "name": "フォンテインズD.C. 来日公演",
+          "slug": "/event/bthiguo"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "TOOBOE",
+          "slug": "/event/br8jn52"
+        },
+        {
+          "date": "2027-02-03",
+          "name": "パブリック・イメージ・リミテッド 来日公演",
+          "slug": "/event/67xrwka"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "HAGANE",
+          "slug": "/event/bp3kffi"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "THE BACK HORN THE BACK HORN「マニアックヘブンVol.18」",
+          "slug": "/event/qq5ou"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "reGretGirl",
+          "slug": "/event/ba83jxj"
+        },
+        {
+          "date": "2027-02-24",
+          "name": "ザ･クロマニヨンズ",
+          "slug": "/event/cn5ukg"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "GENIC",
+          "slug": "/event/bj7_fir"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "GENIC",
+          "slug": "/event/bj7_fir"
+        },
+        {
+          "date": "2027-03-04",
+          "name": "KANA-BOON Jack in tour 2027",
+          "slug": "/event/7gfrs0e"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "KANA-BOON Jack in tour 2027",
+          "slug": "/event/7gfrs0e"
+        },
+        {
+          "date": "2027-05-06",
+          "name": "[Alexandros] FC TOUR 2027 \"大饗宴\"",
+          "slug": "/event/52x7xbt"
+        },
+        {
+          "date": "2027-05-07",
+          "name": "[Alexandros] FC TOUR 2027 \"大饗宴\"",
+          "slug": "/event/52x7xbt"
+        }
+      ]
+    }
+  ]
+}

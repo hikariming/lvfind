@@ -34,6 +34,24 @@ export interface Venue {
   website?: string;
 }
 
+// zaseki.music-mdata.com 快照：日本场馆精确席数 / 座位图（第三方参考数据）
+export interface SeatLayout {
+  zasekiId: number;
+  hallNo: number;
+  name: string;          // zaseki 场馆名（可能是冠名）
+  nameAlias?: string;    // 正式名
+  hallLabel: string;     // 'ホール' 'メインアリーナモード' '大ホール'
+  seats: number | null;
+  seatmapUrl: string;    // 座位图详情页（外链）
+  seatmapImg?: string;
+  seatmapPdf?: string;
+  livewalkerUrl?: string;
+  nearestStation?: string;
+  parkingUrl?: string;
+  match: string;         // auto / weak / retry
+  fetchedAt: string;
+}
+
 export interface Event {
   id: number;
   artist: string;

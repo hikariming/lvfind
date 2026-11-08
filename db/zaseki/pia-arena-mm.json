@@ -1,0 +1,330 @@
+{
+  "venue": "pia-arena-mm",
+  "zasekiId": 25915,
+  "url": "https://zaseki.music-mdata.com/detail/25915",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:35:59.345Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "ぴあアリーナMM",
+      "alias": null,
+      "facility": "アリーナ",
+      "capacity": 12141,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25915.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25915_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25915",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25915/9931003",
+          "title": "みなとみらい駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25915",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "HATA MOTOHIRO 20th Anniversary LIVE",
+          "slug": "/event/a43l0mb"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "RADWIMPS Official Fan Club Tour 2026 ユーリンチー\"おかわり\" 追加公演",
+          "slug": "/event/0doyqw7"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "RADWIMPS Official Fan Club Tour 2026 ユーリンチー\"おかわり\" 追加公演",
+          "slug": "/event/0doyqw7"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "sumika×瑠東東一郎 CINEMA&LIVE “SCENE”",
+          "slug": "/event/b2wbwnc"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "sumika×瑠東東一郎 CINEMA&LIVE “SCENE”",
+          "slug": "/event/b2wbwnc"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "TOMOO ARENA TOUR 2026",
+          "slug": "/event/52pjki1"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "TOMOO ARENA TOUR 2026",
+          "slug": "/event/52pjki1"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "M!LK ARENA TOUR 2026-2027「シャカリキレボリューション」",
+          "slug": "/event/xcmq7a1"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "M!LK ARENA TOUR 2026-2027「シャカリキレボリューション」",
+          "slug": "/event/xcmq7a1"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "DUSTCELL LIVE 2026 ―道―",
+          "slug": "/event/fjn68rs"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "Juice=Juice Room Tour 2026 「5ROOMS」",
+          "slug": "/event/598jcbu"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "山下智久 TOMOHISA YAMASHITA Tour 2026",
+          "slug": "/event/cat90b5"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "山下智久 TOMOHISA YAMASHITA Tour 2026",
+          "slug": "/event/cat90b5"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "アンジュルム",
+          "slug": "/event/gi8pgm"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "NewsPicks Presents BLACK or WHITE 大天下獲りフェスティバル２",
+          "slug": "/event/l04q8bz"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] ENCORE IN JAPAN",
+          "slug": "/event/sdzyfmi"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] ENCORE IN JAPAN",
+          "slug": "/event/sdzyfmi"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2026 FNC KINGDOM - THE FLOATING BAZAAR",
+          "slug": "/event/ps4izbx"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "2026 FNC KINGDOM - THE FLOATING BAZAAR",
+          "slug": "/event/ps4izbx"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "櫻坂46 16th Single BACKS LIVE!!",
+          "slug": "/event/pvyq17k"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "櫻坂46 16th Single BACKS LIVE!!",
+          "slug": "/event/pvyq17k"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "SEKAI NO OWARI FANCLUB LIVE 2026 「INSTANT RADIO ~(The) Last Christmas~」",
+          "slug": "/event/3fkg6rp"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "SEKAI NO OWARI FANCLUB LIVE 2026 「INSTANT RADIO ~(The) Last Christmas~」",
+          "slug": "/event/3fkg6rp"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "ポルノグラフィティ「みなとみらいロマンスポルノ'26 ～鳥～」",
+          "slug": "/event/y1sy8km"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "ポルノグラフィティ「みなとみらいロマンスポルノ'26 ～鳥～」",
+          "slug": "/event/y1sy8km"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "羽生結弦 Yuzuru Hanyu ICE STORY 4th “WHITE BOX” TOUR",
+          "slug": "/event/q73ef5j"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "羽生結弦 Yuzuru Hanyu ICE STORY 4th “WHITE BOX” TOUR",
+          "slug": "/event/q73ef5j"
+        },
+        {
+          "date": "2027-01-13",
+          "name": "羽生結弦 Yuzuru Hanyu ICE STORY 4th “WHITE BOX” TOUR",
+          "slug": "/event/q73ef5j"
+        },
+        {
+          "date": "2027-01-16",
+          "name": "キタニタツヤ ONEMAM ARENA TOUR \"DEKAI / PURE\"",
+          "slug": "/event/wglge32"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "キタニタツヤ ONEMAM ARENA TOUR \"DEKAI / PURE\"",
+          "slug": "/event/wglge32"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "劇場版 七次元生徒会！ ～ずっと一緒大作戦！～",
+          "slug": "/event/5by35cu"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "VOLTACTION 2nd LIVE “EVOLVE”",
+          "slug": "/event/iae90f1"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "カラフルピーチ からぴちパラダイス ARENA TOUR 2026 〜シンフォニーエクスプレス〜",
+          "slug": "/event/8nx1a62"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-02-11",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2027-02-26",
+          "name": "プロジェクトセカイ COLORFUL LIVE 6th - Crossing -",
+          "slug": "/event/8lgvatd"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "プロジェクトセカイ COLORFUL LIVE 6th - Crossing -",
+          "slug": "/event/8lgvatd"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "プロジェクトセカイ COLORFUL LIVE 6th - Crossing -",
+          "slug": "/event/8lgvatd"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "ReoNa ONE-MAN Concert 2027 「ハロー、アンハッピー」 at ぴあアリーナMM ～逃げて逢おうね～",
+          "slug": "/event/76k2fou"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "ReoNa ANIME & GAME スーパーベストコンサート",
+          "slug": "/event/bbvggdl"
+        },
+        {
+          "date": "2027-03-20",
+          "name": "ももいろクローバーZ MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+          "slug": "/event/pauhjj3"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "ももいろクローバーZ MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+          "slug": "/event/pauhjj3"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "Tani Yuuki",
+          "slug": "/event/bmxu8vw"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "ASIAN KUNG-FU GENERATION",
+          "slug": "/event/bf28lc"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "ASIAN KUNG-FU GENERATION",
+          "slug": "/event/bf28lc"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "ASIAN KUNG-FU GENERATION Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-04-18",
+          "name": "ASIAN KUNG-FU GENERATION Tour 2027",
+          "slug": "/event/hefubp4"
+        },
+        {
+          "date": "2027-04-29",
+          "name": "ハンブレッダーズ 結成17周年記念ワンマンツアー “十七歳”",
+          "slug": "/event/cvottmw"
+        },
+        {
+          "date": "2027-05-15",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-05-19",
+          "name": "ディスターブド「ザ・シックネス・アンド・ザ・グレイテスト・ヒッツ」来日公演",
+          "slug": "/event/4elzb9qu"
+        },
+        {
+          "date": "2027-06-13",
+          "name": "THE TEMPALAY",
+          "slug": "/event/z1y0r0q"
+        }
+      ]
+    }
+  ]
+}

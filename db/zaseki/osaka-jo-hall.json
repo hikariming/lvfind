@@ -1,0 +1,350 @@
+{
+  "venue": "osaka-jo-hall",
+  "zasekiId": 24181,
+  "url": "https://zaseki.music-mdata.com/detail/24181",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:35:43.013Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "大阪城ホール",
+      "alias": null,
+      "facility": "ホール",
+      "capacity": 16000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/24181.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/24181_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/24181",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/24181/9962411",
+          "title": "大阪ビジネスパーク駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/24181",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "U-KNOW PROJECT 26 : SCENE ♯1 – EDIT",
+          "slug": "/event/7xd2ltc"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "U-KNOW PROJECT 26 : SCENE ♯1 – EDIT",
+          "slug": "/event/7xd2ltc"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "TOMOO ARENA TOUR 2026",
+          "slug": "/event/52pjki1"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "GENERATIONS LIVE TOUR 2026 \"PARALLEL QUEST\"",
+          "slug": "/event/gvy3fmw"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "GENERATIONS LIVE TOUR 2026 \"PARALLEL QUEST\"",
+          "slug": "/event/gvy3fmw"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "矢沢永吉 CONCERT TOUR 2026「Just keep going ～ロックの軌跡～」",
+          "slug": "/event/4tenfkt"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "矢沢永吉 CONCERT TOUR 2026「Just keep going ～ロックの軌跡～」",
+          "slug": "/event/4tenfkt"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "UVERworld LIVE \"危ない\" TOUR 2026",
+          "slug": "/event/023ok2c"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "UVERworld LIVE \"危ない\" TOUR 2026",
+          "slug": "/event/023ok2c"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "サントリー１万人の第九",
+          "slug": "/event/pbgwbdw"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "真天地開闢集団-ジグザグ「単独禊『ジグザグ 10周年記念禊』」",
+          "slug": "/event/2f91idw"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+          "slug": "/event/xahby3l"
+        },
+        {
+          "date": "2026-12-17",
+          "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+          "slug": "/event/xahby3l"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "コブクロ KOBUKURO LIVE TOUR 2026 霞日和",
+          "slug": "/event/eda30s9"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ 追加・振替公演",
+          "slug": "/event/7iqwj34"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ 追加・振替公演",
+          "slug": "/event/7iqwj34"
+        },
+        {
+          "date": "2026-12-22",
+          "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
+          "slug": "/event/u99s21h"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
+          "slug": "/event/u99s21h"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "M!LK ARENA TOUR 2026-2027「シャカリキレボリューション」",
+          "slug": "/event/xcmq7a1"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "M!LK ARENA TOUR 2026-2027「シャカリキレボリューション」",
+          "slug": "/event/xcmq7a1"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "布袋寅泰 HOTEI 45th CELEBRATION GIGS “STAY WILD TOUR” - THE LAST STAND -",
+          "slug": "/event/z4xjuuc"
+        },
+        {
+          "date": "2026-12-29",
+          "name": "THE ALFEE",
+          "slug": "/event/euaj"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "aiko Love Like Pop vol.26",
+          "slug": "/event/5seyi9q"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "aiko Live Tour「Love Like Pop vol.26」",
+          "slug": "/event/ddz_c"
+        },
+        {
+          "date": "2027-01-08",
+          "name": "Gero さようなら、大阪城",
+          "slug": "/event/ubah3c0"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "東京スカパラダイスオーケストラARENA TOUR 2027［SKA］SHOWDOWN Episode2",
+          "slug": "/event/syehbhc"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "岡崎体育ワンマンコンサート「盆地テクノ」",
+          "slug": "/event/0q8lbd7"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "HEY-SMITH 20th Anniversary ONE MAN SHOW",
+          "slug": "/event/3gpns4p"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "ハンブレッダーズ 結成17周年記念ワンマンツアー “十七歳”",
+          "slug": "/event/cvottmw"
+        },
+        {
+          "date": "2027-04-22",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "MISIA",
+          "slug": "/event/dpujk"
+        },
+        {
+          "date": "2027-04-22",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-04-24",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "第21回 母に感謝のコンサート お母さんいつまでも元気でね!",
+          "slug": "/event/c0j126"
+        },
+        {
+          "date": "2027-05-12",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-05-13",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-05-15",
+          "name": "My Hair is Bad presents「ノーブルホームランツアー」Arena",
+          "slug": "/event/qj6qkfm"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "My Hair is Bad presents「ノーブルホームランツアー」Arena",
+          "slug": "/event/qj6qkfm"
+        },
+        {
+          "date": "2027-05-25",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-05-26",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-06-02",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-07-04",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-07-14",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-07-15",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-07-17",
+          "name": "Eve Arena Tour 2027 「廻帰」",
+          "slug": "/event/tazhe3b"
+        },
+        {
+          "date": "2027-07-18",
+          "name": "Eve Arena Tour 2027 「廻帰」",
+          "slug": "/event/tazhe3b"
+        },
+        {
+          "date": "2027-10-02",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        },
+        {
+          "date": "2027-10-03",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        },
+        {
+          "date": "2027-10-16",
+          "name": "Novelbright 2027 ARENA TOUR",
+          "slug": "/event/bjdgr8t"
+        },
+        {
+          "date": "2027-10-17",
+          "name": "Novelbright 2027 ARENA TOUR",
+          "slug": "/event/bjdgr8t"
+        }
+      ]
+    }
+  ]
+}

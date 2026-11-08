@@ -1,0 +1,205 @@
+{
+  "venue": "hitaru",
+  "zasekiId": 25509,
+  "url": "https://zaseki.music-mdata.com/detail/25509",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:33:46.083Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "札幌文化芸術劇場 hitaru",
+      "alias": null,
+      "facility": "劇場",
+      "capacity": 2302,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/25509.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/25509_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/25509",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/25509/9910109",
+          "title": "大通駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/25509",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "モンスターハンターオーケストラコンサート〜狩猟音楽祭2026〜",
+          "slug": "/event/mjnmpd5"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "FRUITS ZIPPER JAPAN TOUR 2026 - AUTUMN -",
+          "slug": "/event/k72aguf"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "milet Hall Tour 2026",
+          "slug": "/event/hafvil3"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "稲葉浩志 Koshi Inaba LIVE 2026-2027 ～enV～",
+          "slug": "/event/k6chc0c"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "LiSA 『LiVE is Smile Always～LACE UP～』",
+          "slug": "/event/raaesiv"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "コレサワ HALL TOUR 2026 THE PINK",
+          "slug": "/event/5m2kyll"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "Endless SHOCK Memories -CONTINUE- 構成・演出・主演 堂本光一",
+          "slug": "/event/7bv1358"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "Endless SHOCK Memories -CONTINUE- 構成・演出・主演 堂本光一",
+          "slug": "/event/7bv1358"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "Endless SHOCK Memories -CONTINUE- 構成・演出・主演 堂本光一",
+          "slug": "/event/7bv1358"
+        },
+        {
+          "date": "2026-12-15",
+          "name": "Da-iCE DAY HALL PHASE 2026",
+          "slug": "/event/zs9r3tk"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "ハラミちゃん",
+          "slug": "/event/bif2joi"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "ユニコーン 2026-2027ツアー",
+          "slug": "/event/uifh7yv"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "葉加瀬太郎 コンサートツアー 2026",
+          "slug": "/event/i42ly2j"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "2026-2027 &TEAM CONCERT TOUR 'Mark on You'",
+          "slug": "/event/pf2qqiq"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "2026 HTB ジルベスターコンサート",
+          "slug": "/event/b0fsnjv"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "ミュージカル『ミス・サイゴン』Musical Miss Saigon JAPAN 2026-27",
+          "slug": "/event/ap1n83a"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "ミュージカル『ミス・サイゴン』Musical Miss Saigon JAPAN 2026-27",
+          "slug": "/event/ap1n83a"
+        },
+        {
+          "date": "2027-03-03",
+          "name": "ゼルダの伝説40周年コンサート THE LEGEND OF ZELDA 40TH ANNIVERSARY CONCERT",
+          "slug": "/event/55eady2"
+        },
+        {
+          "date": "2027-03-04",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "sumika Live Tour 2027 『Laurens Library』",
+          "slug": "/event/xyhnntc"
+        },
+        {
+          "date": "2027-03-13",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-03-14",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "今市隆二 RYUJI IMAICHI RILY'S NIGHT 2027 \"BLACK\"",
+          "slug": "/event/xa1rqz9"
+        },
+        {
+          "date": "2027-04-06",
+          "name": "礼賛 ONEMAN TOUR 2027 「ロワイヤル」",
+          "slug": "/event/hy2za8b"
+        },
+        {
+          "date": "2027-04-10",
+          "name": "コレサワ LIVE 2027 おめかしツアー vol.2 The Garden",
+          "slug": "/event/e4ydxof"
+        },
+        {
+          "date": "2027-04-20",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-04-21",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "ぷしゅソングフェス2026-2027〜レッツ・スパークル！ぷしゅっとおんがくのまほう♪〜",
+          "slug": "/event/d8qlukb"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "松下洸平 KOUHEI MATSUSHITA LIVE TOUR 2027 〜New Dawn〜",
+          "slug": "/event/00mqb2c"
+        },
+        {
+          "date": "2027-05-10",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-05-11",
+          "name": "billboard classics 玉置浩二 LEGENDARY SYMPHONIC CONCERT 2027 “運命”",
+          "slug": "/event/b74a3pz"
+        },
+        {
+          "date": "2027-05-21",
+          "name": "川崎鷹也",
+          "slug": "/event/bk9qf3v"
+        },
+        {
+          "date": "2027-06-03",
+          "name": "Chevon ONE MAN TOUR 2027",
+          "slug": "/event/x7f20fx"
+        }
+      ]
+    }
+  ]
+}

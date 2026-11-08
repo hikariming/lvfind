@@ -11,6 +11,9 @@ const venueId = Object.fromEntries(venues.map((v, i) => [v.id, i + 1]));
 
 const lines: string[] = [
   '-- 由 scripts/seed.ts 生成，勿手改',
+  '-- 注意：zaseki 两表引用 venues，需先清空（之后重跑 db/zaseki.sql 恢复）',
+  'DELETE FROM venue_schedule;',
+  'DELETE FROM venue_seat_layouts;',
   'DELETE FROM events;',
   'DELETE FROM artists;',
   'DELETE FROM venues;',

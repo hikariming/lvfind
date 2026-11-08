@@ -1,0 +1,215 @@
+{
+  "venue": "marine-messe",
+  "zasekiId": 13569,
+  "url": "https://zaseki.music-mdata.com/detail/13569",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:36:24.086Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "マリンメッセ福岡A館",
+      "alias": null,
+      "facility": "多目的展示室",
+      "capacity": 15000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/13569.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/13569_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/13569",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/13569/9990602",
+          "title": "呉服町駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/13569",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "Mr.Children Tour 2026 “Saturday in the park”",
+          "slug": "/event/36nhc3p"
+        },
+        {
+          "date": "2026-11-12",
+          "name": "星街すいせい HOSHIMACHI SUISEI ARENA TOUR 2026 Once Upon a Stellar",
+          "slug": "/event/0lc9vgg"
+        },
+        {
+          "date": "2026-11-27",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "米津玄師 2026 TOUR / GHOST",
+          "slug": "/event/fhniktn"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "デュエル・マスターズ 25周年ツアー",
+          "slug": "/event/531qho4"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "Mrs. GREEN APPLE Ringo Jam Tour \"SHADOWS\"",
+          "slug": "/event/y32avaj"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "BUMP OF CHICKEN TOUR 2026-2027 Ratio Clavis",
+          "slug": "/event/efzf9yc"
+        },
+        {
+          "date": "2026-12-13",
+          "name": "BUMP OF CHICKEN TOUR 2026-2027 Ratio Clavis",
+          "slug": "/event/efzf9yc"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "GLAY ARENA TOUR 2026-2027「EXOFIRE」",
+          "slug": "/event/t23pkcn"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "Saucy Dog ARENA TOUR 2026-2027 NEW GAME＋",
+          "slug": "/event/iivn2c2"
+        },
+        {
+          "date": "2026-12-30",
+          "name": "UVERworld LIVE \"危ない\" TOUR 2026",
+          "slug": "/event/023ok2c"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "UVERworld LIVE \"危ない\" TOUR 2026",
+          "slug": "/event/023ok2c"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "STARTS presents MISIA BIG BAND ORCHESTRA 2027 BEYOND FREEDOM",
+          "slug": "/event/5asl0j7"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-02-14",
+          "name": "Travis Japan Concert Tour 2027 Jewelry Basket",
+          "slug": "/event/l1tvr7w"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-02-21",
+          "name": "平井 大 HIRAIDAI presents HOMECOMING 2027",
+          "slug": "/event/iqkd4w"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "Creepy Nuts ONEMAN TOUR 2027",
+          "slug": "/event/h54een5"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "SPITZ JAMBOREE TOUR 2027 “kettle”",
+          "slug": "/event/r5w1oy0"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "KAWAII LAB. 5th ANNIVERSARY TOUR",
+          "slug": "/event/i7n4fiu"
+        },
+        {
+          "date": "2027-04-24",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+          "slug": "/event/klxj91n"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "My Hair is Bad presents「ノーブルホームランツアー」Arena",
+          "slug": "/event/qj6qkfm"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "サカナクション SAKANAQUARIUM 2026-2027 “透明”",
+          "slug": "/event/j43v4cn"
+        },
+        {
+          "date": "2027-07-03",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-07-04",
+          "name": "あいみょん AIMYON TOUR 2027 - cosmic % -",
+          "slug": "/event/52aoejs"
+        },
+        {
+          "date": "2027-07-10",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-07-11",
+          "name": "SEKAI NO OWARI ARENA TOUR 2027",
+          "slug": "/event/34xzfcw"
+        },
+        {
+          "date": "2027-09-19",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        },
+        {
+          "date": "2027-09-20",
+          "name": "Vaundy JAPAN ARENA TOUR 2027-2028",
+          "slug": "/event/55ge8i7"
+        }
+      ]
+    }
+  ]
+}

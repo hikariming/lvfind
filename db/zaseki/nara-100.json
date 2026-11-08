@@ -1,0 +1,175 @@
+{
+  "venue": "nara-100",
+  "zasekiId": 15136,
+  "url": "https://zaseki.music-mdata.com/detail/15136",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-08T15:33:26.704Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "なら100年会館",
+      "alias": null,
+      "facility": "大ホール",
+      "capacity": 1476,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/15136.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/15136_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/15136",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/15136/1160704",
+          "title": "奈良駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/15136",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-08",
+          "name": "斉藤和義 KAZUYOSHI SAITO LIVE TOUR 2026",
+          "slug": "/event/uv81h3k"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "Little Glee Monster Live Tour 2026-2027 \"BREATH\"",
+          "slug": "/event/au0j4bu"
+        },
+        {
+          "date": "2026-11-19",
+          "name": "SENRA LIVE TOUR 2026 Calea",
+          "slug": "/event/4s9m7dq"
+        },
+        {
+          "date": "2026-11-20",
+          "name": "辰巳ゆうと",
+          "slug": "/event/bmtpt7w"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "キーウ･クラシック･バレエ くるみ割り人形～全幕～",
+          "slug": "/event/dh8tv3"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "馬場俊英",
+          "slug": "/event/5tu7c"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "ハラミちゃん",
+          "slug": "/event/bif2joi"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "ASKA CONCERT TOUR 2026-2027 - Lock-on -",
+          "slug": "/event/y1g59op"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "デビュー50周年記念 松山千春コンサート・ツアー2026",
+          "slug": "/event/0s7ueoi"
+        },
+        {
+          "date": "2026-12-12",
+          "name": "ビューティーこくぶ×ミラクルひかる×Mr.シャチホコ 無双!! ものまねLIVE2026 in 奈良",
+          "slug": "/event/b1khh01"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "wacci",
+          "slug": "/event/lxnbyz"
+        },
+        {
+          "date": "2026-12-27",
+          "name": "ぽこぴーの回覧板",
+          "slug": "/event/r5qapsa"
+        },
+        {
+          "date": "2027-01-28",
+          "name": "反田恭平&ジャパン･ナショナル･オーケストラ 冬ツアー2027",
+          "slug": "/event/bj6tqn9"
+        },
+        {
+          "date": "2027-02-13",
+          "name": "森山良子",
+          "slug": "/event/bx34k"
+        },
+        {
+          "date": "2027-02-15",
+          "name": "舟木一夫",
+          "slug": "/event/r3o5o"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+          "slug": "/event/09bjfbj"
+        },
+        {
+          "date": "2027-03-07",
+          "name": "華原朋美 kahala tomomi Concert Tour ♡Fantastic songs♡",
+          "slug": "/event/ebw7vbv"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "SCANDAL FINAL TOUR 2026-2027 「SCANDALの47都道府県ツアー」",
+          "slug": "/event/9d0ql46"
+        },
+        {
+          "date": "2027-04-08",
+          "name": "ずっと真夜中でいいのに。「アピクラ電機」LÚ.NIM.LÀL",
+          "slug": "/event/zeumyn4"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "レミオロメン Re Dialogue Tour 2027",
+          "slug": "/event/l36475w"
+        },
+        {
+          "date": "2027-06-23",
+          "name": "MAN WITH A MISSION LIVE TOUR “The Circus” ホール公演",
+          "slug": "/event/40icyyt"
+        },
+        {
+          "date": "2027-08-01",
+          "name": "ナオト・インティライミ LIVE TOUR 2027",
+          "slug": "/event/3btnf2f"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "なら100年会館",
+      "alias": null,
+      "facility": "中ホール",
+      "capacity": 434,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/15136_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/15136_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/15136",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/15136/1160704",
+          "title": "奈良駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/15136",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2027-02-13",
+          "name": "吉田兄弟",
+          "slug": "/event/cc1tdm"
+        }
+      ]
+    }
+  ]
+}
