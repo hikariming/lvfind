@@ -91,6 +91,7 @@ const T = {
   LSF: { tour: "2026 LE SSERAFIM TOUR 'PUREFLOW' IN ASIA", src: 'https://sourcemusic.com/artist/tour/LE%20SSERAFIM/17' },
   BM: { tour: '2026-27 BABYMONSTER WORLD TOUR [CHOOM]', src: 'https://yg-babymonster.com/concert/worldtourchoom/' },
   ENH: { tour: "ENHYPEN WORLD TOUR 'BLOOD SAGA'", src: 'https://www.enhypenbloodsaga.com/tournee' },
+  YK: { tour: 'Yoohei Kawakami TOUR #room665', src: 'https://alexandros.jp/contents/schedule' },
   ALEX_FC: { tour: '[Alexandros] FC TOUR 2027 “大饗宴”', src: 'https://alexandros.jp/contents/schedule' },
   ALEX_DE: { tour: '[Alexandros] DEAR ENEMIES TOUR 2027', src: 'https://alexandros.jp/contents/schedule' },
   ALEX_VP: { tour: '[Alexandros] VIP PARTY TOUR', src: 'https://alexandros.jp/contents/schedule' },
@@ -165,6 +166,13 @@ const rows: Row[] = [
   ['enhypen', 'ziggo-dome', 'ENH', '2027-03-02', 'on_sale', null],
   ['enhypen', 'uber-arena', 'ENH', '2027-03-05', 'on_sale', null],
   ['enhypen', 'o2', 'ENH', '2027-03-09', 'on_sale', null],
+  // 川上洋平（[Alexandros] 主唱）solo TOUR #room665（プレオーダー受付中→presale）
+  ['yoohei-kawakami', 'zepp-nagoya', 'YK', '2026-12-03', 'presale', null],
+  ['yoohei-kawakami', 'zepp-nagoya', 'YK', '2026-12-04', 'presale', null],
+  ['yoohei-kawakami', 'zepp-osaka-bayside', 'YK', '2026-12-10', 'presale', null],
+  ['yoohei-kawakami', 'zepp-osaka-bayside', 'YK', '2026-12-11', 'presale', null],
+  ['yoohei-kawakami', 'kt-zepp-yokohama', 'YK', '2026-12-24', 'presale', null],
+  ['yoohei-kawakami', 'kt-zepp-yokohama', 'YK', '2026-12-25', 'presale', null],
   // [Alexandros] 2027 三档巡演（11/1 官宣；FC 巡演先行中→presale，其余 announced）
   ['alexandros', 'gorilla-hall', 'ALEX_FC', '2027-04-22', 'presale', null],
   ['alexandros', 'gorilla-hall', 'ALEX_FC', '2027-04-23', 'presale', null],

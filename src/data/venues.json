@@ -1436,5 +1436,22 @@
     "capacity": 16000,
     "address": "大阪市中央区大阪城公园内",
     "transit": "JR环状线「大阪城公园」站"
+  },
+  {
+    "id": "kt-zepp-yokohama",
+    "name": "KT Zepp Yokohama",
+    "nameLocal": "KT Zepp Yokohama",
+    "type": "hall",
+    "city": "Yokohama",
+    "citySlug": "yokohama",
+    "cityZh": "横滨",
+    "countryCode": "JP",
+    "timezone": "Asia/Tokyo",
+    "tzAbbr": "JST",
+    "lat": 35.457,
+    "lng": 139.6345,
+    "capacity": 2100,
+    "address": "横浜市西区みなとみらい",
+    "transit": "みなとみらい线「新高岛」站 / 「横滨」站步行"
   }
 ]
