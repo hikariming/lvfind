@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { env } from 'cloudflare:workers';
+import { getData } from '../../lib/db';
+
+const { artists, events } = await getData(env.DB);
+const counts = Object.fromEntries(artists.map((a) => [a.slug, events.filter((e) => e.artist === a.slug).length]));
+const groups = [
+  { key: 'kpop', label: 'K-pop', list: artists.filter((a) => a.genre === 'kpop') },
+  { key: 'jpop', label: 'J-pop', list: artists.filter((a) => a.genre === 'jpop') },
+];
+---
+
+<BaseLayout title="艺人 | lvfind">
+  <div class="container page">
+    <header class="head">
+      <h1 class="display-small">艺人</h1>
+      <p class="body-large muted">已收录 {artists.length} 位艺人，点开可以看到巡演路线和全部场次。</p>
+    </header>
+    {
+      groups.map((g) => (
+        <section class="group">
+          <h2 class="title-medium group__title">
+            {g.label} <span class="label-medium muted">{g.list.length} 位</span>
+          </h2>
+          <ul class="table">
+            {g.list.map((a) => (
+              <li>
+                <a href={`/artist/${a.slug}`}>
+                  <md-ripple />
+                  <span class="name">
+                    <b>{a.nameOriginal}</b>
+                    {a.nameLocal && <small>{a.nameLocal}</small>}
+                  </span>
+                  <span class="num">{counts[a.slug]} 场演出</span>
+                  <span class="material-symbols-rounded arrow">arrow_forward</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page { padding: var(--lv-space-6) 0 var(--lv-space-10); }
+  .head { margin-bottom: var(--lv-space-6); }
+  .group { margin-bottom: var(--lv-space-6); }
+  .group__title { margin-bottom: var(--lv-space-3); display: flex; align-items: baseline; gap: var(--lv-space-3); }
+  .table { list-style: none; margin: 0; padding: 0; border: 1px solid var(--md-sys-color-outline-variant); border-radius: var(--lv-radius-m); overflow: hidden; }
+  .table a { position: relative; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: var(--lv-space-4); padding: var(--lv-space-4) var(--lv-space-5); text-decoration: none; color: var(--md-sys-color-on-surface); }
+  .table li + li { border-top: 1px solid var(--md-sys-color-outline-variant); }
+  .table a:hover { background: var(--md-sys-color-surface-container-high); }
+  .name small { display: block; color: var(--md-sys-color-on-surface-variant); }
+  .num { font: var(--lv-font-label-large); color: var(--md-sys-color-on-surface-variant); }
+  .arrow { color: var(--md-sys-color-on-surface-variant); font-size: 20px; }
+</style>

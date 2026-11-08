@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { env } from 'cloudflare:workers';
+import { getData } from '../../lib/db';
+import { regions } from '../../data/events';
+
+const { venues, events } = await getData(env.DB);
+const venueById = Object.fromEntries(venues.map((v) => [v.id, v]));
+const cities = new Map<string, { zh: string; country: string; venues: number; events: number }>();
+for (const v of venues) {
+  const c = cities.get(v.citySlug) ?? { zh: v.cityZh, country: v.countryCode, venues: 0, events: 0 };
+  c.venues++;
+  cities.set(v.citySlug, c);
+}
+for (const e of events) {
+  const v = venueById[e.venue];
+  if (v) cities.get(v.citySlug)!.events++;
+}
+const list = [...cities.entries()].sort((a, b) => b[1].events - a[1].events);
+---
+
+<BaseLayout title="城市 | lvfind">
+  <div class="container page">
+    <header class="head">
+      <h1 class="display-small">城市</h1>
+      <p class="body-large muted">{list.length} 座城市有演出收录。按演出数量排序，点开可以看当地场馆和场次。</p>
+    </header>
+    <ul class="table">
+      {
+        list.map(([slug, c]) => (
+          <li>
+            <a href={`/city/${slug}`}>
+              <md-ripple />
+              <span class="name">
+                <b>{c.zh}</b>
+                <small>{regions[c.country] ?? c.country}</small>
+              </span>
+              <span class="num">{c.venues} 座场馆 · {c.events} 场演出</span>
+              <span class="material-symbols-rounded arrow">arrow_forward</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .page { padding: var(--lv-space-6) 0 var(--lv-space-10); }
+  .head { margin-bottom: var(--lv-space-6); }
+  .table { list-style: none; margin: 0; padding: 0; border: 1px solid var(--md-sys-color-outline-variant); border-radius: var(--lv-radius-m); overflow: hidden; }
+  .table a { position: relative; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: var(--lv-space-4); padding: var(--lv-space-4) var(--lv-space-5); text-decoration: none; color: var(--md-sys-color-on-surface); }
+  .table li + li { border-top: 1px solid var(--md-sys-color-outline-variant); }
+  .table a:hover { background: var(--md-sys-color-surface-container-high); }
+  .name small { display: block; color: var(--md-sys-color-on-surface-variant); }
+  .num { font: var(--lv-font-label-large); color: var(--md-sys-color-on-surface-variant); }
+  .arrow { color: var(--md-sys-color-on-surface-variant); font-size: 20px; }
+</style>
