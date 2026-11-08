@@ -65,7 +65,7 @@ export interface SiteData {
   venueById: Record<string, Venue>;
 }
 
-export async function getData(db: D1Database): Promise<SiteData> {
+async function loadData(db: D1Database): Promise<SiteData> {
   const [artists, venues, events] = await Promise.all([fetchArtists(db), fetchVenues(db), fetchEvents(db)]);
   return {
     artists,
@@ -74,6 +74,26 @@ export async function getData(db: D1Database): Promise<SiteData> {
     artistBySlug: Object.fromEntries(artists.map((a) => [a.slug, a])),
     venueById: Object.fromEntries(venues.map((v) => [v.id, v])),
   };
+}
+
+// 数据缓存：边缘节点 5 分钟 TTL，减少 D1 读取（站点是低频更新数据）。
+// 重新灌库后想立即生效，可把 CACHE_KEY 里的版本号 +1。
+const CACHE_KEY = 'https://lvfind.internal/data-v1';
+const CACHE_TTL = 300;
+
+export async function getData(db: D1Database): Promise<SiteData> {
+  try {
+    const hit = await caches.default.match(CACHE_KEY);
+    if (hit) return (await hit.json()) as SiteData;
+  } catch {}
+  const data = await loadData(db);
+  try {
+    await caches.default.put(
+      CACHE_KEY,
+      new Response(JSON.stringify(data), { headers: { 'content-type': 'application/json', 'Cache-Control': `max-age=${CACHE_TTL}` } }),
+    );
+  } catch {}
+  return data;
 }
 
 export const toMapVenue = (v: Venue): MapVenue => ({

@@ -1,0 +1,211 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { env } from 'cloudflare:workers';
+import { getData } from '../lib/db';
+import { regions, venueTypes } from '../data/events';
+
+const g = Astro.url.searchParams.get('g');
+const { artists, venues, events: allEvents, venueById, artistBySlug } = await getData(env.DB);
+const events = allEvents.filter((e) => !g || artistBySlug[e.artist]?.genre === g);
+
+const monthOf = (e: (typeof events)[number]) => e.startLocal.slice(0, 7);
+const day = (e: (typeof events)[number]) => e.startLocal.slice(0, 10);
+const today = new Date().toISOString().slice(0, 10);
+const inDays = (n: number) => events.filter((e) => day(e) >= today && day(e) <= new Date(Date.now() + n * 864e5).toISOString().slice(0, 10)).length;
+
+const months = [...new Set(events.map(monthOf))].sort();
+const monthsShort = months.slice(0, 14);
+
+// 月度堆叠（K-pop / J-pop）
+const monthly = monthsShort.map((m) => {
+  const list = events.filter((e) => monthOf(e) === m);
+  return { m, kpop: list.filter((e) => artistBySlug[e.artist]?.genre === 'kpop').length, jpop: list.filter((e) => artistBySlug[e.artist]?.genre === 'jpop').length };
+});
+const maxMonth = Math.max(...monthly.map((x) => x.kpop + x.jpop), 1);
+
+// 城市 × 月份 矩阵（前 15 城）
+const cityCount = new Map<string, { zh: string; n: number }>();
+for (const e of events) {
+  const v = venueById[e.venue]; if (!v) continue;
+  const c = cityCount.get(v.citySlug) ?? { zh: v.cityZh, n: 0 }; c.n++; cityCount.set(v.citySlug, c);
+}
+const topCities = [...cityCount.entries()].sort((a, b) => b[1].n - a[1].n).slice(0, 15);
+const matrix = topCities.map(([slug, c]) => ({
+  slug, zh: c.zh,
+  cells: monthsShort.map((m) => events.filter((e) => monthOf(e) === m && venueById[e.venue]?.citySlug === slug).length),
+}));
+const maxCell = Math.max(...matrix.flatMap((r) => r.cells), 1);
+
+// 国家/地区对比
+const byCountry = Object.keys(regions).map((code) => ({ code, n: events.filter((e) => venueById[e.venue]?.countryCode === code).length })).filter((x) => x.n).sort((a, b) => b.n - a.n);
+const maxC = byCountry[0]?.n ?? 1;
+const jpPct = Math.round(((byCountry.find((x) => x.code === 'JP')?.n ?? 0) / events.length) * 100);
+const cnN = byCountry.find((x) => x.code === 'CN')?.n ?? 0;
+const wkndPct = Math.round((events.filter((e) => [5, 6, 0].includes(new Date(day(e) + 'T00:00:00Z').getUTCDay())).length / events.length) * 100);
+
+// 日历热力（数据覆盖区间）
+const dayCount = new Map<string, number>();
+for (const e of events) dayCount.set(day(e), (dayCount.get(day(e)) ?? 0) + 1);
+const calStart = '2026-11-02'; // 周一
+const calEnd = '2027-06-28';
+const weeks: { d: string; n: number }[][] = [];
+{
+  let d = new Date(calStart + 'T00:00:00Z');
+  const end = new Date(calEnd + 'T00:00:00Z');
+  let week: { d: string; n: number }[] = [];
+  while (d <= end) {
+    const iso = d.toISOString().slice(0, 10);
+    week.push({ d: iso, n: dayCount.get(iso) ?? 0 });
+    if (week.length === 7) { weeks.push(week); week = []; }
+    d = new Date(d.getTime() + 864e5);
+  }
+  if (week.length) weeks.push(week);
+}
+const maxDay = Math.max(...dayCount.values(), 1);
+
+// 场馆 TOP15
+const venueCount = new Map<string, number>();
+for (const e of events) venueCount.set(e.venue, (venueCount.get(e.venue) ?? 0) + 1);
+const topVenues = [...venueCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
+const maxV = topVenues[0]?.[1] ?? 1;
+
+const mLabel = (m: string) => `${Number(m.slice(5, 7))}月`;
+---
+
+<BaseLayout title="数据 | lvfind">
+  <div class="container page">
+    <header class="head">
+      <h1 class="display-small">数据</h1>
+      <p class="body-large muted">演出态势一览——月份分布、城市热度、地区对比，帮你规划下一次行程。</p>
+      <div class="tabs">
+        <md-text-button href="/insights" class:list={{ on: !g }}>全部</md-text-button>
+        <md-text-button href="/insights?g=kpop" class:list={{ on: g === 'kpop' }}>K-pop</md-text-button>
+        <md-text-button href="/insights?g=jpop" class:list={{ on: g === 'jpop' }}>J-pop</md-text-button>
+      </div>
+    </header>
+
+    <section class="kpis">
+      <div class="kpi"><b>{events.length}</b><span>场演出</span></div>
+      <div class="kpi"><b>{new Set(events.map((e) => e.artist)).size}</b><span>位艺人</span></div>
+      <div class="kpi"><b>{new Set(events.map((e) => e.venue)).size}</b><span>座场馆</span></div>
+      <div class="kpi"><b>{cityCount.size}</b><span>座城市</span></div>
+      <div class="kpi"><b>{byCountry.length}</b><span>国家/地区</span></div>
+      <div class="kpi"><b>{inDays(30)}</b><span>30 天内场次</span></div>
+      <div class="kpi"><b>{inDays(90)}</b><span>90 天内场次</span></div>
+    </section>
+
+    <section class="card">
+      <h2 class="title-medium">月度分布</h2>
+      <p class="body-small muted">K-pop / J-pop 堆叠。目前最密集的是 {monthly.reduce((a, b) => (a.kpop + a.jpop > b.kpop + b.jpop ? a : b)).m.replace('-', ' 年 ') + ' 月'}。</p>
+      <svg class="bars" viewBox={`0 0 ${monthsShort.length * 44} 170`} role="img">
+        {monthly.map((x, i) => {
+          const total = x.kpop + x.jpop;
+          const kh = (x.kpop / maxMonth) * 130, jh = (x.jpop / maxMonth) * 130;
+          return (
+            <g>
+              <rect x={i * 44 + 8} y={150 - jh - kh} width="26" height={kh} rx="4" class="bk" />
+              <rect x={i * 44 + 8} y={150 - jh} width="26" height={jh} rx="4" class="bj" />
+              <text x={i * 44 + 21} y={142 - jh - kh} class="lb" text-anchor="middle">{total}</text>
+              <text x={i * 44 + 21} y="165" class="lb muted" text-anchor="middle">{mLabel(x.m)}</text>
+            </g>
+          );
+        })}
+      </svg>
+      <p class="legend"><span class="sw bk"></span>K-pop <span class="sw bj"></span>J-pop</p>
+    </section>
+
+    <section class="card">
+      <h2 class="title-medium">城市 × 月份</h2>
+      <p class="body-small muted">场次最多的 15 座城市。深色=场次多，适合"凑密度"安排行程。</p>
+      <div class="matrix">
+        <div class="row head-row">
+          <span class="cell zh"></span>
+          {monthsShort.map((m) => <span class="cell lbl">{mLabel(m)}</span>)}
+        </div>
+        {matrix.map((r) => (
+          <div class="row">
+            <span class="cell zh">{r.zh}</span>
+            {r.cells.map((n, i) => (
+              <span class="cell" style={`background:${n ? `color-mix(in oklch, var(--md-sys-color-primary) ${Math.min(90, 20 + (n / maxCell) * 70)}%, transparent)` : 'transparent'}`} title={`${r.zh} ${monthsShort[i]}：${n} 场`}>{n || ''}</span>
+            ))}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="title-medium">国家 / 地区对比</h2>
+      <p class="body-small muted">日本占 {jpPct}%{cnN <= 2 ? `；中国大陆目前仅 ${cnN} 场` : ''}，周末场次占 {wkndPct}%。</p>
+      {byCountry.map(({ code, n }) => (
+        <div class="crow">
+          <span class="cname">{regions[code]}</span>
+          <span class="cbar" style={`width:${(n / maxC) * 100}%`}></span>
+          <span class="cnum">{n}</span>
+        </div>
+      ))}
+    </section>
+
+    <section class="card">
+      <h2 class="title-medium">日历热力</h2>
+      <p class="body-small muted">每天场次密度（{calStart.slice(0, 7)} → {calEnd.slice(0, 7)}），周末高峰一眼可见。</p>
+      <div class="cal">
+        {weeks.map((w) => (
+          <div class="wcol">
+            {w.map(({ d, n }) => (
+              <span class="day" style={`background:${n ? `color-mix(in oklch, var(--md-sys-color-primary) ${Math.min(95, 25 + (n / maxDay) * 70)}%, transparent)` : 'var(--md-sys-color-surface-container)'}`} title={`${d}：${n} 场`}></span>
+            ))}
+          </div>
+        ))}
+      </div>
+      <p class="legend">每列一周，从上到下周一至周日；颜色越深=场次越多</p>
+    </section>
+
+    <section class="card">
+      <h2 class="title-medium">场馆 TOP15</h2>
+      {topVenues.map(([id, n]) => {
+        const v = venueById[id];
+        return (
+          <div class="crow">
+            <span class="vname">{v?.name ?? id} <small class="muted">{v ? `${v.cityZh} · ${venueTypes[v.type]}` : ''}</small></span>
+            <span class="cbar" style={`width:${(n / maxV) * 100}%`}></span>
+            <span class="cnum">{n}</span>
+          </div>
+        );
+      })}
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .page { padding: var(--lv-space-6) 0 var(--lv-space-10); }
+  .head { margin-bottom: var(--lv-space-6); }
+  .tabs { margin-top: var(--lv-space-3); }
+  .tabs .on { color: var(--md-sys-color-primary); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--lv-space-3); margin-bottom: var(--lv-space-6); }
+  .kpi { background: var(--md-sys-color-surface-container); border-radius: var(--lv-radius-m); padding: var(--lv-space-4); text-align: center; }
+  .kpi b { display: block; font: var(--lv-font-headline-medium); color: var(--md-sys-color-primary); }
+  .kpi span { font: var(--lv-font-label-medium); color: var(--md-sys-color-on-surface-variant); }
+  .card { border: 1px solid var(--md-sys-color-outline-variant); border-radius: var(--lv-radius-l); padding: var(--lv-space-5); margin-bottom: var(--lv-space-5); }
+  .card h2 { margin: 0 0 var(--lv-space-2); }
+  .bars { width: 100%; height: 170px; margin-top: var(--lv-space-4); }
+  .bk { fill: var(--md-sys-color-primary); }
+  .bj { fill: var(--md-sys-color-tertiary); }
+  rect.bk, rect.bj { rx: 4px; }
+  .lb { font-size: 11px; fill: var(--md-sys-color-on-surface); }
+  .lb.muted { fill: var(--md-sys-color-on-surface-variant); }
+  .legend { display: flex; align-items: center; gap: var(--lv-space-2); font: var(--lv-font-label-medium); color: var(--md-sys-color-on-surface-variant); margin-top: var(--lv-space-3); }
+  .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: var(--lv-space-1); }
+  .matrix { overflow-x: auto; margin-top: var(--lv-space-4); }
+  .row { display: grid; grid-template-columns: 110px repeat(14, minmax(34px, 1fr)); gap: 3px; }
+  .cell { height: 26px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font: var(--lv-font-label-small); color: var(--md-sys-color-on-surface); }
+  .cell.zh { justify-content: flex-start; font-weight: 500; padding-right: var(--lv-space-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cell.lbl { color: var(--md-sys-color-on-surface-variant); }
+  .crow { display: grid; grid-template-columns: 220px 1fr 44px; align-items: center; gap: var(--lv-space-3); padding: 5px 0; }
+  .cname, .vname { font: var(--lv-font-label-large); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cbar { height: 14px; border-radius: 7px; background: var(--md-sys-color-primary); min-width: 3px; }
+  .cnum { font: var(--lv-font-label-large); text-align: right; }
+  .cal { display: flex; gap: 3px; overflow-x: auto; margin-top: var(--lv-space-4); padding-bottom: var(--lv-space-2); }
+  .wcol { display: grid; grid-template-rows: repeat(7, 14px); gap: 3px; }
+  .day { width: 14px; height: 14px; border-radius: 3px; }
+  @media (max-width: 700px) { .row { grid-template-columns: 84px repeat(14, 30px); } .crow { grid-template-columns: 130px 1fr 34px; } }
+</style>
