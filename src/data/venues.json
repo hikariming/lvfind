@@ -1470,5 +1470,21 @@
     "capacity": 8000,
     "address": "长沙市开福区三一大道 471 号",
     "transit": "地铁3号线「月湖公园北」/ 公交「广电中心」站"
+  },
+  {
+    "id": "changsha-tbd",
+    "name": "场馆待公布（长沙）",
+    "type": "hall",
+    "city": "Changsha",
+    "citySlug": "changsha",
+    "cityZh": "长沙",
+    "countryCode": "CN",
+    "timezone": "Asia/Shanghai",
+    "tzAbbr": "CST",
+    "lat": 28.148,
+    "lng": 112.895,
+    "capacity": 0,
+    "address": "岳麓区南二环一段518号阳光壹佰新城（许可证登记场所，正式场馆待公布）",
+    "transit": "—"
   }
 ]
