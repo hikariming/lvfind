@@ -9,7 +9,7 @@ const { artistBySlug, venueById, venues, events, layoutsByVenue } = await getDat
 const venue = venues.find((v) => v.id === Astro.params.id);
 if (!venue) return Astro.redirect('/404');
 
-const layouts = layoutsByVenue[venue.id] ?? [];
+const layouts = layoutsByVenue?.[venue.id] ?? [];
 const mainLayout = layouts.reduce<(typeof layouts)[number] | undefined>(
   (best, l) => ((l.seats ?? 0) > (best?.seats ?? 0) ? l : best),
   undefined,

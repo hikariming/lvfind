@@ -121,7 +121,7 @@ async function loadData(db: D1Database): Promise<SiteData> {
 
 // 数据缓存：边缘节点 5 分钟 TTL，减少 D1 读取（站点是低频更新数据）。
 // 重新灌库后想立即生效，可把 CACHE_KEY 里的版本号 +1。
-const CACHE_KEY = 'https://lvfind.internal/data-v1';
+const CACHE_KEY = 'https://lvfind.internal/data-v2';
 const CACHE_TTL = 300;
 
 export async function getData(db: D1Database): Promise<SiteData> {
