@@ -1453,5 +1453,22 @@
     "capacity": 2100,
     "address": "横浜市西区みなとみらい",
     "transit": "みなとみらい线「新高岛」站 / 「横滨」站步行"
+  },
+  {
+    "id": "mango-hall",
+    "name": "Hunan Int'l Convention & Exhibition Center (Mango Hall)",
+    "nameLocal": "湖南国际会展中心·芒果馆",
+    "type": "arena",
+    "city": "Changsha",
+    "citySlug": "changsha",
+    "cityZh": "长沙",
+    "countryCode": "CN",
+    "timezone": "Asia/Shanghai",
+    "tzAbbr": "CST",
+    "lat": 28.236,
+    "lng": 113.036,
+    "capacity": 8000,
+    "address": "长沙市开福区三一大道 471 号",
+    "transit": "地铁3号线「月湖公园北」/ 公交「广电中心」站"
   }
 ]
