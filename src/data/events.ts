@@ -104,7 +104,7 @@ export const venues = venuesData as Venue[];
 
 // tour/source 常量
 const T = {
-  YOASOBI: { tour: 'YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “SUPER PLANET”', src: 'https://www.yoasobi-music.jp/live/' },
+  YOASOBI: { tour: 'YOASOBI 11-CITY ASIA-OCEANIA TOUR 2026-2027 “SUPER PLANET”', src: 'https://www.yoasobi-music.jp/live/' },
   AESPA: { tour: '2026-27 aespa LIVE TOUR – SYNK : COMPLæXITY', src: 'https://aespaworldtour.com/' },
   LSF: { tour: "2026 LE SSERAFIM TOUR 'PUREFLOW' IN ASIA", src: 'https://sourcemusic.com/artist/tour/LE%20SSERAFIM/17' },
   BM: { tour: '2026-27 BABYMONSTER WORLD TOUR [CHOOM]', src: 'https://yg-babymonster.com/concert/worldtourchoom/' },
@@ -211,6 +211,10 @@ const rows: Row[] = [
   ['yoasobi', 'taipei-dome', 'YOASOBI', '2027-01-09T18:00', 'sold_out', null],
   ['yoasobi', 'taipei-dome', 'YOASOBI', '2027-01-10T18:00', 'sold_out', null],
   ['yoasobi', 'sg-national', 'YOASOBI', '2027-02-20T19:00', 'on_sale', null],
+  // 2026-11-09 官方宣布：改名 11-CITY ASIA-OCEANIA TOUR，取消部分亚洲站，新增澳巡
+  ['yoasobi', 'rod-laver', 'YOASOBI', '2027-03-17', 'announced', null],
+  ['yoasobi', 'afterpay-arena', 'YOASOBI', '2027-03-19', 'announced', null],
+  // TODO: 香港 AsiaWorld-Arena 2027 年 1 月两晚，具体日期官方已公布待补录
   // JxJ Journey Into [Dreaming]
   ['jxj', 'belluna-dome', 'JXJ', '2026-11-21', 'on_sale', null],
   ['jxj', 'belluna-dome', 'JXJ', '2026-11-22', 'on_sale', null],
