@@ -165,6 +165,12 @@ const T = {
   KAZE: { tour: 'Prema World Tour', src: 'https://fujiikaze.com/' },
   ADO: { tour: 'Adoの歌ってみたツアー2027', src: 'https://www.universal-music.co.jp/ado/' },
   JXJ: { tour: 'Jeonghan X Joshua “Journey Into [Dreaming]”', src: 'https://weverse.io/seventeen/notice' },
+  HTA: { tour: 'HITORI-ESCAPE ASIA TOUR 2026', src: 'https://www.hitorie.jp/contents/1081324' },
+  HTN: { tour: 'nest30th (→) Anniversary “ヒトリエ × シンガーズハイ”', src: 'https://www.hitorie.jp/contents/1115823' },
+  HTC: { tour: 'COUNTDOWN JAPAN 26/27', src: 'https://countdownjapan.jp/' },
+  HTAT: { tour: 'HITORI-ATELIER 2027 FIRST MEETING（FC限定）', src: 'https://www.hitorie.jp/contents/1123227' },
+  HTFE: { tour: 'HITORI-ESCAPE 2027 FIRST ESCAPE', src: 'https://www.hitorie.jp/contents/1123227' },
+  HTH: { tour: 'ハンゲキフェス2027', src: 'https://www.hangekifes.com/' },
 } as const;
 
 type Row = [artist: string, venue: string, tourKey: keyof typeof T, start: string, status: TicketStatus, onSale: string | null];
@@ -439,6 +445,13 @@ const rows: Row[] = [
   ['ado', 'asue-arena-osaka', 'ADO', '2027-01-31T16:00', 'announced', null],
   ['ado', 'port-messe', 'ADO', '2027-02-27T17:00', 'announced', null],
   ['ado', 'port-messe', 'ADO', '2027-02-28T16:00', 'announced', null],
+  // ヒトリエ（来源：hitorie.jp 官方 schedule，2026-11-08 核对；O-nest 场已售罄）
+  ['hitorie', 'the-wall-taipei', 'HTA', '2026-11-29T18:00', 'on_sale', null],
+  ['hitorie', 'spotify-o-nest', 'HTN', '2026-12-09T18:45', 'sold_out', null],
+  ['hitorie', 'makuhari-messe', 'HTC', '2026-12-29', 'on_sale', null],
+  ['hitorie', 'shangri-la', 'HTAT', '2027-01-22T19:00', 'presale', null],
+  ['hitorie', 'shangri-la', 'HTFE', '2027-01-30T17:00', 'presale', null],
+  ['hitorie', 'namba-hatch', 'HTH', '2027-02-23T14:00', 'presale', null],
 ];
 
 export const events: Event[] = rows.map(([artist, venue, tourKey, startLocal, ticketStatus, onSale], i) => ({

@@ -929,5 +929,57 @@
     ],
     "detail": "https://zaseki.music-mdata.com/detail/8688/1",
     "match": "auto"
+  },
+  "spotify-o-nest": {
+    "query": "Spotify O-nest",
+    "candidates": [],
+    "detail": null,
+    "match": "none"
+  },
+  "makuhari-messe": {
+    "query": "幕張メッセ",
+    "candidates": [
+      {
+        "title": "幕張メッセ 国際展示場1-8ホール 展示ホール1・2・3 ... - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/26363/1",
+        "score": 2
+      },
+      {
+        "title": "幕張メッセ 国際展示場1-8ホール 展示ホール1・2・3 ... - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/26363/1",
+        "score": 2
+      },
+      {
+        "title": "幕張メッセ 国際展示場1-8ホール 展示ホール4・5・6 ... - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/26363/2",
+        "score": 2
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/26363/1",
+    "match": "auto"
+  },
+  "shangri-la": {
+    "query": "下北沢シャングリラ",
+    "candidates": [],
+    "detail": null,
+    "match": "none"
+  },
+  "namba-hatch": {
+    "query": "なんばHatch",
+    "candidates": [
+      {
+        "title": "なんばハッチ - 755 - 席 - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/8218/1",
+        "score": 0.42857142857142855
+      },
+      {
+        "title": "なんばハッチ - 755 - 席 - 座席表ガイド",
+        "href": "https://zaseki.music-mdata.com/detail/8218/1",
+        "score": 0.42857142857142855
+      }
+    ],
+    "detail": "https://zaseki.music-mdata.com/detail/8218/1",
+    "match": "weak",
+    "note": "なんばハッチ 755席（坐席布局）"
   }
 }

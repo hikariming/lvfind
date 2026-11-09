@@ -1,0 +1,125 @@
+{
+  "venue": "makuhari-messe",
+  "zasekiId": 26363,
+  "url": "https://zaseki.music-mdata.com/detail/26363",
+  "match": "auto",
+  "note": null,
+  "fetchedAt": "2026-11-09T02:30:32.909Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "幕張メッセ 国際展示場1-8ホール",
+      "alias": null,
+      "facility": "展示ホール1・2・3",
+      "capacity": 21000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/26363.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/26363_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/26363",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/26363/1132614",
+          "title": "海浜幕張駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/26363",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-12-26",
+          "name": "rockin'on presents COUNTDOWN JAPAN 26/27 supported by au",
+          "slug": "/event/8va5t7j"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "rockin'on presents COUNTDOWN JAPAN 26/27 supported by au",
+          "slug": "/event/8va5t7j"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "COUNTDOWN JAPAN 26/27",
+          "slug": "/event/6oh7g8v"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "COUNTDOWN JAPAN 26/27",
+          "slug": "/event/6oh7g8v"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "Hype Like it!",
+          "slug": "/event/b27k2q3"
+        },
+        {
+          "date": "2027-01-23",
+          "name": "Hype Like it!",
+          "slug": "/event/g2lfc61"
+        },
+        {
+          "date": "2027-01-24",
+          "name": "Hype Like it!",
+          "slug": "/event/g2lfc61"
+        },
+        {
+          "date": "2027-02-11",
+          "name": "ブクロック!フェスティバル 2027幕張",
+          "slug": "/event/bo_mh0r"
+        },
+        {
+          "date": "2027-03-04",
+          "name": "ALL-STANDING ARENA TOUR 2027「DOPE PURPLE HOLE」",
+          "slug": "/event/jqchyse"
+        }
+      ]
+    },
+    {
+      "hallNo": 2,
+      "venueName": "幕張メッセ 国際展示場1-8ホール",
+      "alias": null,
+      "facility": "展示ホール4・5・6",
+      "capacity": 21000,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/26363_2.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/26363_2.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/26363",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/26363/1132614",
+          "title": "海浜幕張駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/26363",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-12-26",
+          "name": "COUNTDOWN JAPAN 26/27",
+          "slug": "/event/6oh7g8v"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "COUNTDOWN JAPAN 26/27",
+          "slug": "/event/6oh7g8v"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "rockin'on presents COUNTDOWN JAPAN 26/27 supported by au",
+          "slug": "/event/8va5t7j"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "rockin'on presents COUNTDOWN JAPAN 26/27 supported by au",
+          "slug": "/event/8va5t7j"
+        }
+      ]
+    }
+  ]
+}

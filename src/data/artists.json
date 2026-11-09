@@ -418,5 +418,17 @@
     "nameOriginal": "ONE OK ROCK",
     "nameLocal": "ワンオクロック",
     "genre": "jpop"
+  },
+  {
+    "slug": "hitorie",
+    "nameOriginal": "HITORIE",
+    "nameLocal": "ヒトリエ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "yorushika",
+    "nameOriginal": "Yorushika",
+    "nameLocal": "ヨルシカ",
+    "genre": "jpop"
   }
 ]

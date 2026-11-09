@@ -1,0 +1,255 @@
+{
+  "venue": "namba-hatch",
+  "zasekiId": 8218,
+  "url": "https://zaseki.music-mdata.com/detail/8218",
+  "match": "weak",
+  "note": "なんばハッチ 755席（坐席布局）",
+  "fetchedAt": "2026-11-09T02:30:43.307Z",
+  "halls": [
+    {
+      "hallNo": 1,
+      "venueName": "なんばハッチ",
+      "alias": null,
+      "facility": "なんばハッチ",
+      "capacity": 755,
+      "pdf": "https://cdn-zaseki.music-mdata.com/pdf/8218.pdf",
+      "seatImg": "https://cdn-zaseki.music-mdata.com/seat/8218_1.png",
+      "links": {
+        "施設情報": {
+          "href": "https://www.livewalker.com/web/detail/8218",
+          "title": null
+        },
+        "最寄り駅": {
+          "href": "https://route.music-mdata.com/detail/8218/1160722",
+          "title": "ＪＲ難波駅からの徒歩マップ"
+        },
+        "駐車場": {
+          "href": "https://navi.music-mdata.com/p/8218",
+          "title": null
+        }
+      },
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "WOLF HOWL HARMONY",
+          "slug": "/event/b2pxlih"
+        },
+        {
+          "date": "2026-11-13",
+          "name": "ズーカラデル",
+          "slug": "/event/bcgr28v"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "Galileo Galilei",
+          "slug": "/event/fklpya"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "スーパー戦隊魂 XX 2026 “大阪”",
+          "slug": "/event/dtohjo"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "秋山黄色",
+          "slug": "/event/bf978cd"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "カルロス･トシキ CARLOS TOSHIKI 40th ANNIVERSARY LIVE TOUR 2026",
+          "slug": "/event/bgoox0f"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "syrup16g",
+          "slug": "/event/1_kmm"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "杉本琢弥",
+          "slug": "/event/bk24uo2"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "MIYAVI JAPAN Circuit 2026 “SAMURAI 45 -Back to BASICS-“",
+          "slug": "/event/bkh3eo"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "MIYAVIライブツアー2026",
+          "slug": "/event/qcdkowp"
+        },
+        {
+          "date": "2026-11-28",
+          "name": "THE MODS 45TH ANNIVERSARY LIVE ”REVOLVER 45”",
+          "slug": "/event/cxe6a"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "TK from 凛として時雨 TOUR 2026 生癖 -seiheki-",
+          "slug": "/event/kgziqio"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "OPTIMIZE = OPTDEMISE JAPAN TOUR 2026",
+          "slug": "/event/47dk0qe"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "SPYAIR",
+          "slug": "/event/g0pgb1"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "SPYAIR JAPAN TOUR 2026-2027 -EP.01-",
+          "slug": "/event/95o3nui"
+        },
+        {
+          "date": "2026-12-06",
+          "name": "SHE’S",
+          "slug": "/event/v3t6au"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "DIR EN GREY 30th Anniversary 列島激震行脚2026 Nothing XXX Ugly",
+          "slug": "/event/nbrc9en"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "DIR EN GREY 30th Anniversary 列島激震行脚2026 Nothing XXX Ugly",
+          "slug": "/event/nbrc9en"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "名誉伝説",
+          "slug": "/event/b1jnphv"
+        },
+        {
+          "date": "2026-12-17",
+          "name": "リーガルリリー",
+          "slug": "/event/2d4mtb"
+        },
+        {
+          "date": "2026-12-18",
+          "name": "押尾コータロー",
+          "slug": "/event/yaad0"
+        },
+        {
+          "date": "2026-12-19",
+          "name": "押尾コータロー",
+          "slug": "/event/yaad0"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "押尾コータロー",
+          "slug": "/event/yaad0"
+        },
+        {
+          "date": "2026-12-23",
+          "name": "竹原ピストル",
+          "slug": "/event/gz2y3v"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "A Hundred Birds Orchestra",
+          "slug": "/event/ccdbl4"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "八十八ヶ所巡礼 20th Anniversary tour 日本万歳!!",
+          "slug": "/event/mecdmq"
+        },
+        {
+          "date": "2027-01-09",
+          "name": "the paddles 「人生の登場人物として-天王山編-」",
+          "slug": "/event/bxuj52j"
+        },
+        {
+          "date": "2027-01-10",
+          "name": "Planet CHILD Music 20th Anniversary 『Meteoric Swarm』",
+          "slug": "/event/btcq_jw"
+        },
+        {
+          "date": "2027-01-17",
+          "name": "真心ブラザーズ ライブ・ツアー『TWIN MOUNTAIN TRAILS』",
+          "slug": "/event/38lzjt6"
+        },
+        {
+          "date": "2027-01-22",
+          "name": "HEY-SMITH “ALL OVER JAPAN TOUR”",
+          "slug": "/event/ftb_7a"
+        },
+        {
+          "date": "2027-01-30",
+          "name": "THE TOUR FINAL STAGE",
+          "slug": "/event/vbt6up2"
+        },
+        {
+          "date": "2027-01-31",
+          "name": "フォンテインズD.C. 来日公演",
+          "slug": "/event/bthiguo"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "パブリック・イメージ・リミテッド 来日公演",
+          "slug": "/event/67xrwka"
+        },
+        {
+          "date": "2027-02-19",
+          "name": "クリープハイプ 太客倶楽部限定ツアー2027 それはそれで幸せ",
+          "slug": "/event/qngj3sn"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "音屋吉右衛門(世良公則x野村義男) 音屋吉右衛門 Live 2027 ～さぁ、どこからでもかかってきなさい!～",
+          "slug": "/event/crpiql"
+        },
+        {
+          "date": "2027-02-23",
+          "name": "ハンゲキフェス 2027",
+          "slug": "/event/byca3qj"
+        },
+        {
+          "date": "2027-02-27",
+          "name": "KANA-BOON Jack in tour 2027",
+          "slug": "/event/7gfrs0e"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "KANA-BOON Jack in tour 2027",
+          "slug": "/event/7gfrs0e"
+        },
+        {
+          "date": "2027-03-05",
+          "name": "WurtS",
+          "slug": "/event/bn_p5dk"
+        },
+        {
+          "date": "2027-03-06",
+          "name": "THE LIVE HOUSE soma 20th Anniversary!!",
+          "slug": "/event/b3txk29"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "ザ･クロマニヨンズ",
+          "slug": "/event/cn5ukg"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "嘉門タツオ",
+          "slug": "/event/ggier"
+        },
+        {
+          "date": "2027-04-11",
+          "name": "超能力戦士ドリアン 解決!ドタバタ探偵団～大阪事件簿～",
+          "slug": "/event/_jb_ep"
+        },
+        {
+          "date": "2027-04-17",
+          "name": "Dannie May Dannie May ONEMAN TOUR 2027「DECALAND」",
+          "slug": "/event/blt99go"
+        }
+      ]
+    }
+  ]
+}
