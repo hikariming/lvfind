@@ -24,6 +24,7 @@ export const ui: Record<string, T> = {
   'ui.notFoundSub': ['链接可能失效了，回首页看看最近的演出吧。', '連結可能失效了，回首頁看看最近的演出吧。', 'The link may be broken — check out upcoming shows.', 'リンク切れかもしれません。最新の公演はホームへ。', '링크가 만료되었을 수 있습니다. 홈에서 공연을 확인하세요.'],
   'genre.kpop': ['K-pop', 'K-pop', 'K-pop', 'K-pop', 'K-pop'],
   'genre.jpop': ['J-pop', 'J-pop', 'J-pop', 'J-pop', 'J-pop'],
+  'genre.cpop': ['C-pop', 'C-pop', 'C-pop', 'C-pop', 'C-pop'],
   'status.announced': ['未开售', '未開售', 'Announced', '未発売', '미판매'],
   'status.presale': ['预售', '預售', 'Presale', '先行', '사전 판매'],
   'status.on_sale': ['售票中', '售票中', 'On sale', '発売中', '판매 중'],

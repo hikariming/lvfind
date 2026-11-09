@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS artists (
   name_original TEXT NOT NULL,             -- '아이브' / 'YOASOBI'
   name_local    TEXT,                      -- 当地写法
   name_zh       TEXT,                      -- 常用中文名（可选）
-  genre         TEXT NOT NULL CHECK (genre IN ('kpop','jpop')),
+  genre         TEXT NOT NULL CHECK (genre IN ('kpop','jpop','cpop')),
   agency        TEXT,
   official_url  TEXT
 );

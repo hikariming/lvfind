@@ -4,7 +4,7 @@ import artistsData from './artists.json' with { type: 'json' };
 import venuesData from './venues.json' with { type: 'json' };
 // 场馆坐标 / 容量 / 交通为近似值，上线前需逐条核对。
 
-export type Genre = 'kpop' | 'jpop';
+export type Genre = 'kpop' | 'jpop' | 'cpop';
 export type TicketStatus = 'announced' | 'presale' | 'on_sale' | 'sold_out' | 'postponed' | 'cancelled';
 export type VenueType = 'dome' | 'stadium' | 'arena' | 'hall';
 

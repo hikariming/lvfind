@@ -430,5 +430,35 @@
     "nameOriginal": "Yorushika",
     "nameLocal": "ヨルシカ",
     "genre": "jpop"
+  },
+  {
+    "slug": "chilichill",
+    "nameOriginal": "ChiliChill",
+    "nameLocal": "ChiliChill乐团",
+    "genre": "cpop"
+  },
+  {
+    "slug": "accusefive",
+    "nameOriginal": "Accusefive",
+    "nameLocal": "告五人",
+    "genre": "cpop"
+  },
+  {
+    "slug": "no-party-for-cao-dong",
+    "nameOriginal": "No Party For Cao Dong",
+    "nameLocal": "草东没有派对",
+    "genre": "cpop"
+  },
+  {
+    "slug": "miserable-faith",
+    "nameOriginal": "Miserable Faith",
+    "nameLocal": "痛仰乐队",
+    "genre": "cpop"
+  },
+  {
+    "slug": "omnipotent-youth-society",
+    "nameOriginal": "Omnipotent Youth Society",
+    "nameLocal": "万能青年旅店",
+    "genre": "cpop"
   }
 ]
