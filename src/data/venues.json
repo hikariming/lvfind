@@ -2016,5 +2016,39 @@
     "address": "大阪府大阪市浪速区湊町1-3-1",
     "transit": "地下铁四桥线/御堂筋线「难波」站26-B出口，JR/南海/近铁难波站",
     "website": "https://www.namba-hatch.com/"
+  },
+  {
+    "id": "fukuoka-shimin",
+    "name": "Fukuoka Civic Hall",
+    "nameLocal": "福岡市民ホール",
+    "type": "hall",
+    "city": "Fukuoka",
+    "citySlug": "fukuoka",
+    "cityZh": "福冈",
+    "countryCode": "JP",
+    "timezone": "Asia/Tokyo",
+    "tzAbbr": "JST",
+    "lat": 33.5897,
+    "lng": 130.4025,
+    "capacity": 1770,
+    "address": "福岡市中央区天神5-1-23",
+    "transit": "地铁「天神」站步行约10分钟"
+  },
+  {
+    "id": "niterra-forest",
+    "name": "Niterra Hall Forest Hall",
+    "nameLocal": "Niterra日本特殊陶業市民会館 フォレストホール",
+    "type": "hall",
+    "city": "Nagoya",
+    "citySlug": "nagoya",
+    "cityZh": "名古屋",
+    "countryCode": "JP",
+    "timezone": "Asia/Tokyo",
+    "tzAbbr": "JST",
+    "lat": 35.1434,
+    "lng": 136.9002,
+    "capacity": 2291,
+    "address": "名古屋市中区金山1-5-1",
+    "transit": "JR/名铁/地铁「金山」站南口步行约5分钟"
   }
 ]

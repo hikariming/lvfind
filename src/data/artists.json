@@ -432,6 +432,66 @@
     "genre": "jpop"
   },
   {
+    "slug": "vaundy",
+    "nameOriginal": "Vaundy",
+    "nameLocal": "バウンディ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "back-number",
+    "nameOriginal": "back number",
+    "nameLocal": "バックナンバー",
+    "genre": "jpop"
+  },
+  {
+    "slug": "milet",
+    "nameOriginal": "milet",
+    "nameLocal": "ミレイ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "lisa",
+    "nameOriginal": "LiSA",
+    "nameLocal": "リサ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "kitani-tatsuya",
+    "nameOriginal": "Tatsuya Kitani",
+    "nameLocal": "キタニタツヤ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "macaroni-enpitsu",
+    "nameOriginal": "Macaroni Enpitsu",
+    "nameLocal": "マカロニえんぴつ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "tuki",
+    "nameOriginal": "tuki.",
+    "nameLocal": "ツキ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "snow-man",
+    "nameOriginal": "Snow Man",
+    "nameLocal": "スノーマン",
+    "genre": "jpop"
+  },
+  {
+    "slug": "number-i",
+    "nameOriginal": "Number_i",
+    "nameLocal": "ナンバーアイ",
+    "genre": "jpop"
+  },
+  {
+    "slug": "be-first",
+    "nameOriginal": "BE:FIRST",
+    "nameLocal": "ビーファースト",
+    "genre": "jpop"
+  },
+  {
     "slug": "chilichill",
     "nameOriginal": "ChiliChill",
     "nameLocal": "ChiliChill乐团",
