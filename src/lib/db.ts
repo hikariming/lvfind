@@ -1,4 +1,4 @@
-import type { Artist, Event, Genre, MapVenue, SeatLayout, Venue, VenueType } from '../data/events';
+import type { Artist, Event, Festival, Genre, MapVenue, SeatLayout, Venue, VenueType } from '../data/events';
 import { regions } from '../data/events';
 
 // 字段与 src/data/events.ts 的接口保持一致：venue.id 用 slug，event.artist/venue 存 slug。
@@ -93,26 +93,58 @@ export async function fetchSeatLayouts(db: D1Database): Promise<Record<string, S
   }
 }
 
+export async function fetchFestivals(db: D1Database): Promise<Festival[]> {
+  try {
+    const { results } = await db
+      .prepare(
+        `SELECT f.slug, f.name, v.slug AS venue, f.start_date, f.end_date, f.hours_local,
+                f.ticket_status, f.ticket_note, f.source_url, f.verified_at, f.days_json, f.links_json
+         FROM festivals f JOIN venues v ON v.id = f.venue_id
+         ORDER BY f.start_date`,
+      )
+      .all<Row>();
+    return results.map((r) => ({
+      slug: r.slug as string,
+      name: r.name as string,
+      venue: r.venue as string,
+      startDate: r.start_date as string,
+      endDate: r.end_date as string,
+      hoursLocal: r.hours_local as string | undefined,
+      ticketStatus: r.ticket_status as Festival['ticketStatus'],
+      ticketNote: r.ticket_note as string | undefined,
+      sourceUrl: r.source_url as string,
+      verifiedAt: r.verified_at as string,
+      days: JSON.parse(r.days_json as string) as Festival['days'],
+      artistLinks: r.links_json ? (JSON.parse(r.links_json as string) as Record<string, string>) : {},
+    }));
+  } catch {
+    return []; // 表不存在（老库）时静默降级
+  }
+}
+
 export interface SiteData {
   artists: Artist[];
   venues: Venue[];
   events: Event[];
+  festivals: Festival[];
   artistBySlug: Record<string, Artist>;
   venueById: Record<string, Venue>;
   layoutsByVenue: Record<string, SeatLayout[]>;
 }
 
 async function loadData(db: D1Database): Promise<SiteData> {
-  const [artists, venues, events, layoutsByVenue] = await Promise.all([
+  const [artists, venues, events, festivals, layoutsByVenue] = await Promise.all([
     fetchArtists(db),
     fetchVenues(db),
     fetchEvents(db),
+    fetchFestivals(db),
     fetchSeatLayouts(db),
   ]);
   return {
     artists,
     venues,
     events,
+    festivals,
     artistBySlug: Object.fromEntries(artists.map((a) => [a.slug, a])),
     venueById: Object.fromEntries(venues.map((v) => [v.id, v])),
     layoutsByVenue,
@@ -121,7 +153,7 @@ async function loadData(db: D1Database): Promise<SiteData> {
 
 // 数据缓存：边缘节点 5 分钟 TTL，减少 D1 读取（站点是低频更新数据）。
 // 重新灌库后想立即生效，可把 CACHE_KEY 里的版本号 +1。
-const CACHE_KEY = 'https://lvfind.internal/data-v2';
+const CACHE_KEY = 'https://lvfind.internal/data-v3';
 const CACHE_TTL = 300;
 
 export async function getData(db: D1Database): Promise<SiteData> {

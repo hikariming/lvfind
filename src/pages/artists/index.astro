@@ -8,6 +8,7 @@ const counts = Object.fromEntries(artists.map((a) => [a.slug, events.filter((e) 
 const groups = [
   { key: 'kpop', label: 'K-pop', list: artists.filter((a) => a.genre === 'kpop') },
   { key: 'jpop', label: 'J-pop', list: artists.filter((a) => a.genre === 'jpop') },
+  { key: 'cpop', label: 'C-pop', list: artists.filter((a) => a.genre === 'cpop') },
 ];
 ---
 

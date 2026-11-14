@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { env } from 'cloudflare:workers';
+import { getData } from '../../lib/db';
+
+const { festivals, venueById, artistBySlug } = await getData(env.DB);
+const f = festivals.find((x) => x.slug === Astro.params.slug);
+if (!f) return Astro.redirect('/404');
+
+const venue = venueById[f.venue];
+const statusLabel: Record<string, string> = {
+  announced: '未开售', presale: '预售', on_sale: '售票中',
+  sold_out: '售罄', postponed: '延期', cancelled: '取消',
+};
+const WD = ['日', '一', '二', '三', '四', '五', '六'];
+const fmtDay = (d: string) => {
+  const dt = new Date(`${d}T12:00:00+09:00`);
+  return `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日 周${WD[dt.getDay()]}`;
+};
+const totalActs = f.days.reduce((n, d) => n + d.artists.length, 0);
+const linked = new Set(Object.values(f.artistLinks)).size;
+---
+
+<BaseLayout title={`${f.name} | lvfind`}>
+  <div class="container page">
+    <md-text-button href="/festivals" class="back">
+      <md-icon slot="icon" class="material-symbols-rounded">arrow_back</md-icon>全部音乐节
+    </md-text-button>
+
+    <header class="head">
+      <h1 class="display-small">{f.name}</h1>
+      <dl class="stats">
+        <div><dt>日期</dt><dd>{f.startDate.slice(5).replace('-', '/')} – {f.endDate.slice(5).replace('-', '/')}</dd></div>
+        <div><dt>阵容</dt><dd>{totalActs} 组</dd></div>
+        <div><dt>本站收录艺人</dt><dd>{linked} 组</dd></div>
+      </dl>
+      <ul class="meta body-medium">
+        <li>
+          <span class="material-symbols-rounded">location_on</span>
+          <a href={`/venues/${venue.id}`}>{venue.nameLocal ?? venue.name}（{venue.cityZh}）</a>
+        </li>
+        {f.hoursLocal && <li><span class="material-symbols-rounded">schedule</span>{f.hoursLocal}</li>}
+        <li>
+          <span class="material-symbols-rounded">confirmation_number</span>
+          <b class:list={['status', `status--${f.ticketStatus}`]}>{statusLabel[f.ticketStatus]}</b>
+          {f.ticketNote && <span class="muted">{f.ticketNote}</span>}
+        </li>
+        <li>
+          <span class="material-symbols-rounded">verified</span>
+          <a href={f.sourceUrl} target="_blank" rel="noopener">官方页面</a>
+          <span class="muted">核对于 {f.verifiedAt}</span>
+        </li>
+      </ul>
+    </header>
+
+    {
+      f.days.map((day) => (
+        <section class="day">
+          <h2 class="title-medium day__title">
+            {fmtDay(day.date)}
+            <span class="label-medium day__count">{day.artists.length} 组</span>
+          </h2>
+          {day.note && <p class="body-medium note">{day.note}</p>}
+          <ul class="lineup">
+            {day.artists.map((name) => {
+              const slug = f.artistLinks[name];
+              const tracked = slug && artistBySlug[slug];
+              return (
+                <li>
+                  {tracked ? (
+                    <a class="act act--linked" href={`/artist/${slug}`}>
+                      {name}
+                      <span class="material-symbols-rounded act__icon">open_in_new</span>
+                    </a>
+                  ) : (
+                    <span class="act">{name}</span>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))
+    }
+    <p class="body-small muted foot">阵容以官方公布为准，出演者可能变动；带 ↗ 的艺人可查看本站收录的全部场次。</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .page { max-width: 960px; padding-top: 16px; }
+  .head h1 { margin: 10px 0 12px; }
+  .stats { display: flex; gap: 8px; margin: 0 0 14px; flex-wrap: wrap; }
+  .stats div { padding: 6px 14px; border-radius: 16px; background: var(--md-sys-color-surface-container-low); }
+  .stats dt { font-size: 11px; font-weight: 600; color: var(--md-sys-color-on-surface-variant); }
+  .stats dd { margin: 0; font-size: 18px; line-height: 26px; font-weight: 800; color: var(--md-sys-color-primary); font-variant-numeric: tabular-nums; }
+  .meta { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .meta li { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .meta .material-symbols-rounded { font-size: 18px; color: var(--md-sys-color-primary); }
+  .meta a { color: var(--md-sys-color-primary); }
+  .status { font: var(--lv-font-label-large); padding: 2px 10px; border-radius: var(--lv-shape-full); background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); }
+  .status--sold_out { background: var(--md-sys-color-error-container); color: var(--md-sys-color-on-error-container); }
+  .day { margin-top: 26px; }
+  .day__title { display: flex; align-items: center; gap: 10px; margin: 0 0 4px; padding: 6px 12px; border-bottom: 1px solid var(--md-sys-color-outline-variant); }
+  .day__count { padding: 1px 8px; border-radius: var(--lv-shape-full); background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); }
+  .note { margin: 6px 12px 10px; color: var(--md-sys-color-on-surface-variant); }
+  .lineup { list-style: none; margin: 0; padding: 0 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .act { display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; border-radius: var(--lv-shape-full); background: var(--md-sys-color-surface-container-high); font: var(--lv-font-body-medium); }
+  .act--linked { background: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container); text-decoration: none; font-weight: 600; }
+  .act__icon { font-size: 14px; }
+  .foot { margin: 28px 12px 0; }
+  .muted { color: var(--md-sys-color-on-surface-variant); }
+</style>

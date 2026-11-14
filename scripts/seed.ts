@@ -1,7 +1,7 @@
 // 把 src/data/events.ts 的示例数据导出为 D1 可执行的 SQL。
 // 用法：node scripts/seed.ts > db/seed.sql
 //       npx wrangler d1 execute lvfind --remote --file=db/seed.sql
-import { artists, venues, events } from '../src/data/events.ts';
+import { artists, venues, events, festivals } from '../src/data/events.ts';
 
 const q = (v: string | number | null | undefined) =>
   v === null || v === undefined ? 'NULL' : typeof v === 'number' ? String(v) : `'${v.replace(/'/g, "''")}'`;
@@ -14,6 +14,7 @@ const lines: string[] = [
   '-- 注意：zaseki 两表引用 venues，需先清空（之后重跑 db/zaseki.sql 恢复）',
   'DELETE FROM venue_schedule;',
   'DELETE FROM venue_seat_layouts;',
+  'DELETE FROM festivals;',
   'DELETE FROM events;',
   'DELETE FROM artists;',
   'DELETE FROM venues;',
@@ -34,6 +35,12 @@ for (const v of venues) {
 for (const e of events) {
   lines.push(
     `INSERT INTO events (artist_id, venue_id, tour_name, start_local, ticket_status, on_sale_local, ticket_url, source_url, verified_at) VALUES (${artistId[e.artist]}, ${venueId[e.venue]}, ${q(e.tourName)}, ${q(e.startLocal)}, ${q(e.ticketStatus)}, ${q(e.onSaleLocal)}, ${q(e.ticketUrl)}, ${q(e.sourceUrl)}, ${q(e.verifiedAt)});`,
+  );
+}
+
+for (const f of festivals) {
+  lines.push(
+    `INSERT INTO festivals (slug, name, venue_id, start_date, end_date, hours_local, ticket_status, ticket_note, source_url, verified_at, days_json, links_json) VALUES (${q(f.slug)}, ${q(f.name)}, ${venueId[f.venue]}, ${q(f.startDate)}, ${q(f.endDate)}, ${q(f.hoursLocal)}, ${q(f.ticketStatus)}, ${q(f.ticketNote)}, ${q(f.sourceUrl)}, ${q(f.verifiedAt)}, ${q(JSON.stringify(f.days))}, ${q(JSON.stringify(f.artistLinks))});`,
   );
 }
 

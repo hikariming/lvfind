@@ -30,7 +30,7 @@ const route = list.map((e) => [venueById[e.venue].lng, venueById[e.venue].lat] a
     </md-text-button>
 
     <header class="head">
-      <span class:list={['genre label-large', `genre--${artist.genre}`]}>{artist.genre === 'kpop' ? 'K-POP' : 'J-POP'}</span>
+      <span class:list={['genre label-large', `genre--${artist.genre}`]}>{({ kpop: 'K-POP', jpop: 'J-POP', cpop: 'C-POP' } as const)[artist.genre]}</span>
       <h1 class="display-small">
         {artist.nameOriginal}
         {artist.nameLocal && <span class="local">{artist.nameLocal}</span>}

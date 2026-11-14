@@ -8,6 +8,7 @@ export const ui: Record<string, T> = {
   'nav.artists': ['艺人', '藝人', 'Artists', 'アーティスト', '아티스트'],
   'nav.cities': ['城市', '城市', 'Cities', '都市', '도시'],
   'nav.venues': ['场馆', '場館', 'Venues', '会場', '공연장'],
+  'nav.festivals': ['音乐节', '音樂節', 'Festivals', 'フェス', '페스티벌'],
   'nav.insights': ['数据', '數據', 'Data', 'データ', '데이터'],
   'nav.about': ['关于', '關於', 'About', '概要', '소개'],
   'nav.home': ['首页', '首頁', 'Home', 'ホーム', '홈'],

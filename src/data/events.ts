@@ -65,6 +65,27 @@ export interface Event {
   verifiedAt: string;
 }
 
+export interface FestivalDay {
+  date: string;        // '2026-12-26'
+  note?: string;       // 当天压轴/备注（中文）
+  artists: string[];   // 官方阵容写法
+}
+
+export interface Festival {
+  slug: string;
+  name: string;
+  venue: string;       // venues.id
+  startDate: string;
+  endDate: string;
+  hoursLocal?: string; // 开演时间说明
+  ticketStatus: TicketStatus;
+  ticketNote?: string;
+  sourceUrl: string;
+  verifiedAt: string;
+  days: FestivalDay[];
+  artistLinks: Record<string, string>; // 阵容写法 -> artists.slug（站内可点）
+}
+
 export const regions: Record<string, string> = {
   KR: '韩国',
   JP: '日本',
@@ -184,7 +205,7 @@ const T = {
   JXJ: { tour: 'Jeonghan X Joshua “Journey Into [Dreaming]”', src: 'https://weverse.io/seventeen/notice' },
   HTA: { tour: 'HITORI-ESCAPE ASIA TOUR 2026', src: 'https://www.hitorie.jp/contents/1081324' },
   HTN: { tour: 'nest30th (→) Anniversary “ヒトリエ × シンガーズハイ”', src: 'https://www.hitorie.jp/contents/1115823' },
-  HTC: { tour: 'COUNTDOWN JAPAN 26/27', src: 'https://countdownjapan.jp/' },
+  CDJ: { tour: 'COUNTDOWN JAPAN 26/27', src: 'https://countdownjapan.jp/2627/' },
   HTAT: { tour: 'HITORI-ATELIER 2027 FIRST MEETING（FC限定）', src: 'https://www.hitorie.jp/contents/1123227' },
   HTFE: { tour: 'HITORI-ESCAPE 2027 FIRST ESCAPE', src: 'https://www.hitorie.jp/contents/1123227' },
   HTH: { tour: 'ハンゲキフェス2027', src: 'https://www.hangekifes.com/' },
@@ -469,7 +490,16 @@ const rows: Row[] = [
   // ヒトリエ（来源：hitorie.jp 官方 schedule，2026-11-08 核对；O-nest 场已售罄）
   ['hitorie', 'the-wall-taipei', 'HTA', '2026-11-29T18:00', 'on_sale', null],
   ['hitorie', 'spotify-o-nest', 'HTN', '2026-12-09T18:45', 'sold_out', null],
-  ['hitorie', 'makuhari-messe', 'HTC', '2026-12-29', 'on_sale', null],
+  // COUNTDOWN JAPAN 26/27 出演（全票种售罄，官方转售 12 月上旬）
+  ['le-sserafim', 'makuhari-messe', 'CDJ', '2026-12-26T12:00', 'sold_out', null],
+  ['yorushika', 'makuhari-messe', 'CDJ', '2026-12-26T12:00', 'sold_out', null],
+  ['hitsujibungaku', 'makuhari-messe', 'CDJ', '2026-12-26T12:00', 'sold_out', null],
+  ['sumika', 'makuhari-messe', 'CDJ', '2026-12-27T12:00', 'sold_out', null],
+  ['tuki', 'makuhari-messe', 'CDJ', '2026-12-29T12:00', 'sold_out', null],
+  ['hitorie', 'makuhari-messe', 'CDJ', '2026-12-29T12:00', 'sold_out', null],
+  ['enhypen', 'makuhari-messe', 'CDJ', '2026-12-30T12:00', 'sold_out', null],
+  ['macaroni-enpitsu', 'makuhari-messe', 'CDJ', '2026-12-30T12:00', 'sold_out', null],
+  ['lisa', 'makuhari-messe', 'CDJ', '2026-12-31T12:00', 'sold_out', null],
   ['hitorie', 'shangri-la', 'HTAT', '2027-01-22T19:00', 'presale', null],
   ['hitorie', 'shangri-la', 'HTFE', '2027-01-30T17:00', 'presale', null],
   ['hitorie', 'namba-hatch', 'HTH', '2027-02-23T14:00', 'presale', null],
@@ -744,3 +774,93 @@ export const mapVenues = venues
   }));
 
 export type MapVenue = (typeof mapVenues)[number];
+
+// 音乐节（拼盘演出），阵容按官方公布逐日列出；出演场次同时作为各艺人 event 行收录。
+export const festivals: Festival[] = [
+  {
+    slug: 'countdown-japan-2627',
+    name: 'COUNTDOWN JAPAN 26/27',
+    venue: 'makuhari-messe',
+    startDate: '2026-12-26',
+    endDate: '2026-12-31',
+    hoursLocal: '开场 9:30 / 开演 12:00（12/31 为 12:30 / 15:40，跨年至终演 29:00）',
+    ticketStatus: 'sold_out',
+    ticketNote: '全票种售罄；官方转售 12 月上旬开始',
+    sourceUrl: 'https://countdownjapan.jp/2627/',
+    verifiedAt: V,
+    days: [
+      {
+        date: '2026-12-26',
+        note: 'EARTH STAGE 压轴：ヨルシカ',
+        artists: [
+          'ASIAN KUNG-FU GENERATION', 'UNFAIR RULE', 'オーイシマサヨシ', 'KANA-BOON', 'CANDY TUNE',
+          'Creepy Nuts', '櫻坂46', '終活クラブ', 'Juice=Juice', 'Da-iCE', '超特急', 'ナナヲアカリ',
+          'NELKE', 'Novelbright', 'NOMELON NOLEMON', 'harha', '羊文学', 'ふみの', 'ブランデー戦記',
+          'FRUITS ZIPPER', 'フレデリック', 'plenty', 'FLOW', '星街すいせい', 'MAZZEL', 'MAISONdes',
+          'ヨルシカ', 'luv', 'LE SSERAFIM', 'Leina', 'レトロリロン', 'Reol', 'Rol3ert',
+        ],
+      },
+      {
+        date: '2026-12-27',
+        note: 'EARTH STAGE 压轴：SUPER BEAVER',
+        artists: [
+          'Aooo', '幾田りら', 'IS:SUE', 'Wienners', 'Age Factory', 'HY', 'Awich', 'CUTIE STREET',
+          'Cloudy', 'KOTORI', '35.7', 'サンボマスター', 'ZICO', '四星球', 'SUPER BEAVER', '菅原圭',
+          'sumika', 'CHiCO with HoneyWorks', '超ときめき♡宣伝部', '東京スカパラダイスオーケストラ',
+          'なきごと', '西野カナ', 'NEXZ', 'バチカン市国に愛されたい', 'ハルカミライ',
+          'FUNKY MONKEY BΛBY\u0027S', 'ファントムシータ', 'berry meet', 'Penthouse', 'moon drop',
+          'モナキ', 'ヤバイTシャツ屋さん', 'LANA',
+        ],
+      },
+      {
+        date: '2026-12-29',
+        note: 'EARTH STAGE 压轴：SiM',
+        artists: [
+          'アイナ・ジ・エンド', '秋山黄色', 'amazarashi', '稲葉浩志', 'Eve', 'OddRe:', 'かいりきベア',
+          '9mm Parabellum Bullet', 'KUZIRA', 'CLAN QUEEN', 'Suchmos', 'Chevon', 'SiM', 'syudou',
+          '須田景凪', 'SPARK!!SOUND!!SHOW!!', 'すりぃ', 'TAKU INOUE × 超かぐや姫！', 'Dannie May',
+          'w.o.d.', 'tuki.', 'TK from 凛として時雨', 'Dizzy Sunfist', '初音ミク', '花冷え。',
+          'PEOPLE 1', 'ヒトリエ', 'マキシマム ザ ホルモン', 'MAN WITH A MISSION', 'muque',
+          'MAYSON\u0027S PARTY', 'めいちゃん', '礼賛',
+        ],
+      },
+      {
+        date: '2026-12-30',
+        note: 'EARTH STAGE 压轴：マカロニえんぴつ',
+        artists: [
+          'iLiFE!', 'ano', 'Ayumu Imazu', 'indigo la End', 'AEN', 'ENHYPEN', 'カネヨリマサル',
+          'クレイジーウォウウォ!!', 'go!go!vanillas', 'コレサワ', 'SILENT SIREN', 'Saucy Dog',
+          'スキマスイッチ', '鈴木愛理', 'This is LAST', 'DISH//', 'TRACK15', '中島健人', '≒JOY',
+          'にしな', 'ねぎ塩豚丼', 'BURNOUT SYNDROMES', 'マカロニえんぴつ', 'マルシィ', 'ME:I',
+          '紫今', 'Mega Shinnosuke', 'MON7A', '『ユイカ』', 'Little Glee Monster', '緑黄色社会',
+          'LEX', '浪漫派マシュマロ',
+        ],
+      },
+      {
+        date: '2026-12-31',
+        note: '跨年压轴：クリープハイプ（EARTH）・なとり（GALAXY）・Paledusk（COSMO）',
+        artists: [
+          'IMP.', 'AKASAKI', '汐れいら', '打首獄門同好会', 'Aimer', 'おいしくるメロンパン',
+          'the奥歯\u0027s', 'キュウソネコカミ', 'kurayamisaka', 'クリープハイプ', 'Kroi', 'Sunny Girl',
+          'サバシスター', 'SIX LOUNGE', 'SHANK', '女王蜂', 'jo0ji', 'シンガーズハイ', '3markets[ ]',
+          'セカンドバッカー', '超能力戦士ドリアン', 'Chilli Beans.', 'TETORA', 'Tele', 'TenTwenty',
+          '10-FEET', 'なとり', 'NEE', 'ねぐせ。', 'バックドロップシンデレラ', 'Hump Back',
+          'ハンブレッダーズ', '04 Limited Sazabys', 'BLUE ENCOUNT', 'Blue Mash', 'HEY-SMITH',
+          'Paledusk', 'My Hair is Bad', 'MUCC', 'ヤングスキニー', 'Lavt', 'Lucky Kilimanjaro',
+          'リーガルリリー', 'reGretGirl', 'LiSA', 'WurtS', '忘れらんねえよ',
+        ],
+      },
+    ],
+    artistLinks: {
+      'ヨルシカ': 'yorushika',
+      '羊文学': 'hitsujibungaku',
+      'LE SSERAFIM': 'le-sserafim',
+      'sumika': 'sumika',
+      'tuki.': 'tuki',
+      'ヒトリエ': 'hitorie',
+      'マカロニえんぴつ': 'macaroni-enpitsu',
+      'ENHYPEN': 'enhypen',
+      'LiSA': 'lisa',
+    },
+  },
+];

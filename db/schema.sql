@@ -101,6 +101,24 @@ CREATE TABLE IF NOT EXISTS venue_schedule (
 CREATE INDEX IF NOT EXISTS idx_vsched_venue ON venue_schedule(venue_id, event_date);
 CREATE INDEX IF NOT EXISTS idx_vsched_date  ON venue_schedule(event_date);
 
+-- 音乐节（多舞台拼盘演出）：与 events 里的艺人出演行并存
+CREATE TABLE IF NOT EXISTS festivals (
+  id            INTEGER PRIMARY KEY,
+  slug          TEXT UNIQUE NOT NULL,        -- 'countdown-japan-2627'
+  name          TEXT NOT NULL,
+  venue_id      INTEGER NOT NULL REFERENCES venues(id),
+  start_date    TEXT NOT NULL,
+  end_date      TEXT NOT NULL,
+  hours_local   TEXT,                        -- 开场/开演时间说明
+  ticket_status TEXT NOT NULL CHECK (ticket_status IN
+                    ('announced','presale','on_sale','sold_out','postponed','cancelled')),
+  ticket_note   TEXT,
+  source_url    TEXT NOT NULL,
+  verified_at   TEXT NOT NULL,
+  days_json     TEXT NOT NULL,               -- [{date, note?, artists:[...]}]
+  links_json    TEXT                         -- 阵容名 -> artist slug
+);
+
 -- 变更日志（方便追溯 Agent / 人工改了什么）
 CREATE TABLE IF NOT EXISTS event_changes (
   id         INTEGER PRIMARY KEY,
